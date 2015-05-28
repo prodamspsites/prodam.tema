@@ -1,0 +1,31 @@
+/*
+ *
+ * CSS com estilos genéricos para todos os temas
+ *
+ * @Autores
+ *
+ * - Danilo Sartorelli Barbato
+ * - Moisés de Aguiar Júnior
+ * - Wellington Braga
+ *
+ * @Referencias
+ *
+ * Lista de padrões, convenções e boas praticas CSS que devem ser seguidas.
+ * https: //github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
+ *
+ * Plugins para ordenar os atributos de CSS.
+ * http://csscomb.com/
+ *
+ * Validador de CSS do W3C.
+ * http://jigsaw.w3.org/css-validator/
+ */
+
+
+/* ==========================================================================
+   Nome do título 1
+   ========================================================================== */
+
+
+ a, a:visited {
+   	color: #333333
+ }
