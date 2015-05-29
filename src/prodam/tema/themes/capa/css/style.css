@@ -1,0 +1,109 @@
+/*
+ *
+ * CSS com estilos genéricos para todos os temas
+ *
+ * @Autores
+ *
+ * - Danilo Sartorelli Barbato
+ * - Moisés de Aguiar Júnior
+ * - Wellington Braga
+ *
+ * @Referencias
+ *
+ * Lista de padrões, convenções e boas praticas CSS que devem ser seguidas.
+ * https: //github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
+ *
+ * Plugins para ordenar os atributos de CSS.
+ * http://csscomb.com/
+ *
+ * Validador de CSS do W3C.
+ * http://jigsaw.w3.org/css-validator/
+ */
+
+
+/* ==========================================================================
+   Cabeçalho do Portal
+   ========================================================================== */
+
+.visualClear {
+  clear: both;
+}
+
+#portal-header {
+  background: transparent;
+}
+
+#portal-header .services {
+  position: relative;
+
+}
+
+#portal-header .services #portal-siteactions {
+  float: right;
+  border-bottom: 1px solid #363636;
+  font-size: 100%;
+  font-weight: 700;
+  padding-left: 335px;
+  position: relative;
+  padding-top: 0.5em;
+  margin: 0 0 30px;
+  height: 25px;
+}
+
+#portal-header .services #portal-siteactions li {
+  padding: 0 0 7px;
+  display: inline-block;
+  line-height: 18px;
+  margin: o;
+}
+
+#portal-header .services #portal-siteactions li a, #portal-header .services #portal-siteactions li a:visited {
+  color: #333333;
+}
+
+#portal-header .services #portal-siteactions #siteaction-solicitar_servicos {
+  text-transform: uppercase;
+  position: relative;
+}
+
+#portal-header .services #portal-siteactions #siteaction-solicitar_servicos a {
+  background: url("../img/sprite.png") no-repeat scroll -621px -157px transparent;
+  display: block;
+  height: 55px;
+  float: right;
+  text-indent: -9999em;
+  width: 115px;
+  margin-bottom: -38px;
+  margin-top: -7px;
+}
+
+#portal-header .logo h1 {
+  display: inline-block;
+  height: 52px;
+  margin-top: -12px;
+  width: 184px;
+  background-image: url("../img/sprite.png");
+  text-indent: -9999em;
+}
+
+#portal-header #portal-globalnav {
+  position: relative;
+}
+
+#portal-header #portal-globalnav li {
+  float: left;
+}
+
+#portal-header #portal-globalnav li:before {
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+  content: "";
+  margin-left: -0.5em;
+  margin-top: 0.1em;
+  display: none:width;
+}
+
+
+#portal-header #portal-globalnav #portaltab-cidadao:before {
+  border-left: 7px solid #01A4B7;
+}
