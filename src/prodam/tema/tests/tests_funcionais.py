@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-from prodam.tema.testing import FUNCTIONAL_TESTING
+
 from plone.app.theming.interfaces import IThemeSettings
 from plone.app.theming.utils import applyTheme
 from plone.app.theming.utils import getTheme
 from plone.registry.interfaces import IRegistry
 from plone.testing.z2 import Browser
+from prodam.tema.testing import FUNCTIONAL_TESTING
 from zope.component import getUtility
-
 import Globals
 import unittest
 
