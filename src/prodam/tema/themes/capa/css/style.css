@@ -22,6 +22,21 @@
 
 
 /* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+
+
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+
+  
+}
+/* ==========================================================================
    Cabeçalho do Portal
    ========================================================================== */
 
@@ -76,19 +91,14 @@
 
 #portal-header .services #portal-siteactions
 #siteaction-solicitar_servicos a {
-  content:"Solicitar Serviços";
+  background: url("../img/sprite.png") no-repeat scroll -621px -157px rgba(0, 0, 0, 0);
   display: block;
-  padding-top: 15px;
-  height: 40px;
+  height: 50px;
   float: right;
   width: 115px;
   margin-bottom: -38px;
   margin-top: -7px;
-  color: #fff;
-  font-size: 13px;
-  background-color: #ff0000;
-  text-align: center;
-  line-height: 12px;
+  text-indent: -9999em;
 }
 
 /* Fim da barra de serviços */
