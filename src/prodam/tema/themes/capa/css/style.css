@@ -92,18 +92,27 @@
 
 #portal-header #portal-globalnav li {
   float: left;
+  margin: 13px 15px 0 0;
+  padding-left: 15px;
 }
 
 #portal-header #portal-globalnav li:before {
   border-bottom: 7px solid transparent;
   border-top: 7px solid transparent;
-  content: "";
-  margin-left: -0.5em;
+  content: "a";
+  float: left;
+  height: 2px;
+  overflow: hidden;
+/*  margin-left: -0.5em;
   margin-top: 0.1em;
-  display: none:width;
+  display: none:width;*/
 }
 
 
 #portal-header #portal-globalnav #portaltab-cidadao:before {
   border-left: 7px solid #01A4B7;
+}
+
+#portal-header #portal-globalnav #portaltab-cidadao a {
+  color: #ffffff;
 }
