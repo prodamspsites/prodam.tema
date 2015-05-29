@@ -25,7 +25,7 @@
         <replace css:theme=".services ul" css:content="#portal-siteactions" />
         <replace css:theme-children=".logo h1" css:content="#portal-logo" />
         <replace css:theme-children=".sections" css:content="#portal-globalnav" />
-
+        <replace css:theme-children="#portal-searchbox" css:content-children="#portal-searchbox" />
 
         <!-- Head elements -->
         <replace css:theme="html head title" css:content="html head title" />

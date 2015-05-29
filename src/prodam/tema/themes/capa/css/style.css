@@ -33,17 +33,21 @@
   background: transparent;
 }
 
+#portal-header .portal-header-inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
 /* Barra de serviços */
 
 #portal-header .services {
   position: relative;
-
 }
 
 #portal-header .services #portal-siteactions {
   float: right;
   border-bottom: 1px solid #363636;
-  font-size: 100%;
+  font-size: 13px;
   font-weight: 700;
   padding-left: 335px;
   position: relative;
@@ -56,7 +60,6 @@
   padding: 0 0 7px;
   display: inline-block;
   line-height: 18px;
-  margin: o;
 }
 
 #portal-header .services #portal-siteactions li a,
@@ -68,23 +71,35 @@
 #siteaction-solicitar_servicos {
   text-transform: uppercase;
   position: relative;
+
 }
 
 #portal-header .services #portal-siteactions
 #siteaction-solicitar_servicos a {
-  background: url("../img/sprite.png") no-repeat -621px -157px transparent;
+  content:"Solicitar Serviços";
   display: block;
-  height: 55px;
+  padding-top: 15px;
+  height: 40px;
   float: right;
-  text-indent: -9999em;
   width: 115px;
   margin-bottom: -38px;
   margin-top: -7px;
+  color: #fff;
+  font-size: 13px;
+  background-color: #ff0000;
+  text-align: center;
+  line-height: 12px;
 }
 
 /* Fim da barra de serviços */
 
 /* Logo */
+
+#portal-header .logo {
+  width:184px;
+  display: inline-block;
+  float: left;
+}
 
 #portal-header .logo h1 {
   display: inline-block;
@@ -99,36 +114,92 @@
 
 /* Navegaçao global (seçoes) */
 
+#portal-header .sections {
+  float: left;
+}
+
 #portal-header #portal-globalnav {
   position: relative;
+  font-size: 1.7em;
+  list-style-type: none;
+  margin-top: 0;
 }
 
 #portal-header #portal-globalnav li {
   float: left;
   margin: 13px 15px 0 0;
-  padding-left: 15px;
+}
+
+#portal-header #portal-globalnav li a {
+  font-weight: 700;
+  color: #333333;
+  transition: color 0.5s ease 0s;
 }
 
 #portal-header #portal-globalnav li:before {
   border-bottom: 7px solid transparent;
   border-top: 7px solid transparent;
-  content: "a";
-
+  content: "";
   float: left;
   height: 2px;
+  width: 6px;
   overflow: hidden;
+  margin-top: 0.2em;
 }
 
 #portal-header #portal-globalnav #portaltab-cidadao:before {
   border-left: 7px solid #01A4B7;
 }
 
-#portal-header #portal-globalnav #portaltab-cidadao a {
-  color: #ffffff;
+#portal-header #portal-globalnav #portaltab-cidadao a:hover {
+  color:#01a4b7;
 }
 
+#portal-header #portal-globalnav #portaltab-empresa:before {
+  border-left: 7px solid #fd8a03;
+}
+
+#portal-header #portal-globalnav #portaltab-empresa a:hover {
+  color: #fd8a03;
+}
+
+
+#portal-header #portal-globalnav #portaltab-turista:before {
+  border-left: 7px solid #919e02;
+}
+
+#portal-header #portal-globalnav #portaltab-turista a:hover {
+  color: #919e02;
+
+}
 /* Fim da navegaçao global */
 
+/* Search Box */
+
+#portal-searchbox {
+  padding-top: 1px;
+}
+
+#portal-searchbox fieldset {
+  border: 0;
+  margin-top: 7px;
+}
+
+#portal-searchbox #searchGadget{
+  border: 1px solid #363636;
+  border-radius: 0;
+  box-shadow: 1px 1px 7px #aaa inset;
+  width: 210px;
+  padding: 6px 4px;
+  height: auto;
+}
+#portal-searchbox .searchButton{
+  background: url("../img/sprite4.png") no-repeat scroll -511px -108px rgba(0, 0, 0, 0);
+  border: 0;
+  height: 33px;
+  width: 32px;
+}
+/* Fim Search Box*/
 
 /* ==========================================================================
    Rodape do Portal
