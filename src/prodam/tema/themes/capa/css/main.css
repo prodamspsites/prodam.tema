@@ -22,10 +22,87 @@
 
 
 /* ==========================================================================
-   Nome do título 1
+   Barra Cinza do Topo
    ========================================================================== */
 
+html body{
+  font-family: "HelveticaNeue",Helvetica,"Helvetica Neue",Tahoma,sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  vertical-align: baseline;
+  line-height: 1;
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.bold {
+  font-weight: 700;
+}
+.full-cinza{
+  background: none repeat scroll 0 0 #646464;
+}
+.full, .full-cinza, .full-preto {
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0.5em 0;
+  position: relative;
+   width: 100%;
+}
+.em09 {
+  font-size: 0.9em;
+  line-height: 1.1em;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 960px;
+}
+.container:after{
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
 
- a, a:visited {
-   	color: #333333
- }
+#acesso a{
+  color: #cacaca;
+  display: inline-block;
+  vertical-align: bottom;
+}
+#acesso .four a {
+  font-size:0.9em;
+}
+
+.container .four.columns{
+  width: 220px;
+}
+.container .column, .container .columns {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
+
+.theI{
+    
+  background: url("../img/sprite.png") repeat scroll -374px 0;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  margin: -13px 0 0 145px;    
+}
+
+#trnsp{
+  font-size: 12px;
+  padding-top: 3px;
+}
+.upper {
+  text-transform: uppercase;
+}
+
