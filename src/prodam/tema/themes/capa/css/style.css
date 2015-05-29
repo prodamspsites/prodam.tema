@@ -113,6 +113,7 @@
   border-bottom: 7px solid transparent;
   border-top: 7px solid transparent;
   content: "a";
+
   float: left;
   height: 2px;
   overflow: hidden;
@@ -132,3 +133,150 @@
 /* ==========================================================================
    Rodape do Portal
    ========================================================================== */
+
+#footer-nav {
+  background-color: #252525;
+  margin-top: 60px;
+  padding: 30px 0 48px;
+}
+
+#footer-nav .columns {
+  float: left;
+  display: inline;
+}
+
+#footer-nav .four.columns {
+  width: 220px;
+}
+
+#footer-nav section {
+  width: 960px;
+}
+
+#footer-nav nav {
+  padding-bottom: 40px;
+}
+
+#footer-nav strong, #footer-nav form legend {
+  color: #797979;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#footer-nav ul {
+  padding-top: 15px;
+  list-style: none;
+  margin: 0;
+}
+
+#footer-nav ul li, #footer-nav ul li strong,
+#footer-nav ul li a {
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: none;
+} 
+
+#footer-nav ul li span {
+  display: block;
+  font-weight: 700;
+  color: #B7B7B7;
+}
+
+#footer-nav fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+#footer-nav form legend {
+  border: 0;
+  font-weight: 700;
+  margin: 0;
+  line-height: 100%;
+  padding-bottom: 15px;
+}
+
+#social_footer li {
+  float: left;
+}
+
+#social_footer span {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 28px;
+  vertical-align: middle;
+  width: 25px;
+  text-indent: -9999em;
+}
+
+#social_footer #facebook {
+  background-position: -599px 0;
+}
+
+#social_footer #twitter {
+  background-position: -652px 0;
+}
+
+#social_footer #youtube {
+  background-position: -621px 0;
+}
+
+#social_footer #diario {
+  background-position: -627px -62px;
+  float: left;
+}
+.app-icone {
+  display: block;
+  height: 45px;
+  width: 118px;
+}
+
+.box_content a {
+  background: none repeat scroll 0 0 #363636;
+  border: 1px solid #727272;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.bottom_roominess {
+  background-color: #363636;
+  padding: 15px 0 0;
+}
+
+
+.container:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 960px;
+}
+
+.logos, #logoPB {
+  display: inline-block;
+  height: 52px;
+  width: 184px;
+}
+
+#logoPB {
+  background: url("../img/sprite.png") no-repeat -193px 0 transparent;
+}
+
+.copyright {
+  background-color: #424242;
+  color: #787878;
+  font-size: 11px;
+  height: 17px;
+  margin-top: 10px;
+  padding: 10px 0 0 20px;
+}
