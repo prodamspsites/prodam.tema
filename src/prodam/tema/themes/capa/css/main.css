@@ -32,7 +32,6 @@ html body{
   padding: 0;
   border: 0 none;
   vertical-align: baseline;
-  line-height: 1;
   height: 100%;
   width: 100%;
 }
@@ -45,7 +44,7 @@ a {
 .full-cinza{
   background: none repeat scroll 0 0 #646464;
 }
-.full, .full-cinza, .full-preto {
+.navbar .full, .navbar .full-cinza, .navbar .full-preto {
   clear: both;
   display: block;
   margin: 0;
@@ -57,13 +56,13 @@ a {
   font-size: 0.9em;
   line-height: 1.1em;
 }
-.container {
+.navbar .container {
   margin: 0 auto;
   padding: 0;
   position: relative;
   width: 960px;
 }
-.container:after{
+.navbar .container:after{
   clear: both;
   content: " ";
   display: block;
@@ -80,10 +79,10 @@ a {
   font-size:0.9em;
 }
 
-.container .four.columns{
+.navbar .container .four.columns{
   width: 220px;
 }
-.container .column, .container .columns {
+.navbar .container .column, .navbar .container .columns {
   display: inline;
   float: left;
   margin-right: 20px;
