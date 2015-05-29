@@ -33,6 +33,8 @@
   background: transparent;
 }
 
+/* Barra de serviços */
+
 #portal-header .services {
   position: relative;
 
@@ -57,17 +59,20 @@
   margin: o;
 }
 
-#portal-header .services #portal-siteactions li a, #portal-header .services #portal-siteactions li a:visited {
+#portal-header .services #portal-siteactions li a,
+#portal-header .services #portal-siteactions li a:visited {
   color: #333333;
 }
 
-#portal-header .services #portal-siteactions #siteaction-solicitar_servicos {
+#portal-header .services #portal-siteactions
+#siteaction-solicitar_servicos {
   text-transform: uppercase;
   position: relative;
 }
 
-#portal-header .services #portal-siteactions #siteaction-solicitar_servicos a {
-  background: url("../img/sprite.png") no-repeat scroll -621px -157px transparent;
+#portal-header .services #portal-siteactions
+#siteaction-solicitar_servicos a {
+  background: url("../img/sprite.png") no-repeat -621px -157px transparent;
   display: block;
   height: 55px;
   float: right;
@@ -77,6 +82,10 @@
   margin-top: -7px;
 }
 
+/* Fim da barra de serviços */
+
+/* Logo */
+
 #portal-header .logo h1 {
   display: inline-block;
   height: 52px;
@@ -85,6 +94,10 @@
   background-image: url("../img/sprite.png");
   text-indent: -9999em;
 }
+
+/* Fim do logo */
+
+/* Navegaçao global (seçoes) */
 
 #portal-header #portal-globalnav {
   position: relative;
@@ -113,17 +126,14 @@
   width: 6px;
   overflow: hidden;
   margin-top: 0.2em;
-/*  margin-left: -0.5em;
-  display: none:width;*/
 }
-
 
 #portal-header #portal-globalnav #portaltab-cidadao:before {
   border-left: 7px solid #01A4B7;
 }
 
 #portal-header #portal-globalnav #portaltab-cidadao a:hover{
-color:#01a4b7;
+  color:#01a4b7;
 }
 
 #portal-header #portal-globalnav #portaltab-empresa:before {
@@ -144,3 +154,13 @@ color:#01a4b7;
 
 }
 
+#portal-header #portal-globalnav #portaltab-cidadao a {
+  color: #ffffff;
+}
+
+/* Fim da navegaçao global */
+
+
+/* ==========================================================================
+   Rodape do Portal
+   ========================================================================== */
