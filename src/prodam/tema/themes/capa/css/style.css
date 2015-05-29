@@ -25,6 +25,10 @@
    Cabeçalho do Portal
    ========================================================================== */
 
+.visualClear {
+  clear: both;
+}
+
 #portal-header {
   background: transparent;
 }
