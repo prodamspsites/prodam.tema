@@ -6,6 +6,8 @@
 .coverage
 .installed.cfg
 .mr.developer.cfg
+default.cfg
+cache.cfg
 .settings
 .python-version
 bin/

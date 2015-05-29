@@ -20,7 +20,19 @@ Capa
 Estado deste pacote
 -------------------
 
-TODO
+
+Este produto possui testes automatizados e, a cada alteração de código
+esses testes são executados pelo serviço Travis.
+
+O estado atual dos testes pode ser visto pela imagem abaixo:
+
+.. image:: https://travis-ci.org/prodamspsites/prodam.tema.svg
+    :target: https://travis-ci.org/prodamspsites/prodam.tema
+
+O estado atual da cobertyra de testes pode ser acompanhado pela imagem abaixo:
+
+.. image:: https://coveralls.io/repos/prodamspsites/prodam.tema/badge.svg
+    :target: https://coveralls.io/r/prodamspsites/prodam.tema 
 
 
 Instalação
