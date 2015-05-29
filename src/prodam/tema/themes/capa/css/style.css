@@ -28,6 +28,10 @@
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
+  div.bottom_roominess .container {
+    width: 300px;
+  }
+
   #footer-nav div.container {
     margin: 0 auto;
     width: 300px;
@@ -466,6 +470,10 @@
   padding: 15px 0 0;
 }
 
+.bottom_roominess .container {
+  width: 960px;
+  margin: 0 auto;
+}
 
 .container:after {
   clear: both;
@@ -508,7 +516,6 @@
   background-color: #424242;
   color: #787878;
   font-size: 11px;
-  height: 17px;
   margin-top: 10px;
   padding: 10px 0 0 20px;
 }
