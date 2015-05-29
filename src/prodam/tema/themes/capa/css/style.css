@@ -88,6 +88,8 @@
 
 #portal-header #portal-globalnav {
   position: relative;
+  font-size: 1.7em;
+  list-style-type: none;
 }
 
 #portal-header #portal-globalnav li {
@@ -96,15 +98,22 @@
   padding-left: 15px;
 }
 
+#portal-header #portal-globalnav li a {
+  font-weight: 700;
+  color: #333333;
+  transition: color 0.5s ease 0s;
+}
+
 #portal-header #portal-globalnav li:before {
   border-bottom: 7px solid transparent;
   border-top: 7px solid transparent;
   content: "a";
   float: left;
   height: 2px;
+  width: 6px;
   overflow: hidden;
+  margin-top: 0.2em;
 /*  margin-left: -0.5em;
-  margin-top: 0.1em;
   display: none:width;*/
 }
 
@@ -113,6 +122,25 @@
   border-left: 7px solid #01A4B7;
 }
 
-#portal-header #portal-globalnav #portaltab-cidadao a {
-  color: #ffffff;
+#portal-header #portal-globalnav #portaltab-cidadao a:hover{
+color:#01a4b7;
 }
+
+#portal-header #portal-globalnav #portaltab-empresa:before {
+  border-left: 7px solid #fd8a03;
+}
+
+#portal-header #portal-globalnav #portaltab-empresa a:hover {
+  color: #fd8a03;
+}
+
+
+#portal-header #portal-globalnav #portaltab-turista:before {
+  border-left: 7px solid #919e02;
+}
+
+#portal-header #portal-globalnav #portaltab-turista a:hover {
+  color: #919e02;
+
+}
+
