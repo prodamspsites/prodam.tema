@@ -9,3 +9,5 @@ Histórico de Alterações
 * Exibe globalnav e site_actions no portal-header [mosesjr]
 * Corrige comentários do style.css [mosesjr]
 * Adiciona área de rodapé [mosesjr]
+* Adiciona barra cinza no topo [wblima]
+* Estiliza menu e barra de busca [wblima]

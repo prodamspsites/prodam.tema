@@ -33,17 +33,21 @@
   background: transparent;
 }
 
+#portal-header .portal-header-inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
 /* Barra de serviços */
 
 #portal-header .services {
   position: relative;
-
 }
 
 #portal-header .services #portal-siteactions {
   float: right;
   border-bottom: 1px solid #363636;
-  font-size: 100%;
+  font-size: 13px;
   font-weight: 700;
   padding-left: 335px;
   position: relative;
@@ -86,6 +90,12 @@
 
 /* Logo */
 
+#portal-header .logo {
+  width:184px;
+  display: inline-block;
+  float: left;
+}
+
 #portal-header .logo h1 {
   display: inline-block;
   height: 52px;
@@ -99,16 +109,20 @@
 
 /* Navegaçao global (seçoes) */
 
+#portal-header .sections {
+  float: left;
+}
+
 #portal-header #portal-globalnav {
   position: relative;
   font-size: 1.7em;
   list-style-type: none;
+  margin-top: 0;
 }
 
 #portal-header #portal-globalnav li {
   float: left;
   margin: 13px 15px 0 0;
-  padding-left: 15px;
 }
 
 #portal-header #portal-globalnav li a {
@@ -120,7 +134,7 @@
 #portal-header #portal-globalnav li:before {
   border-bottom: 7px solid transparent;
   border-top: 7px solid transparent;
-  content: "a";
+  content: "";
   float: left;
   height: 2px;
   width: 6px;
@@ -153,13 +167,34 @@
   color: #919e02;
 
 }
-
-#portal-header #portal-globalnav #portaltab-cidadao a {
-  color: #ffffff;
-}
-
 /* Fim da navegaçao global */
 
+/* Search Box */
+
+#portal-searchbox {
+  padding-top: 1px;
+}
+
+#portal-searchbox fieldset {
+  border: 0;
+  margin-top: 7px;
+}
+
+#portal-searchbox #searchGadget{
+  border: 1px solid #363636;
+  border-radius: 0;
+  box-shadow: 1px 1px 7px #aaa inset;
+  width: 210px;
+  padding: 6px 4px;
+  height: auto;
+}
+#portal-searchbox .searchButton{
+  background: url("../img/sprite4.png") no-repeat scroll -511px -108px rgba(0, 0, 0, 0);
+  border: 0;
+  height: 33px;
+  width: 32px;
+}
+/* Fim Search Box*/
 
 /* ==========================================================================
    Rodape do Portal
