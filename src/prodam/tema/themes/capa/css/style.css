@@ -28,10 +28,26 @@
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
+  #portal-header .logo{
+    margin-left: 20px;
+    width: 100% !important;
+  }
+  
+  #portal-header .sections{
+    margin: 0 0 0 -22px;
+    width: 100%;
+  }
+
+  #portal-header .portal-header-inner #portal-searchbox{
+    margin: 20px 0 0 15px;
+  }
+  #portal-searchbox #searchGadget{
+    padding: 7px 4px !important;
+  }
+
   div.bottom_roominess .container {
     width: 300px;
   }
-
   #footer-nav div.container {
     margin: 0 auto;
     width: 300px;
@@ -49,7 +65,6 @@
   #footer-nav div section .four.columns,
   #footer-nav div section .four.columns#bloco4 {
     width: 300px;
-    float: none;
     display: block;
     margin: 0 auto;
   }
@@ -74,6 +89,29 @@
 }
 
 @media only screen and (min-width : 320px) and (max-width : 768px) {
+
+  #portal-header .portal-header-inner .services #portal-siteactions{
+    margin-right:235px;
+  }
+
+  #portal-header .portal-header-inner #portal-searchbox{
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px 40px 0 90px;
+  }
+
+  #portal-searchbox #searchGadget{
+    line-height: 1.8em;    
+    width: 210px;
+    padding: 7px 4px !important;    
+  }
+
+  #portal-searchbox .LSBox .searchButton{
+    background-color: #ff0000;
+    background-position: -511px -105px;
+    height: 40px;
+  }
 
   #footer-nav .container {
     margin: 0 auto;
@@ -106,7 +144,6 @@
     margin: 0 auto;
   }
 
-
 }
 
 @media only screen and (min-width : 768px) {
@@ -114,9 +151,7 @@
     min-width: 768px;
     max-width: 960px;
   }
-}
-
-  
+}  
 
 /* ==========================================================================
    Cabeçalho do Portal
@@ -520,5 +555,5 @@
   padding: 10px 0 0 20px;
 }
 
-/* Fim do rodape */
 
+/* Fim do rodape */
