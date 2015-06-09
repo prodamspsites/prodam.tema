@@ -328,6 +328,33 @@
 }
 /* Fim Search Box*/
 
+#content{
+  float: left;
+}
+#left-column{
+  float: left;
+}
+.container{
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container #content h1{
+  float: left;
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: -100px;
+}
+
+#barra-titulo{
+  width: 940px ;
+  height: 57px;
+  background:url("../img/bg-checkers.png") repeat 0 0 transparent;
+}
+
 /* ==========================================================================
    Rodape do Portal
    ========================================================================== */
