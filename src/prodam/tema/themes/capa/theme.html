@@ -7,24 +7,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/theme.css" rel="stylesheet">
-    <!--<link href="assets/ploneui.css" rel="stylesheet">-->
-
-
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/plone.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/plone.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
   </head>
 
   <body>
+
     <!-- Inicio da barra cinza -->
     <div class="navbar">
       <div class="full-cinza">
@@ -37,6 +33,7 @@
         </div>
       </div>
       <!-- Fim da barra cinza -->
+
       <!-- Inicio do cabeçalho -->
       <header id="portal-header">
         <div class="portal-header-inner">
@@ -59,58 +56,51 @@
         </div>
       </header>
       <!-- Fim do cabeçalho -->
-      <!--<div class="navbar-inner">
-        <div class="container">
-          <a id="brand" class="brand" href="#">Plone</a>
-          <ul id="tabs" class="nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul id="account-info" class="nav pull-right">
-            <li class="dropdown">
-              <a href="#"
-                    class="dropdown-toggle"
-                    data-toggle="dropdown">
-                    Account
-                    <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-              </ul>
-            </li>
-          </ul>
-          <form id="searchbox" class="navbar-search pull-right">
-            <input type="text" class="search-query" placeholder="Search">
-          </form>
-        </div>
-      </div>-->
+
     </div>
 
-    <div class="container">
-      <div id="barra-titulo"></div>
 
 
-      <div class="row">
-        <div class="span2" id="left-column">
-          Left column
-        </div>
-        <div class="span8" id="content">
-          <h1>Main content</h1>
-          <p>
-            Main content placeholder
-          </p>
-       </div>
-        <div class="offset10" id="right-column">
-          Right column
+    <!-- content -->
+    <div id="main" role="main">
+      <div id="plone-content">
+        <div id="portal-columns" class="row">
+          <!-- Column 1-->
+          <div id="portal-column-one" class="cell width-1:4 position-0">
+            <div class="managePortletsLink">
+              <a title="Exibir a tela de gerenciamento dos portlets" href="/@@manage-portlets">Gerenciar portlets</a>
+            </div>
+          </div>
+          <!-- Conteudo -->
+          <div id="portal-column-content" class="cell width-1:2 position-1:4">
+            <div id="main-content" class="">
+              <div id="content">
+              </div>
+            </div>
+          </div>
+          <!-- Column 2-->
+          <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            <div class="managePortletsLink">
+              <a title="Exibir a tela de gerenciamento dos portlets" href="/@@manage-portlets">Gerenciar portlets</a>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="visualClear"><!-- --></div>
+    </div>
 
-      <div class="row">
-        <div class="span12" id="footer">
-          Footer content
-        </div>
+
+
+
+
+    <div class="row">
+      <div class="span12" id="footer">
+        Footer content
       </div>
-    </div> <!-- /container -->
+    </div>
+    <!-- /container -->
+
+
     <!-- inicio do footer -->
     <footer id="footer-nav">
       <div class="container full_block">
@@ -132,7 +122,6 @@
             <strong>Acontece na Cidade</strong>
             <ul>
               <li><a href="/portal/noticia">ÚLTIMAS NOTÍCIAS</a></li>
-              <!--<li><a href="/portal/evento">Calendário da cidade</a></li>-->
               <li><a target="_blank" href="http://www.sptrans.com.br/itinerarios/">Itinerários de ônibus</a></li>
               <li><a target="_blank" href="/portal/mapa">Mapa de serviços</a></li>
             </ul>
@@ -150,11 +139,9 @@
             <strong>Atendimento</strong>
             <ul class="box_content">
                 <li><a target="_blank" aria-label="Faça sua Solicitação" href="http://sac.prefeitura.sp.gov.br/">Faça sua Solicitação</a></li>
-                <!--<li><a href="#">Denuncie fraudes</a></li>
-                <li><a href="http://www.prefeitura.sp.gov.br/cidade/secretarias/subprefeituras/vila_mariana/noticias/?p=38329" target="_blank">Sugestões</a></li>-->
             </ul>
           </div>
-          <div clas="visualClear"><!-- --></div>
+          <div class="visualClear"><!-- --></div>
         </section>
         <section class="sixteen columns">
           <form class="four columns" id="socials" method="GET" action="footer.php">
@@ -322,10 +309,11 @@
               </li>
             </ul>
           </div>
-          <div clas="visualClear"><!-- --></div>
+          <div class="visualClear"><!-- --></div>
         </section>
       </div>
     </footer>
+
     <div class="full bottom_roominess">
       <div class="container">
         <div class="sixteen columns">
@@ -340,5 +328,9 @@
         </div>
       </div>
     </div>
+
+
+
+
   </body>
 </html>
