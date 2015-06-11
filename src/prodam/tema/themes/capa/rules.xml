@@ -50,10 +50,14 @@
 
         <!-- Portal messages -->
 
+
+
         <!-- Main columns -->
-        <replace css:content-children="#content" css:theme-children="#content" />
-        <replace css:content-children="#portal-column-one" css:theme-children="#left-column" />
-        <replace css:content-children="#portal-column-two" css:theme-children="#right-column" />
+        <replace css:content="#portal-column-content" css:theme="#portal-column-content" />
+        <replace css:content="#portal-column-one" css:theme="#portal-column-one" />
+        <replace css:content="#portal-column-two" css:theme="#portal-column-two" />
+
+
 
         <!-- Footer -->
         <replace css:theme-children="#footer" css:content-children="#portal-footer" />
