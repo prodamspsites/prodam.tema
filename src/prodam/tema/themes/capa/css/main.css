@@ -1,0 +1,125 @@
+/*
+ *
+ * CSS com estilos genéricos para todos os temas
+ *
+ * @Autores
+ *
+ * - Danilo Sartorelli Barbato
+ * - Moisés de Aguiar Júnior
+ * - Wellington Braga
+ *
+ * @Referencias
+ *
+ * Lista de padrões, convenções e boas praticas CSS que devem ser seguidas.
+ * https: //github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
+ *
+ * Plugins para ordenar os atributos de CSS.
+ * http://csscomb.com/
+ *
+ * Validador de CSS do W3C.
+ * http://jigsaw.w3.org/css-validator/
+ */
+
+
+/* ==========================================================================
+   Barra Cinza do Topo
+   ========================================================================== */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .full-cinza{
+    height: 50px;
+  }
+  #acesso{
+    width: 100%;
+    line-height: 35px;
+    margin: 5px 0 0 20px;
+  }
+  #acesso a{
+    font-size: 1.0em;
+  }
+  #acesso #trnsp{
+    width: 333px;
+  }
+  .theI{
+    margin: -27px 0 0 162px !important;
+  }
+}
+
+html body{
+  font-family: "HelveticaNeue",Helvetica,"Helvetica Neue",Tahoma,sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  vertical-align: baseline;
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.bold {
+  font-weight: 700;
+}
+.full-cinza{
+  background: none repeat scroll 0 0 #646464;
+}
+.navbar .full, .navbar .full-cinza, .navbar .full-preto {
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0.5em 0;
+  position: relative;
+   width: 100%;
+}
+.em09 {
+  font-size: 0.9em;
+  line-height: 1.1em;
+}
+.navbar .container {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 960px;
+}
+.navbar .container:after{
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+#acesso a{
+  color: #cacaca;
+  display: inline-block;
+  vertical-align: bottom;
+}
+#acesso .four a {
+  font-size:0.9em;
+}
+
+.navbar .container .four.columns{
+  width: 220px;
+}
+.navbar .container .column, .navbar .container .columns {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
+
+.theI{
+  background: url("../img/sprite.png") repeat scroll -374px 0;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  margin: -13px 0 0 145px;
+}
+
+#trnsp{
+  font-size: 12px;
+  padding-top: 3px;
+}
+.upper {
+  text-transform: uppercase;
+}
+

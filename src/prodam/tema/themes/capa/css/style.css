@@ -1,0 +1,586 @@
+/*
+ *
+ * CSS com estilos genéricos para todos os temas
+ *
+ * @Autores
+ *
+ * - Danilo Sartorelli Barbato
+ * - Moisés de Aguiar Júnior
+ * - Wellington Braga
+ *
+ * @Referencias
+ *
+ * Lista de padrões, convenções e boas praticas CSS que devem ser seguidas.
+ * https: //github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
+ *
+ * Plugins para ordenar os atributos de CSS.
+ * http://csscomb.com/
+ *
+ * Validador de CSS do W3C.
+ * http://jigsaw.w3.org/css-validator/
+ */
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+  #portal-header .logo{
+    margin-left: 20px;
+    width: 100% !important;
+  }
+
+  #portal-header .sections{
+    margin: 0 0 0 -22px;
+    width: 100%;
+  }
+
+  #portal-header .portal-header-inner #portal-searchbox{
+    margin: 20px 0 0 15px;
+  }
+  #portal-searchbox #searchGadget{
+    padding: 7px 4px !important;
+  }
+
+  div.bottom_roominess .container {
+    width: 300px;
+  }
+  #footer-nav div.container {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 15px;
+  }
+
+  #footer-nav div section {
+    width: 300px;
+  }
+
+  #footer-nav {
+    padding: 30px 0 48px;
+  }
+
+  #footer-nav div section .four.columns,
+  #footer-nav div section .four.columns#bloco4 {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #footer-nav div section strong,
+  #footer-nav div section form legend {
+    font-size: 1.6em;
+  }
+
+  #footer-nav div section .social_footer li,
+  #footer-nav div section  #bloco2 li,
+  #footer-nav div section  #bloco3 li {
+    margin: 20px 0;
+  }
+
+  #footer-nav div section ul li a,
+  #footer-nav div section ul li strong,
+  #footer-nav div section ul li span {
+    font-size: 15.6px;
+  }
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+
+  #portal-header .portal-header-inner .services #portal-siteactions{
+    margin-right:235px;
+  }
+
+  #portal-header .portal-header-inner #portal-searchbox{
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px 40px 0 90px;
+  }
+
+  #portal-searchbox #searchGadget{
+    line-height: 1.8em;
+    width: 210px;
+    padding: 7px 4px !important;
+  }
+
+  #portal-searchbox .LSBox .searchButton{
+    background-color: #ff0000;
+    background-position: -511px -105px;
+    height: 40px;
+  }
+
+  #footer-nav .container {
+    margin: 0 auto;
+    width: 768px;
+    padding-top: 15px;
+  }
+
+  #footer-nav section {
+    max-width: 768px;
+  }
+
+  #footer-nav section strong, #footer-nav section form legend {
+    font-size: 20.8px;
+    line-height: 20.8px;
+  }
+
+  #footer-nav section ul li a, #footer-nav section ul li strong,
+  #footer-nav section ul li span {
+    font-size: 15.6px;
+  }
+
+  .social_footer li, #bloco2 li, #bloco3 li {
+    margin: 20px 0;
+  }
+
+  #footer-nav section .four.columns,
+  #footer-nav section .four.columns#bloco4 {
+    width: 172px;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width : 768px) {
+  #footer-nav section {
+    min-width: 768px;
+    max-width: 960px;
+  }
+}
+
+/* ==========================================================================
+   Cabeçalho do Portal
+   ========================================================================== */
+
+.visualClear {
+  clear: both;
+}
+
+#portal-header {
+  background: transparent;
+}
+
+#portal-header .portal-header-inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Barra de serviços */
+
+#portal-header .services {
+  position: relative;
+}
+
+#portal-header .services #portal-siteactions {
+  float: right;
+  border-bottom: 1px solid #363636;
+  font-size: 13px;
+  font-weight: 700;
+  padding-left: 335px;
+  position: relative;
+  padding-top: 0.5em;
+  margin: 0 0 30px;
+  height: 25px;
+}
+
+#portal-header .services #portal-siteactions li {
+  padding: 0 0 7px;
+  display: inline-block;
+  line-height: 18px;
+}
+
+#portal-header .services #portal-siteactions li a,
+#portal-header .services #portal-siteactions li a:visited {
+  color: #333333;
+}
+
+#portal-header .services #portal-siteactions
+#siteaction-solicitar_servicos {
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+#portal-header .services #portal-siteactions
+#siteaction-solicitar_servicos a {
+  background: url("../img/sprite.png") no-repeat scroll -621px -157px rgba(0, 0, 0, 0);
+  display: block;
+  height: 50px;
+  float: right;
+  width: 115px;
+  margin-bottom: -38px;
+  margin-top: -7px;
+  text-indent: -9999em;
+}
+
+/* Fim da barra de serviços */
+
+/* Logo */
+
+#portal-header .logo {
+  width:184px;
+  display: inline-block;
+  float: left;
+}
+
+#portal-header .logo h1 {
+  display: inline-block;
+  height: 52px;
+  margin-top: -12px;
+  width: 184px;
+  background-image: url("../img/sprite.png");
+  text-indent: -9999em;
+}
+
+/* Fim do logo */
+
+/* Navegaçao global (seçoes) */
+
+#portal-header .sections {
+  float: left;
+}
+
+#portal-header #portal-globalnav {
+  position: relative;
+  font-size: 1.7em;
+  list-style-type: none;
+  margin-top: 0;
+}
+
+#portal-header #portal-globalnav li {
+  float: left;
+  margin: 13px 15px 0 0;
+}
+
+#portal-header #portal-globalnav li a {
+  font-weight: 700;
+  color: #333333;
+  transition: color 0.5s ease 0s;
+}
+
+#portal-header #portal-globalnav li:before {
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+  content: "";
+  float: left;
+  height: 2px;
+  width: 6px;
+  overflow: hidden;
+  margin-top: 0.2em;
+}
+
+#portal-header #portal-globalnav #portaltab-cidadao:before {
+  border-left: 7px solid #01A4B7;
+}
+
+#portal-header #portal-globalnav #portaltab-cidadao a:hover {
+  color:#01a4b7;
+}
+
+#portal-header #portal-globalnav #portaltab-empresa:before {
+  border-left: 7px solid #fd8a03;
+}
+
+#portal-header #portal-globalnav #portaltab-empresa a:hover {
+  color: #fd8a03;
+}
+
+
+#portal-header #portal-globalnav #portaltab-turista:before {
+  border-left: 7px solid #919e02;
+}
+
+#portal-header #portal-globalnav #portaltab-turista a:hover {
+  color: #919e02;
+
+}
+/* Fim da navegaçao global */
+
+/* Search Box */
+
+#portal-searchbox {
+  padding-top: 1px;
+}
+
+#portal-searchbox fieldset {
+  border: 0;
+  margin-top: 7px;
+}
+
+#portal-searchbox #searchGadget{
+  border: 1px solid #363636;
+  border-radius: 0;
+  box-shadow: 1px 1px 7px #aaa inset;
+  width: 210px;
+  padding: 6px 4px;
+  height: auto;
+}
+#portal-searchbox .searchButton{
+  background: url("../img/sprite4.png") no-repeat scroll -511px -108px rgba(0, 0, 0, 0);
+  border: 0;
+  height: 33px;
+  width: 32px;
+}
+/* Fim Search Box*/
+
+#content{
+  float: left;
+}
+#left-column{
+  float: left;
+}
+.container{
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container #content h1{
+  float: left;
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: -100px;
+}
+
+#barra-titulo{
+  width: 940px ;
+  height: 57px;
+  background:url("../img/bg-checkers.png") repeat 0 0 transparent;
+}
+
+/* ==========================================================================
+   Rodape do Portal
+   ========================================================================== */
+
+/* Inicio dos menus navegaveis */
+
+#footer-nav {
+  background-color: #252525;
+  margin-top: 60px;
+  padding: 30px 0 48px;
+  line-height: 18px;
+}
+
+#footer-nav .container {
+  margin: 0 auto;
+  width: 960px;
+  padding-top: 15px;
+}
+
+#footer-nav .columns {
+  float: left;
+  display: inline;
+  margin: 0 10px;
+}
+
+#footer-nav .alpha.columns, #footer-nav #socials,
+#footer-nav #bloco3 {
+  margin-left: 0;
+}
+
+#footer-nav .four.columns {
+  width: 220px;
+}
+
+#footer-nav section {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#footer-nav nav {
+  padding-bottom: 40px;
+}
+
+#footer-nav strong, #footer-nav form legend {
+  color: #797979;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#footer-nav ul {
+  padding: 15px 0 0;
+  list-style: none;
+  margin: 0;
+}
+
+#footer-nav ul li, #footer-nav ul li strong,
+#footer-nav ul li a {
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: none;
+}
+
+#footer-nav ul li span {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #B7B7B7;
+}
+
+#footer-nav .four.columns#bloco4 {
+  width: 200px;
+  margin-right: 0;
+}
+
+#footer-nav .four.columns#bloco4 ul {
+  margin-bottom: 15px;
+}
+
+#footer-nav .four.columns#bloco4 ul.box_content li {
+  display: inline-block;
+  background-color: #363636;
+  padding: 10px 20px;
+  border: 1px solid #727272;
+}
+
+#footer-nav .four.columns#bloco4 ul.box_content li a {
+  text-transform: uppercase;
+}
+
+/* Fim dos menus navegaveis */
+
+/* Inicio da customizacao dos forms */
+
+#footer-nav fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#footer-nav fieldset select {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 140px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#footer-nav form legend {
+  border: 0;
+  font-weight: 700;
+  margin: 0;
+  line-height: 100%;
+  padding-bottom: 15px;
+}
+
+/* Fim da customizacao dos forms */
+
+/* Inicio da barra social */
+
+#social_footer li {
+  float: left;
+}
+
+#social_footer span {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 28px;
+  vertical-align: middle;
+  width: 25px;
+  text-indent: -9999em;
+}
+
+#social_footer #facebook {
+  background-position: -599px 0;
+}
+
+#social_footer #twitter {
+  background-position: -652px 0;
+}
+
+#social_footer #youtube {
+  background-position: -621px 0;
+}
+
+#social_footer #diario {
+  background-position: -627px -62px;
+  float: left;
+}
+
+/* Fim da barra social */
+
+/* Inicio dos apps mobile */
+
+.app-icone {
+  display: block;
+  height: 45px;
+  width: 118px;
+}
+
+.box_content a {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: auto;
+}
+
+/* Fim dos apps mobile */
+
+/* Inicio do rodape */
+
+.bottom_roominess {
+  background-color: #363636;
+  padding: 15px 0 0;
+}
+
+.bottom_roominess .container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.room .container {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 960px;
+}
+
+.logos, #logoPB {
+  display: inline-block;
+  height: 52px;
+  width: 184px;
+}
+
+#logoPB {
+  background: url("../img/sprite.png") no-repeat -193px 0 transparent;
+}
+
+.roominess a:before {
+    content: "- ";
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+#footer-nav .upper li a {
+  text-transform: uppercase;
+}
+
+.copyright {
+  background-color: #424242;
+  color: #787878;
+  font-size: 11px;
+  margin-top: 10px;
+  padding: 10px 0 0 20px;
+}
+
+
+/* Fim do rodape */
