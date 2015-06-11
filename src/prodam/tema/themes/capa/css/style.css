@@ -32,7 +32,7 @@
     margin-left: 20px;
     width: 100% !important;
   }
-  
+
   #portal-header .sections{
     margin: 0 0 0 -22px;
     width: 100%;
@@ -102,9 +102,9 @@
   }
 
   #portal-searchbox #searchGadget{
-    line-height: 1.8em;    
+    line-height: 1.8em;
     width: 210px;
-    padding: 7px 4px !important;    
+    padding: 7px 4px !important;
   }
 
   #portal-searchbox .LSBox .searchButton{
@@ -151,7 +151,7 @@
     min-width: 768px;
     max-width: 960px;
   }
-}  
+}
 
 /* ==========================================================================
    Cabeçalho do Portal
@@ -415,7 +415,7 @@
   color: #ffffff;
   font-size: 12px;
   text-transform: none;
-} 
+}
 
 #footer-nav ul li span {
   display: block;
