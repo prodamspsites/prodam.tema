@@ -108,3 +108,14 @@ a {
   padding-top: 2px;
   margin-left: 7.95em;
 }
+
+.upper {
+  text-transform: uppercase;
+}
+
+/* Definições de largura do site */
+
+.container-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
