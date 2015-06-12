@@ -60,26 +60,24 @@ a {
 .bold {
   font-weight: 700;
 }
-.full-cinza{
+.barra-cinza{
   background: none repeat scroll 0 0 #646464;
 }
-.navbar .full, .navbar .full-cinza, .navbar .full-preto {
+.navbar .full, .navbar .barra-cinza, .navbar .full-preto {
   clear: both;
   display: block;
   margin: 0;
-  padding: 0.5em 0;
+  padding: 0.5em;
   position: relative;
-   width: 100%;
+  width: 100%;
+  height: 15px;
 }
 .em09 {
   font-size: 0.9em;
   line-height: 1.1em;
 }
-.navbar .container {
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  width: 960px;
+.navbar .barra-cinza .container{
+  padding-left: 1.7em;
 }
 .navbar .container:after{
   clear: both;
@@ -92,22 +90,12 @@ a {
 #acesso a{
   color: #cacaca;
   display: inline-block;
-  vertical-align: bottom;
+  float: left;
 }
 #acesso .four a {
   font-size:0.9em;
 }
-
-.navbar .container .four.columns{
-  width: 220px;
-}
-.navbar .container .column, .navbar .container .columns {
-  display: inline;
-  float: left;
-  margin-right: 20px;
-}
-
-.theI{
+.imgI{
   background: url("../img/sprite.png") repeat scroll -374px 0;
   width: 26px;
   height: 26px;
@@ -115,11 +103,8 @@ a {
   margin: -13px 0 0 145px;
 }
 
-#trnsp{
+#transparenciasp{
   font-size: 12px;
-  padding-top: 3px;
+  padding-top: 2px;
+  margin-left: 7.95em;
 }
-.upper {
-  text-transform: uppercase;
-}
-

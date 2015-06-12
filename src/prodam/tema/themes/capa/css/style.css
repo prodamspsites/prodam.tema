@@ -186,11 +186,12 @@
   border-bottom: 1px solid #363636;
   font-size: 13px;
   font-weight: 700;
-  padding-left: 335px;
+  padding-left: 375px;
   position: relative;
-  padding-top: 0.5em;
+  padding-top: 0.4em;
   margin: 0 0 30px;
-  height: 25px;
+  background-color: #ff0000;
+  height: 0px;
 }
 
 #portal-header .services #portal-siteactions li {
@@ -341,7 +342,6 @@
 }
 .container{
   position: relative;
-  width: 960px;
   margin: 0 auto;
   padding: 0;
 }
