@@ -2054,24 +2054,7 @@ left: 100%;
 .ie6 div.cell {
 float: none;
 }
-/* */
-div.width-1  { width:  4%    }
-div.width-2  { width: 10.25% }
-div.width-3  { width: 16.5%  }
-div.width-4  { width: 22.75% }
-div.width-5  { width: 29%    }
-div.width-6  { width: 35.25% }
-div.width-7  { width: 41.5%  }
-div.width-8  { width: 47.75% }
-div.width-9  { width: 54%    }
-div.width-10 { width: 60.25% }
-div.width-11 { width: 66.5%  }
-div.width-12 { width: 72.75% }
-div.width-13 { width: 79%    }
-div.width-14 { width: 85.25% }
-div.width-15 { width: 91.5%  }
-div.width-16 { width: 97.75% }
-/* */
+
 /* */
 div.position-0  { margin-left: -98.875% !important}
 div.position-1  { margin-left: -92.625% }

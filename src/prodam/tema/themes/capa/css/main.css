@@ -123,3 +123,77 @@ a {
   text-transform: uppercase;
 }
 
+/* Definições de largura do site */
+
+.container-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+/* Adapta sistema de grids para html 5*/
+div.width-1, header.width-1,
+section.width-1, nav.width-1 {
+  width:  4%;
+}
+div.width-2, header.width-2,
+section.width-2, nav.width-2 {
+  width: 10.25%;
+}
+div.width-3, header.width-3,
+section.width-3, nav.width-3 {
+  width: 16.5%;
+}
+div.width-4, header.width-4,
+section.width-4, nav.width-4 {
+  width: 22.75%;
+}
+div.width-5, header.width-5,
+section.width-5, nav.width-5 {
+  width: 29%;
+  }
+div.width-6, header.width-6,
+section.width-6, nav.width-6 {
+  width: 35.25%;
+}
+div.width-7, header.width-7,
+section.width-7, nav.width-7 {
+  width: 41.5%;
+}
+div.width-8, header.width-8,
+section.width-8, nav.width-8 {
+  width: 47.75%;
+}
+div.width-9, header.width-9,
+section.width-9, nav.width-9 {
+  width: 54%;
+}
+div.width-10, header.width-10,
+section.width-10, nav.width-10 {
+  width: 60.25%;
+}
+div.width-11, header.width-11,
+section.width-11, nav.width-11 {
+  width: 66.5%;
+}
+div.width-12, header.width-12,
+section.width-12, nav.width-12 {
+  width: 72.75%;
+}
+div.width-13, header.width-13,
+section.width-13, nav.width-13 {
+  width: 79%;
+}
+div.width-14, header.width-14,
+section.width-14, nav.width-14 {
+  width: 85.25%;
+}
+div.width-15, header.width-15,
+section.width-15, nav.width-15 {
+  width: 91.5%;
+}
+div.width-16, header.width-16,
+section.width-16, nav.width-16 {
+  width: 97.75%;
+}
+/* */

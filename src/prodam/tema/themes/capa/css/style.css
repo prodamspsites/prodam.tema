@@ -26,6 +26,30 @@
    ========================================================================== */
 
 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
   #portal-header .logo{
@@ -45,7 +69,7 @@
     padding: 7px 4px !important;
   }
 
-  div.bottom_roominess .container {
+  div.footer-texto .container {
     width: 300px;
   }
   #footer-nav div.container {
@@ -148,8 +172,6 @@
 
 @media only screen and (min-width : 768px) {
   #footer-nav section {
-    min-width: 768px;
-    max-width: 960px;
   }
 }
 
@@ -363,41 +385,52 @@
   margin-top: 60px;
   padding: 30px 0 48px;
   line-height: 18px;
+  font-size: 0.81em;
 }
 
-#footer-nav .container {
-  margin: 0 auto;
-  width: 960px;
+#footer-nav .container-wrapper {
+  margin-bottom: 20px;
   padding-top: 15px;
 }
 
-#footer-nav .columns {
-  float: left;
-  display: inline;
+#footer-nav section, .footer-texto section {
   margin: 0 10px;
 }
 
-#footer-nav .alpha.columns, #footer-nav #socials,
+#footer-nav section .width-4 {
+  width: 23.5%;
+  float: left;
+  margin: 0 10px;
+}
+
+#footer-nav section:first-child .width-4 {
+  padding-bottom: 37px;
+}
+
+#footer-nav section .first {
+  margin-left: 0;
+}
+
+#footer-nav section .last {
+  margin-right: 0;
+}
+
+#footer-nav section ul li {
+  display: block;
+}
+
+#footer-nav section .lista a:before {
+    content: "- ";
+}
+
+#footer-nav #socials,
 #footer-nav #bloco3 {
   margin-left: 0;
 }
 
-#footer-nav .four.columns {
-  width: 220px;
-}
-
-#footer-nav section {
-  width: 940px;
-  margin: 0 auto;
-}
-
-#footer-nav nav {
-  padding-bottom: 40px;
-}
-
 #footer-nav strong, #footer-nav form legend {
   color: #797979;
-  font-size: 16px;
+  font-size: 1.24em;
   text-transform: uppercase;
 }
 
@@ -410,36 +443,21 @@
 #footer-nav ul li, #footer-nav ul li strong,
 #footer-nav ul li a {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 1em;
   text-transform: none;
+}
+
+#footer-nav #bloco1 ul li strong {
+  font-size: 0.93em;
 }
 
 #footer-nav ul li span {
   display: block;
-  font-size: 13px;
+  font-size: ;
   font-weight: 700;
   color: #B7B7B7;
 }
 
-#footer-nav .four.columns#bloco4 {
-  width: 200px;
-  margin-right: 0;
-}
-
-#footer-nav .four.columns#bloco4 ul {
-  margin-bottom: 15px;
-}
-
-#footer-nav .four.columns#bloco4 ul.box_content li {
-  display: inline-block;
-  background-color: #363636;
-  padding: 10px 20px;
-  border: 1px solid #727272;
-}
-
-#footer-nav .four.columns#bloco4 ul.box_content li a {
-  text-transform: uppercase;
-}
 
 /* Fim dos menus navegaveis */
 
@@ -458,6 +476,12 @@
   width: 140px;
   display: block;
   margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  color: #777;
+  background: #fff;
+  border-radius: 2px;
+  outline: medium none;
 }
 
 #footer-nav form legend {
@@ -513,54 +537,42 @@
   width: 118px;
 }
 
-.box_content a {
-  font-size: 12px;
+#footer-nav section .box_content {
+  margin-top: 25px;
+  padding: 0;
+  float: left;
+}
+
+#footer-nav section .box_content a {
+  background: #363636;
+  border: 1px solid #727272;
+  padding: 10px 20px;
+  font-size: 0.93em;
   font-weight: 700;
   text-transform: uppercase;
-  width: auto;
 }
 
 /* Fim dos apps mobile */
 
 /* Inicio do rodape */
 
-.bottom_roominess {
+.footer-texto {
   background-color: #363636;
   padding: 15px 0 0;
 }
 
-.bottom_roominess .container {
+.footer-texto .container {
   width: 960px;
   margin: 0 auto;
-}
-
-.container:after {
-  clear: both;
-  content: " ";
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-
-.room .container {
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  width: 960px;
 }
 
 .logos, #logoPB {
-  display: inline-block;
   height: 52px;
   width: 184px;
 }
 
 #logoPB {
   background: url("../img/sprite.png") no-repeat -193px 0 transparent;
-}
-
-.roominess a:before {
-    content: "- ";
 }
 
 .upper {
@@ -574,9 +586,10 @@
 .copyright {
   background-color: #424242;
   color: #787878;
-  font-size: 11px;
-  margin-top: 10px;
-  padding: 10px 0 0 20px;
+  font-size: 0.69em;
+  margin-top: 13px;
+  padding: 9px 0 6px 20px;
+  line-height: 100%;
 }
 
 

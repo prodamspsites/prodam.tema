@@ -103,48 +103,49 @@
 
     <!-- inicio do footer -->
     <footer id="footer-nav">
-      <div class="container full_block">
-        <section class="sixteen columns">
-          <nav role="navigation" class="four columns alpha" id="bloco1">
+      <div class="container-wrapper">
+        <section class="width-16">
+          <nav role="navigation" class="width-4 first" id="bloco1">
             <strong>Governo Municipal</strong>
               <ul>
                 <li>
                   <span>Prefeito</span>
-                  <strong id="name_style">Fernando Haddad</strong>
+                  <strong>Fernando Haddad</strong>
                 </li>
-                <li><a target="_blank" href="http://www.prefeitura.sp.gov.br/guiadeservicos/content/equipe-de-governo"><strong id="name_style">Equipe de Governo</strong></a></li>
+                <li><a target="_blank" href="http://www.prefeitura.sp.gov.br/guiadeservicos/content/equipe-de-governo">
+                <strong>Equipe de Governo</strong></a></li>
             </ul>
-            <ul>
-              <li><a href="/portal/evento/agenda/PREFEITO">- Agenda do prefeito</a></li>
+            <ul class="lista">
+              <li><a href="/portal/evento/agenda/PREFEITO">Agenda do prefeito</a></li>
             </ul>
           </nav>
-          <nav role="navigation" class="four columns roominess" id="bloco2">
+          <nav role="navigation" class="width-4" id="bloco2">
             <strong>Acontece na Cidade</strong>
-            <ul>
+            <ul class="lista">
               <li><a href="/portal/noticia">ÚLTIMAS NOTÍCIAS</a></li>
               <li><a target="_blank" href="http://www.sptrans.com.br/itinerarios/">Itinerários de ônibus</a></li>
               <li><a target="_blank" href="/portal/mapa">Mapa de serviços</a></li>
             </ul>
           </nav>
-          <nav role="navigation" class="four columns bloco2 roominess" id="bloco3">
+          <nav role="navigation" class="width-4" id="bloco3">
             <strong>São Paulo para</strong>
-            <ul class="upper">
+            <ul class="upper lista">
               <li><a href="/portal/secoes/cidadao">Cidadão</a></li>
               <li><a href="/portal/secoes/empresa">Empresa</a></li>
               <li><a href="/portal/secoes/turista">Turista</a></li>
               <li><a href="/portal/secoes/servidor">Servidor</a></li>
             </ul>
           </nav>
-          <div class="four columns omega" id="bloco4">
+          <div class="width-4 last" id="bloco4">
             <strong>Atendimento</strong>
             <ul class="box_content">
                 <li><a target="_blank" aria-label="Faça sua Solicitação" href="http://sac.prefeitura.sp.gov.br/">Faça sua Solicitação</a></li>
-            </ul>
+            </ul><div class="visualClear"><!-- --></div>
           </div>
           <div class="visualClear"><!-- --></div>
         </section>
-        <section class="sixteen columns">
-          <form class="four columns" id="socials" method="GET" action="footer.php">
+        <section class="width-16">
+          <form class="width-4" id="socials" method="GET" action="footer.php">
             <fieldset class="five columns alpha">
               <legend class="legend">Prefeitura</legend>
               <select class="leave-page w50 lista-secretarias" id="lista-secretarias" name="lista-secretarias">
@@ -270,7 +271,7 @@
               </select>
             </fieldset>
           </form>
-          <div id="bloco2" class="four columns omega">
+          <div id="bloco2" class="width-4">
             <strong>Canais Oficiais</strong>
             <ul class="social_footer" id="social_footer">
               <li>
@@ -289,16 +290,16 @@
               </li>
             </ul>
           </div>
-          <div id="bloco3" role="navigation" class="four columns bloco2 roominess">
+          <nav id="bloco3" class="width-4">
             <strong>Consultas</strong>
-              <ul>
+              <ul class="lista">
                 <li><a target="_blank" href="http://www.prefeitura.sp.gov.br/cidade/secretarias/negocios_juridicos/cadastro_de_leis/index.php?p=325">Leis Municipais</a></li>
                 <li><a target="_blank" href="http://www3.prodam.sp.gov.br/simproc/simproc.asp">Pesquisa de Processos</a></li>
                 <li><a target="_blank" href="http://e-negocioscidadesp.prefeitura.sp.gov.br/">Licitações</a></li>
                 <li><a target="_blank" href="http://www.prefeitura.sp.gov.br/cidade/secretarias/planejamento/links/index.php?p=24208">Ata de Registro de Preços</a></li>
             </ul>
-          </div>
-          <div role="navigation" class="four columns bloco2 app-list" id="bloco4">
+          </nav>
+          <div role="navigation" class="width-4 last" id="bloco4">
             <strong>APLICATIVOS</strong>
             <ul>
               <li>
@@ -311,16 +312,15 @@
           </div>
           <div class="visualClear"><!-- --></div>
         </section>
+        <div class="visualClear"><!-- --></div>
       </div>
     </footer>
 
-    <div class="full bottom_roominess">
-      <div class="container">
-        <div class="sixteen columns">
-          <div class="six columns alpha">
-            <div id="logoPB"></div>
-          </div>
-        </div>
+    <div class="footer-texto">
+      <div class="container-wrapper">
+        <section>
+          <div id="logoPB"></div>
+        </section>
       </div>
       <div role="contentinfo" class="copyright">
         <div class="container">
