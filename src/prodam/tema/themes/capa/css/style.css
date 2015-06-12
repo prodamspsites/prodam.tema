@@ -27,12 +27,74 @@
 
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  /* Footer */
+  .container-wrapper {
+    width: 300px;
+  }
+  #footer-nav div section .width-4 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 
+  #footer-nav div section {
+    width: 100%;
+  }
+
+  #footer-nav {
+    padding: 30px 0 48px;
+  }
+
+  #footer-nav div section strong,
+  #footer-nav div section form legend {
+    font-size: 1.6em;
+  }
+
+  #footer-nav div section .social_footer li,
+  #footer-nav div section  #bloco2 li,
+  #footer-nav div section  #bloco3 li {
+    margin: 20px 0;
+  }
+
+  #footer-nav section #bloco1 ul li strong {
+    font-size: 1em;
+  }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 480px)  and (max-width : 768px) {
+
+  .container-wrapper {
+    width: 420px;
+  }
+
+  #footer-nav div section .width-4 {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  #footer-nav section strong, #footer-nav section form legend {
+    font-size: 20.8px;
+    line-height: 20.8px;
+  }
+
+  #footer-nav section ul li a, #footer-nav section ul li strong,
+  #footer-nav section ul li span {
+    font-size: 15.6px;
+  }
+
+  .social_footer li, #bloco2 li, #bloco3 li {
+    margin: 20px 0;
+  }
+
+  #footer-nav section .four.columns,
+  #footer-nav section .four.columns#bloco4 {
+    width: 172px;
+    display: block;
+    margin: 0 auto;
+  }
 
 }
 
@@ -69,46 +131,6 @@
     padding: 7px 4px !important;
   }
 
-  div.footer-texto .container {
-    width: 300px;
-  }
-  #footer-nav div.container {
-    margin: 0 auto;
-    width: 300px;
-    padding-top: 15px;
-  }
-
-  #footer-nav div section {
-    width: 300px;
-  }
-
-  #footer-nav {
-    padding: 30px 0 48px;
-  }
-
-  #footer-nav div section .four.columns,
-  #footer-nav div section .four.columns#bloco4 {
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  #footer-nav div section strong,
-  #footer-nav div section form legend {
-    font-size: 1.6em;
-  }
-
-  #footer-nav div section .social_footer li,
-  #footer-nav div section  #bloco2 li,
-  #footer-nav div section  #bloco3 li {
-    margin: 20px 0;
-  }
-
-  #footer-nav div section ul li a,
-  #footer-nav div section ul li strong,
-  #footer-nav div section ul li span {
-    font-size: 15.6px;
-  }
 
 }
 
