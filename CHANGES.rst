@@ -4,6 +4,7 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Ajusta regras de tema para collective.cover funcionar [dadlo]
 * Ajusta tema Capa para classes padrão Plone no conteúdo [dadlo]
 * Remove bootstrap produto [dadlo]
 * Adiciona responsividade no topo [wblima]
