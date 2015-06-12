@@ -26,6 +26,33 @@
    ========================================================================== */
 
 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  #footer-nav .width-12 {
+    width: 71%;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
   #portal-header .logo{
@@ -365,10 +392,30 @@
   line-height: 18px;
 }
 
-#footer-nav .container {
+#footer-nav .width-12 {
   margin: 0 auto;
-  width: 960px;
   padding-top: 15px;
+}
+
+#footer-nav section nav, #footer-nav section div,
+#footer-nav section form {
+  float: left;
+  margin: 0 10px;
+}
+
+#footer-nav section .first,
+#footer-nav section .last {
+  margin: 0;
+}
+
+#footer-nav section ul li {
+  display: block;
+}
+
+#footer-nav section .lista a:before {
+    content: "- ";
+} {
+
 }
 
 #footer-nav .columns {
@@ -557,10 +604,6 @@
 
 #logoPB {
   background: url("../img/sprite.png") no-repeat -193px 0 transparent;
-}
-
-.roominess a:before {
-    content: "- ";
 }
 
 .upper {
