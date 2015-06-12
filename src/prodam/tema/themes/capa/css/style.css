@@ -65,7 +65,7 @@
     width: 100%;
   }
 
-  #portal-header .portal-header-inner #portal-searchbox{
+  #portal-header .container-wrapper #portal-searchbox{
     margin: 20px 0 0 15px;
   }
   #portal-searchbox #searchGadget{
@@ -117,7 +117,7 @@
 
 @media only screen and (min-width : 320px) and (max-width : 768px) {
 
-  #portal-header .portal-header-inner .services #portal-siteactions{
+  #portal-header .container-wrapper .services #portal-siteactions{
     margin-right:235px;
   }
 
@@ -192,11 +192,6 @@
   background: transparent;
 }
 
-#portal-header .portal-header-inner {
-  width: 960px;
-  margin: 0 auto;
-}
-
 #main {
   margin: 0 auto;
   padding: 0 0 1.5em;
@@ -213,18 +208,25 @@
   border-bottom: 1px solid #363636;
   font-size: 13px;
   font-weight: 700;
-  padding-left: 375px;
+  padding-left: 25.769em;
   position: relative;
   padding-top: 0.4em;
-  margin: 0 0 30px;
-  background-color: #ff0000;
+  margin: 0 0.769em 2.308em;
   height: 0px;
 }
 
+#portal-header .services #portal-siteactions #siteaction-accessibility{
+  margin-right: 1.154em;
+}
+#portal-header .services #portal-siteactions #siteaction-prefeitura-aaz{
+  margin-right: 1.308em;
+  margin-top: 0.077em;
+}
+
 #portal-header .services #portal-siteactions li {
-  padding: 0 0 7px;
   display: inline-block;
   line-height: 18px;
+  margin: 0px;
 }
 
 #portal-header .services #portal-siteactions li a,
@@ -243,22 +245,23 @@
 #siteaction-solicitar_servicos a {
   background: url("../img/sprite.png") no-repeat scroll -621px -157px rgba(0, 0, 0, 0);
   display: block;
-  height: 50px;
+  height: 55px;
   float: right;
-  width: 115px;
+  width: 114px;
   margin-bottom: -38px;
-  margin-top: -7px;
+  margin-top: -19px;
   text-indent: -9999em;
-}
+  }
 
 /* Fim da barra de serviços */
 
 /* Logo */
 
 #portal-header .logo {
-  width:184px;
+  width:220px;
   display: inline-block;
   float: left;
+  margin-left: 10px;
 }
 
 #portal-header .logo h1 {
@@ -276,6 +279,7 @@
 
 #portal-header .sections {
   float: left;
+  margin:-6px  0 0 20px;
 }
 
 #portal-header #portal-globalnav {
@@ -291,6 +295,9 @@
 }
 
 #portal-header #portal-globalnav li a {
+  display: inline;
+  padding: 0;
+  background: none;
   font-weight: 700;
   color: #333333;
   transition: color 0.5s ease 0s;
@@ -301,10 +308,13 @@
   border-top: 7px solid transparent;
   content: "";
   float: left;
-  height: 2px;
   width: 6px;
   overflow: hidden;
-  margin-top: 0.2em;
+  margin-top: 0.33em;
+}
+
+#portal-header #portal-globalnav #portaltab-cidadao{
+  margin-right: 17px;
 }
 
 #portal-header #portal-globalnav #portaltab-cidadao:before {
@@ -315,8 +325,13 @@
   color:#01a4b7;
 }
 
+#portal-header #portal-globalnav #portaltab-empresa {
+  margin-right: 17px;
+}
+
 #portal-header #portal-globalnav #portaltab-empresa:before {
   border-left: 7px solid #fd8a03;
+  width: 7px
 }
 
 #portal-header #portal-globalnav #portaltab-empresa a:hover {
@@ -342,7 +357,7 @@
 
 #portal-searchbox fieldset {
   border: 0;
-  margin-top: 7px;
+  margin: -16px 15px 0 0;
 }
 
 #portal-searchbox #searchGadget{
@@ -352,12 +367,15 @@
   width: 210px;
   padding: 6px 4px;
   height: auto;
+  margin-top: 1px;
 }
 #portal-searchbox .searchButton{
+  float: right;
   background: url("../img/sprite4.png") no-repeat scroll -511px -108px rgba(0, 0, 0, 0);
   border: 0;
-  height: 33px;
+  height: 32px;
   width: 32px;
+  margin-top: 1px;
 }
 /* Fim Search Box*/
 
