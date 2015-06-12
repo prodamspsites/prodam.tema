@@ -63,6 +63,11 @@ a {
 .barra-cinza{
   background: none repeat scroll 0 0 #646464;
 }
+.container{
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
 .navbar .full, .navbar .barra-cinza, .navbar .full-preto {
   clear: both;
   display: block;

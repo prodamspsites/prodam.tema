@@ -240,11 +240,11 @@
 #siteaction-solicitar_servicos a {
   background: url("../img/sprite.png") no-repeat scroll -621px -157px rgba(0, 0, 0, 0);
   display: block;
-  height: 55px;
+  height: 4.231em;
   float: right;
   width: 114px;
-  margin-bottom: -38px;
-  margin-top: -19px;
+  margin-bottom: -2.923em;
+  margin-top: -1.462em;
   text-indent: -9999em;
   }
 
@@ -256,12 +256,12 @@
   width:220px;
   display: inline-block;
   float: left;
-  margin-left: 10px;
+  margin-left: 0.625em;
 }
 
 #portal-header .logo h1 {
   display: inline-block;
-  height: 52px;
+  height: 3.250em;
   margin-top: -12px;
   width: 184px;
   background-image: url("../img/sprite.png");
@@ -374,23 +374,8 @@
 }
 /* Fim Search Box*/
 
-#content{
-  float: left;
-}
-#left-column{
-  float: left;
-}
-.container{
-  position: relative;
-  margin: 0 auto;
-  padding: 0;
-}
 
-#barra-titulo{
-  width: 940px ;
-  height: 57px;
-  background:url("../img/bg-checkers.png") repeat 0 0 transparent;
-}
+
 
 /* ==========================================================================
    Rodape do Portal
