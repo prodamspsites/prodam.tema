@@ -29,8 +29,8 @@
 
         <!-- Head elements -->
         <replace css:theme="html head title" css:content="html head title" />
-        <after css:theme-children="html head" css:content="html head base" />
-        <after css:theme-children="html head" css:content="html head script" />
+        <after css:theme-children="html head" css:content="html head" />
+
         <copy attributes="class" css:theme="body" css:content="body" />
 
         <!-- Logo -->
