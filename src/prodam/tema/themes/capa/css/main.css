@@ -29,6 +29,8 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
@@ -51,26 +53,6 @@
 /* ==========================================================================
    Barra Cinza do Topo
    ========================================================================== */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-  .full-cinza{
-    height: 50px;
-  }
-  #acesso{
-    width: 100%;
-    line-height: 35px;
-    margin: 5px 0 0 20px;
-  }
-  #acesso a{
-    font-size: 1.0em;
-  }
-  #acesso #trnsp{
-    width: 333px;
-  }
-  .theI{
-    margin: -27px 0 0 162px !important;
-  }
-}
-
 html body{
   font-family: "HelveticaNeue",Helvetica,"Helvetica Neue",Tahoma,sans-serif;
   font-size: 100%;
