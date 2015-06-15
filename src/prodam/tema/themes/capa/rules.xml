@@ -22,6 +22,9 @@
         <theme href="theme.html" />
 
         <!-- Header -->
+        <drop css:theme="#portal-personaltools" css:if-content="body.userrole-anonymous" />
+        <replace css:content="#portal-personaltools" css:theme="#portal-personaltools" />
+        
         <replace css:theme=".services ul" css:content="#portal-siteactions" />
         <replace css:theme=".logo h1" css:content="#portal-logo" />
         <replace css:theme-children=".sections" css:content="#portal-globalnav" />
