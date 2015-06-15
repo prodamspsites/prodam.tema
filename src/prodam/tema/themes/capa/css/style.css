@@ -85,7 +85,7 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px)  and (max-width : 768px) {
+@media only screen and (min-width : 480px) and (max-width : 768px) {
 
   .container-wrapper {
     width: 420px;
