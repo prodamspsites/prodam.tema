@@ -18,8 +18,6 @@
         <replace css:theme="html head title" css:content="html head title" />
         <after css:theme-children="html head" css:content="html head" />
 
-       
-
         <copy attributes="class" css:theme="body" css:content="body" />
 
         <!-- Logo -->
