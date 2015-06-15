@@ -4,19 +4,6 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <!-- Note:
-
-        This is an example theme only. It is reasonably complete, but not
-        perfect, and not tested in all browsers. It is intended only to show
-        how a reasonably complete theme can be constructed.
-
-        See ``theme.html`` for the page layout and placeholders, ``theme.css``
-        and ``bootstrap.css`` for the basic theme CSS (based on Twitter
-        Bootstrap), and ``ploneui.css``, which contains CSS stolen from Plone's
-        default Sunburst theme to style Plone-specific elements.
-
-        -->
-
     <rules css:if-content="#visual-portal-wrapper">
 
         <theme href="theme.html" />
@@ -30,6 +17,8 @@
         <!-- Head elements -->
         <replace css:theme="html head title" css:content="html head title" />
         <after css:theme-children="html head" css:content="html head" />
+
+       
 
         <copy attributes="class" css:theme="body" css:content="body" />
 
