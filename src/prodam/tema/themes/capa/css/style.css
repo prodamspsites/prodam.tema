@@ -21,11 +21,6 @@
  */
 
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-
 /* Reset - Grid plone */
 body div.width-1, header.width-1,
 section.width-1, nav.width-1,
@@ -283,6 +278,9 @@ section.width-16, nav.width-16 {
 
 /* Fim do rodape */
 
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
@@ -396,7 +394,7 @@ section.width-16, nav.width-16 {
 
   #footer-nav div section .width-4 {
     margin: 0 10px;
-    max-width: 
+    max-width:
   }
 
   .container-wrapper {
