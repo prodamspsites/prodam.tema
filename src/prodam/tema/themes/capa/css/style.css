@@ -27,8 +27,53 @@
 
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 320px) {
   /*Header*/
+  .navbar .barra-cinza{
+    height: 65px;
+    padding: 0;
+  }
+  .navbar .barra-cinza #acesso{
+    padding: 0;
+    padding-top: 10px;
+    margin-left: 3px;    
+  }
+  .navbar .barra-cinza #acesso a {
+    line-height: 19px
+  }
+  .navbar .barra-cinza #acesso .imgI{
+    margin-top: -27px;
+  }
+  .navbar .barra-cinza #acesso #transparenciasp{
+    margin-left: 0;
+    padding-top: 5px;
+    font-size: 0.90em;
+    width: 320px;
+  }
+  #portal-header .services #portal-siteactions{
+    width: 247px;
+    float: none;
+    padding-left: 0 !important;
+    padding-right: 40px;
+  }
+  #portal-header .services #portal-siteactions #siteaction-solicitar_servicos a{
+    background-image: none !important;
+  }
+  #portal-header .logo{
+    margin: 0 !important;
+    height: 52px;s
+  }
+  #portal-header .logo h1{
+    width: 182px !important;
+  }
+  #portal-header .sections{
+    width: 150px;
+    margin-left: 5px !important;
+  }
+  #portal-searchbox{
+    float: left !important;
+    margin: 22px 0 0 -10px !important;
+  }
   /* Footer */
   .container-wrapper {
     width: 300px;
@@ -84,43 +129,28 @@
     padding-bottom: 0;
   }
 }
-
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px)  and (max-width : 768px) {
+@media only screen and (min-width : 480px) {
   /*Header*/
   .navbar .barra-cinza{
     height: 50px !important;
-    padding: 0.5em 0 0.5em 0;
+    padding: 0.45em 0;
   }
-
-  .barra-cinza #transparenciasp{
-    margin-left: -160px;
-    padding-top: 15px;
+  .navbar .barra-cinza #acesso{
+    padding: 0;
+    margin:3px 0 0 25px;
   }
-  .barra-cinza .imgI{
-    margin:-26px 0 0 162px;
+  #portal-header .logo h1{
+    height: 50px !important;
   }
-  #portal-header .services #portal-siteactions
-  #siteaction-solicitar_servicos a {
-    background-image: none!important;
-    width: 0!important;
-    height: 0!important;
-  }
-   #acesso{
-    line-height: 35px;
-    margin: 5px 0 0 0;
-  }
-  #acesso a{
-    font-size: 1.0em;
-  }
-
-  #portal-header .logo{
-    margin-left: 0!important;
+  #portal-header .services #portal-siteactions{
+   margin: 0 10px 30px 2px !important;
+   float: none !important;
+   padding-right: 165px;
   }
   #portal-header .sections{
-    margin-left: 5px!important;
+    width: 414px;
   }
-
   /*Footer*/
   .container-wrapper {
     width: 420px;
@@ -159,11 +189,13 @@
   .footer-texto .copyright {
     font-size: 1em;
   }
-
 }
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  /*Header*/
+  .navbar .barra-cinza{
+    height: 31px !important;
+  }
 
 }
 
