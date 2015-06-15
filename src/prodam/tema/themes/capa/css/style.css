@@ -26,8 +26,266 @@
    ========================================================================== */
 
 
+/* Reset - Grid plone */
+body div.width-1, header.width-1,
+section.width-1, nav.width-1,
+body div.width-2, header.width-2,
+section.width-2, nav.width-2,
+body div.width-3, header.width-3,
+section.width-3, nav.width-3,
+body div.width-4, header.width-4,
+section.width-4, nav.width-4,
+body div.width-5, header.width-5,
+section.width-5, nav.width-5,
+body div.width-6, header.width-6,
+section.width-6, nav.width-6,
+body div.width-7, header.width-7,
+section.width-7, nav.width-7,
+body div.width-8, header.width-8,
+section.width-8, nav.width-8,
+body div.width-9, header.width-9,
+section.width-9, nav.width-9,
+body div.width-10, header.width-10,
+section.width-10, nav.width-10,
+body div.width-11, header.width-11,
+section.width-11, nav.width-11,
+body div.width-12, header.width-12,
+section.width-12, nav.width-12,
+body div.width-13, header.width-13,
+section.width-13, nav.width-13,
+body div.width-14, header.width-14,
+section.width-14, nav.width-14,
+body div.width-15, header.width-15,
+section.width-15, nav.width-15,
+body div.width-16, header.width-16,
+section.width-16, nav.width-16 {
+  width:  100%;
+}
+
+/* ==========================================================================
+   Rodape do Portal
+   ========================================================================== */
+
+/* Inicio dos menus navegaveis */
+
+#footer-nav {
+  background-color: #252525;
+  margin-top: 60px;
+  padding: 30px 0 48px;
+  font-size: 0.81em;
+}
+
+.container-wrapper {
+  width: 100%;
+}
+
+#footer-nav .container-wrapper {
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+#footer-nav div section .width-4 {
+  margin: 0 auto 20px;
+  padding-bottom: 40px;
+  float: left;
+}
+
+#footer-nav div .last .last {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#footer-nav section ul li {
+  display: block;
+  font-size: 1.2em;
+}
+
+#footer-nav section .lista a:before {
+    content: "- ";
+}
+
+#footer-nav #socials,
+#footer-nav #bloco3 {
+  margin-left: 0;
+}
+
+#footer-nav strong, #footer-nav form legend {
+  color: #797979;
+  text-transform: uppercase;
+  font-size: 1.9em;
+  line-height: 100%;
+}
+
+#footer-nav ul {
+  padding: 15px 0 0;
+  list-style: none;
+  margin: 0;
+}
+
+#footer-nav ul li, #footer-nav ul li strong,
+#footer-nav ul li a {
+  color: #ffffff;
+  text-transform: none;
+}
+
+#footer-nav ul li span {
+  display: block;
+  font-size: ;
+  font-weight: 700;
+  color: #B7B7B7;
+}
+
+#footer-nav div section,
+.footer-texto div section {
+  margin: 0 20px;
+}
+
+#footer-nav section #bloco1 ul li strong {
+  font-size: 1em;
+  line-height: 100%;
+}
+
+#footer-nav .social_footer li,
+#footer-nav #bloco2 li,
+#footer-nav #bloco3 li {
+  margin: 20px 0;
+}
+
+.copyright {
+  background-color: #424242;
+  color: #787878;
+  margin-top: 13px;
+  padding: 9px 0 0 20px;
+  line-height: 100%;
+  font-size: 1em;
+}
+
+
+/* Fim dos menus navegaveis */
+
+/* Inicio da customizacao dos forms */
+
+#footer-nav fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#footer-nav fieldset select {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 140px;
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  color: #777;
+  background: #fff;
+  border-radius: 2px;
+  outline: medium none;
+}
+
+#footer-nav form legend {
+  border: 0;
+  font-weight: 700;
+  margin: 0;
+  line-height: 100%;
+  padding-bottom: 15px;
+}
+
+/* Fim da customizacao dos forms */
+
+/* Inicio da barra social */
+
+#social_footer li {
+  float: left;
+}
+
+#social_footer span {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 28px;
+  vertical-align: middle;
+  width: 25px;
+  text-indent: -9999em;
+}
+
+#social_footer #facebook {
+  background-position: -599px 0;
+}
+
+#social_footer #twitter {
+  background-position: -652px 0;
+}
+
+#social_footer #youtube {
+  background-position: -621px 0;
+}
+
+#social_footer #diario {
+  background-position: -627px -62px;
+  float: left;
+}
+
+/* Fim da barra social */
+
+/* Inicio dos apps mobile */
+
+.app-icone {
+  display: block;
+  height: 45px;
+  width: 118px;
+}
+
+#footer-nav section .box_content {
+  margin-top: 25px;
+  padding: 0;
+  float: left;
+}
+
+#footer-nav section .box_content a {
+  background: #363636;
+  border: 1px solid #727272;
+  padding: 10px 20px;
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: left;
+}
+
+/* Fim dos apps mobile */
+
+/* Inicio do rodape */
+
+.footer-texto {
+  background-color: #363636;
+  padding: 15px 0 0;
+}
+
+.logos, #logoPB {
+  height: 52px;
+  width: 184px;
+}
+
+#logoPB {
+  background: url("../img/sprite.png") no-repeat -193px 0 transparent;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+#footer-nav .upper li a {
+  text-transform: uppercase;
+}
+
+/* Fim do rodape */
+
+
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 320px) {
   /* Footer */
   .container-wrapper {
     width: 300px;
@@ -38,82 +296,27 @@
     margin: 0 auto;
   }
 
-  #footer-nav div section .width-4 {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-
-  #footer-nav div .last .last {
-    margin-bottom: 0;
-  }
-
-  #footer-nav div section {
-    width: 100%;
-    margin: 0;
-  }
-
-  #footer-nav {
-    padding: 30px 0 48px;
-  }
-
-  #footer-nav div section strong,
-  #footer-nav div section form legend {
-    font-size: 1.9em;
-    line-height: 1.9em;
-  }
-
-  #footer-nav div section ul li {
-    font-size: 1.2em;
-  }
-
-  #footer-nav div section .social_footer li,
-  #footer-nav div section  #bloco2 li,
-  #footer-nav div section  #bloco3 li {
-    margin: 20px 0;
-  }
-
-  #footer-nav section #bloco1 ul li strong {
-    font-size: 1em;
-  }
-
-  .footer-texto .copyright {
-    font-size: 1em;
-    padding-bottom: 0;
-  }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) and (max-width : 768px) {
+@media only screen and (min-width : 480px) {
 
   .container-wrapper {
     width: 420px;
   }
 
-  #footer-nav div section,
-  .footer-nav div section {
+  #footer-nav section,
+  .footer-nav section {
     margin: 0;
   }
 
-  #footer-nav div section .width-4 {
+  #footer-nav section .width-4 {
     margin: 0 auto;
-    width: 100%;
-    padding-top: 15px;
-  }
-
-  #footer-nav section strong, #footer-nav section form legend {
-    font-size: 1.9em;
-    line-height: 1.9em;
   }
 
   #footer-nav section ul li a, #footer-nav section ul li strong,
   #footer-nav section ul li span {
-    font-size: 15.6px;
-  }
-
-  .social_footer li, #bloco2 li, #bloco3 li {
-    margin: 20px 0;
+    font-size: 1em;
   }
 
   #footer-nav section:first-child #bloco4 ul,
@@ -121,19 +324,144 @@
     float: none;
   }
 
-  .footer-texto .copyright {
-    font-size: 1em;
-  }
-
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  body div.width-1, header.width-1,
+  section.width-1, nav.width-1 {
+    width:  4%;
+  }
+  body div.width-2, header.width-2,
+  section.width-2, nav.width-2 {
+    width: 10.25%;
+  }
+  body div.width-3, header.width-3,
+  section.width-3, nav.width-3 {
+    width: 16.5%;
+  }
+  body div.width-4, header.width-4,
+  section.width-4, nav.width-4,
+  .width-4 {
+    width: 22.75%;
+  }
+  body div.width-5, header.width-5,
+  section.width-5, nav.width-5 {
+    width: 29%;
+    }
+  body div.width-6, header.width-6,
+  section.width-6, nav.width-6 {
+    width: 35.25%;
+  }
+  body div.width-7, header.width-7,
+  section.width-7, nav.width-7 {
+    width: 41.5%;
+  }
+  body div.width-8, header.width-8,
+  section.width-8, nav.width-8 {
+    width: 47.75%;
+  }
+  body div.width-9, header.width-9,
+  section.width-9, nav.width-9 {
+    width: 54%;
+  }
+  body div.width-10, header.width-10,
+  section.width-10, nav.width-10 {
+    width: 60.25%;
+  }
+  body div.width-11, header.width-11,
+  section.width-11, nav.width-11 {
+    width: 66.5%;
+  }
+  body div.width-12, header.width-12,
+  section.width-12, nav.width-12 {
+    width: 72.75%;
+  }
+  body div.width-13, header.width-13,
+  section.width-13, nav.width-13 {
+    width: 79%;
+  }
+  body div.width-14, header.width-14,
+  section.width-14, nav.width-14 {
+    width: 85.25%;
+  }
+  body div.width-15, header.width-15,
+  section.width-15, nav.width-15 {
+    width: 91.5%;
+  }
+  body div.width-16, header.width-16,
+  section.width-16, nav.width-16 {
+    width: 97.75%;
+  }
+
+  #footer-nav div section .width-4 {
+    margin: 0 10px;
+    max-width: 
+  }
+
+  .container-wrapper {
+    min-width: 768px;
+  }
+
+  #footer-nav div section, .footer-texto div section {
+    margin: 0 10px;
+  }
+
+  #footer-nav div section .first {
+    margin-left: 0;
+  }
+
+  #footer-nav div section .last {
+    margin-right: 0;
+  }
+
+  #footer-nav div section.last #bloco3 .lista li,
+  #footer-nav div section #bloco2 #social_footer li {
+    margin: 0;
+  }
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+  #footer-nav section .width-4 {
+    width: 23.5%;
+  }
+
+  #footer-nav section:first .width-4 {
+    padding-bottom: 37px;
+  }
+
+  .container-wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  #footer-nav strong, #footer-nav form legend {
+    font-size: 1.24em;
+  }
+
+  #footer-nav div section ul li,
+  #footer-nav div section ul li a {
+    font-size: 1em;
+  }
+
+  #footer-nav section.first #bloco1 ul li strong {
+    font-size: 0.93em;
+  }
+
+  .footer-texto .copyright {
+    font-size: 0.69em;
+    padding: 9px 0 6px 20px;
+  }
+
+  #footer-nav div section .social_footer li,
+  #footer-nav div section  #bloco2 li,
+  #footer-nav div section  #bloco3 li {
+    margin: 0;
+  }
+
+
 }
 
 /* Large Devices, Wide Screens */
@@ -392,218 +720,3 @@
   height: 57px;
   background:url("../img/bg-checkers.png") repeat 0 0 transparent;
 }
-
-/* ==========================================================================
-   Rodape do Portal
-   ========================================================================== */
-
-/* Inicio dos menus navegaveis */
-
-#footer-nav {
-  background-color: #252525;
-  margin-top: 60px;
-  padding: 30px 0 48px;
-  line-height: 18px;
-  font-size: 0.81em;
-}
-
-#footer-nav .container-wrapper {
-  margin-bottom: 20px;
-  padding-top: 15px;
-}
-
-#footer-nav section, .footer-texto section {
-  margin: 0 10px;
-}
-
-#footer-nav section .width-4 {
-  width: 23.5%;
-  float: left;
-  margin: 0 10px;
-}
-
-#footer-nav section:first-child .width-4 {
-  padding-bottom: 37px;
-}
-
-#footer-nav section .first {
-  margin-left: 0;
-}
-
-#footer-nav section .last {
-  margin-right: 0;
-}
-
-#footer-nav section ul li {
-  display: block;
-}
-
-#footer-nav section .lista a:before {
-    content: "- ";
-}
-
-#footer-nav #socials,
-#footer-nav #bloco3 {
-  margin-left: 0;
-}
-
-#footer-nav strong, #footer-nav form legend {
-  color: #797979;
-  font-size: 1.24em;
-  text-transform: uppercase;
-}
-
-#footer-nav ul {
-  padding: 15px 0 0;
-  list-style: none;
-  margin: 0;
-}
-
-#footer-nav ul li, #footer-nav ul li strong,
-#footer-nav ul li a {
-  color: #ffffff;
-  font-size: 1em;
-  text-transform: none;
-}
-
-#footer-nav #bloco1 ul li strong {
-  font-size: 0.93em;
-}
-
-#footer-nav ul li span {
-  display: block;
-  font-size: ;
-  font-weight: 700;
-  color: #B7B7B7;
-}
-
-
-/* Fim dos menus navegaveis */
-
-/* Inicio da customizacao dos forms */
-
-#footer-nav fieldset {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-#footer-nav fieldset select {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  width: 140px;
-  display: block;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  font-size: 1em;
-  color: #777;
-  background: #fff;
-  border-radius: 2px;
-  outline: medium none;
-}
-
-#footer-nav form legend {
-  border: 0;
-  font-weight: 700;
-  margin: 0;
-  line-height: 100%;
-  padding-bottom: 15px;
-}
-
-/* Fim da customizacao dos forms */
-
-/* Inicio da barra social */
-
-#social_footer li {
-  float: left;
-}
-
-#social_footer span {
-  background-image: url("../img/sprite.png");
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 28px;
-  vertical-align: middle;
-  width: 25px;
-  text-indent: -9999em;
-}
-
-#social_footer #facebook {
-  background-position: -599px 0;
-}
-
-#social_footer #twitter {
-  background-position: -652px 0;
-}
-
-#social_footer #youtube {
-  background-position: -621px 0;
-}
-
-#social_footer #diario {
-  background-position: -627px -62px;
-  float: left;
-}
-
-/* Fim da barra social */
-
-/* Inicio dos apps mobile */
-
-.app-icone {
-  display: block;
-  height: 45px;
-  width: 118px;
-}
-
-#footer-nav section .box_content {
-  margin-top: 25px;
-  padding: 0;
-  float: left;
-}
-
-#footer-nav section .box_content a {
-  background: #363636;
-  border: 1px solid #727272;
-  padding: 10px 20px;
-  font-size: 0.93em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-/* Fim dos apps mobile */
-
-/* Inicio do rodape */
-
-.footer-texto {
-  background-color: #363636;
-  padding: 15px 0 0;
-}
-
-.logos, #logoPB {
-  height: 52px;
-  width: 184px;
-}
-
-#logoPB {
-  background: url("../img/sprite.png") no-repeat -193px 0 transparent;
-}
-
-.upper {
-    text-transform: uppercase;
-}
-
-#footer-nav .upper li a {
-  text-transform: uppercase;
-}
-
-.copyright {
-  background-color: #424242;
-  color: #787878;
-  font-size: 0.69em;
-  margin-top: 13px;
-  padding: 9px 0 6px 20px;
-  line-height: 100%;
-}
-
-/* Fim do rodape */
