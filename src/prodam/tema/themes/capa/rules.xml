@@ -63,6 +63,9 @@
         <!-- Footer -->
         <replace css:theme-children="#footer" css:content-children="#portal-footer" />
 
+
+        <after theme-children="/html/body" css:content-children="#plone-analytics" />
+
     </rules>
 
 </rules>
