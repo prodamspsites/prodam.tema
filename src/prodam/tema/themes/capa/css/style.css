@@ -32,14 +32,26 @@
   .container-wrapper {
     width: 300px;
   }
+
+  #footer-nav div section,
+  .footer-texto div section {
+    margin: 0 auto;
+  }
+
   #footer-nav div section .width-4 {
     width: 100%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #footer-nav div .last .last {
+    margin-bottom: 0;
   }
 
   #footer-nav div section {
     width: 100%;
+    margin: 0;
   }
 
   #footer-nav {
@@ -48,7 +60,12 @@
 
   #footer-nav div section strong,
   #footer-nav div section form legend {
-    font-size: 1.6em;
+    font-size: 1.9em;
+    line-height: 1.9em;
+  }
+
+  #footer-nav div section ul li {
+    font-size: 1.2em;
   }
 
   #footer-nav div section .social_footer li,
@@ -60,6 +77,11 @@
   #footer-nav section #bloco1 ul li strong {
     font-size: 1em;
   }
+
+  .footer-texto .copyright {
+    font-size: 1em;
+    padding-bottom: 0;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -69,6 +91,11 @@
     width: 420px;
   }
 
+  #footer-nav div section,
+  .footer-nav div section {
+    margin: 0;
+  }
+
   #footer-nav div section .width-4 {
     margin: 0 auto;
     width: 100%;
@@ -76,8 +103,8 @@
   }
 
   #footer-nav section strong, #footer-nav section form legend {
-    font-size: 20.8px;
-    line-height: 20.8px;
+    font-size: 1.9em;
+    line-height: 1.9em;
   }
 
   #footer-nav section ul li a, #footer-nav section ul li strong,
@@ -89,11 +116,13 @@
     margin: 20px 0;
   }
 
-  #footer-nav section .four.columns,
-  #footer-nav section .four.columns#bloco4 {
-    width: 172px;
-    display: block;
-    margin: 0 auto;
+  #footer-nav section:first-child #bloco4 ul,
+  #footer-nav section:first-child #bloco4 ul li {
+    float: none;
+  }
+
+  .footer-texto .copyright {
+    font-size: 1em;
   }
 
 }
@@ -159,42 +188,10 @@
     height: 40px;
   }
 
-  #footer-nav .container {
-    margin: 0 auto;
-    width: 768px;
-    padding-top: 15px;
-  }
-
-  #footer-nav section {
-    max-width: 768px;
-  }
-
-  #footer-nav section strong, #footer-nav section form legend {
-    font-size: 20.8px;
-    line-height: 20.8px;
-  }
-
-  #footer-nav section ul li a, #footer-nav section ul li strong,
-  #footer-nav section ul li span {
-    font-size: 15.6px;
-  }
-
-  .social_footer li, #bloco2 li, #bloco3 li {
-    margin: 20px 0;
-  }
-
-  #footer-nav section .four.columns,
-  #footer-nav section .four.columns#bloco4 {
-    width: 172px;
-    display: block;
-    margin: 0 auto;
-  }
-
 }
 
 @media only screen and (min-width : 768px) {
-  #footer-nav section {
-  }
+
 }
 
 /* ==========================================================================
@@ -584,11 +581,6 @@
 .footer-texto {
   background-color: #363636;
   padding: 15px 0 0;
-}
-
-.footer-texto .container {
-  width: 960px;
-  margin: 0 auto;
 }
 
 .logos, #logoPB {
