@@ -597,7 +597,7 @@ section.width-16, nav.width-16 {
   float: left;
 }
 
-#portal-header .logo h1 {
+#portal-header .logo h1 a {
   display: inline-block;
   height: 52px;
   margin-top: -12px;
