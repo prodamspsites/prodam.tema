@@ -4,6 +4,9 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Remove breadcrumbs [mosesjr]
+* Adiciona barra de administração [mosesjr]
+* Adapta css para mobile first [mosesjr]
 * Corrige meta tags do tema [dadlo]
 * Corrige inserção de javascript de analytics no tema [dadlo]
 * Ajusta regras de tema para collective.cover funcionar [dadlo]
