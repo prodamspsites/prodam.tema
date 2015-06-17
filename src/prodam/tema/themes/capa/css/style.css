@@ -284,67 +284,34 @@ section.width-16, nav.width-16 {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-  /*Header*/
-  .navbar .barra-cinza{
-    height: 65px;
-    padding: 0;
-  }
-  .navbar .barra-cinza #acesso{
-    padding: 0;
-    padding-top: 10px;
-    margin-left: 3px;
-  }
-  .navbar .barra-cinza #acesso a {
-    line-height: 19px
-  }
-  .navbar .barra-cinza #acesso .imgI{
-    margin-top: -27px;
-  }
-  .navbar .barra-cinza #acesso #transparenciasp{
-    margin-left: 0;
-    padding-top: 5px;
-    font-size: 0.90em;
-    width: 320px;
-  }
-  #portal-header .services #portal-siteactions{
-    width: 247px;
-    float: none;
-    padding-left: 0 !important;
-    padding-right: 40px;
-  }
-  #portal-header .services #portal-siteactions #siteaction-solicitar_servicos a{
-    background-image: none !important;
-  }
-  #portal-header .logo{
-    margin: 0 !important;
-    height: 52px;s
-  }
-  #portal-header .logo h1{
-    width: 182px !important;
-  }
-  #portal-header .sections{
-    width: 150px!important;
-    margin-left: 5px !important;
-  }
-  #portal-searchbox{
-    float: left !important;
-    margin: 22px 0 0 -10px !important;
-  }
-  /* Footer */
-  .container-wrapper {
-    width: 300px;
-  }
-
-  #footer-nav div section,
-  .footer-texto div section {
-    margin: 0 auto;
-  }
-
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+  /*Header*/
+  .navbar .barra-cinza .container-wrapper #acesso{
+    padding: 0;
+    width: 300px;
+    margin-left: 0;
+  }
+  .navbar .barra-cinza #acesso .imgI{
+    margin-top: -23px;
+  }
+  #portal-header .logo h1{
+    height: 50px !important;
+  }
+  #portal-header .services #portal-siteactions{
+   padding-right: 165px;
+   width: 277px !important;
+  }
+  #portal-header .services #portal-siteactions #siteaction-accessibility{
+    float: left;
+    margin-left: 1px;
+  }
+  #portal-header .sections{
+    width: 414px !important;
+  }
+  /*Footer*/
   .container-wrapper {
     width: 420px;
   }
@@ -366,6 +333,22 @@ section.width-16, nav.width-16 {
   #footer-nav section:first-child #bloco4 ul,
   #footer-nav section:first-child #bloco4 ul li {
     float: none;
+  }
+
+  #footer-nav div section, .footer-texto div section {
+    margin: 0 10px;
+  }
+  #footer-nav div section .first {
+    margin-left: 0;
+  }
+
+  #footer-nav div section .last {
+    margin-right: 0;
+  }
+
+  #footer-nav div section.last #bloco3 .lista li,
+  #footer-nav div section #bloco2 #social_footer li {
+    margin: 0;
   }
 
 }
@@ -438,61 +421,95 @@ section.width-16, nav.width-16 {
     width: 97.75%;
   }
 
+  .navbar .barra-cinza .container-wrapper #acesso{
+    width: 500px !important;
+    padding-top: 3px !important;
+    margin-left: 15px !important;
+    font-size: 0.8em;
+  }
+
+  .navbar .barra-cinza #acesso .imgI{
+    margin-top: -15px !important;
+    margin-left: 130px !important;
+  }
+  .services ul li {
+    display: inline-block;
+  }
+
+
+  #portal-header .services{
+    width: 768px;
+  }
+  #portal-header .services #portal-siteactions #siteaction-accessibility{
+    margin-left: 100px !important;
+  }
+  #portal-header .services #portal-siteactions #siteaction-solicitar_servicos{
+    float: right;
+  }
+  #portal-header .services #portal-siteactions
+  #siteaction-solicitar_servicos a {
+    background: url("../img/sprite.png") no-repeat scroll -621px -157px rgba(0, 0, 0, 0);
+    display: block;
+    height: 55px;
+    float: right;
+    width: 114px;
+    margin-bottom: -37px;
+    margin-top: -5px;
+    text-indent: -9999em;
+  }
+
+  #portal-header .logo {
+    margin-left: 10px;
+  }
+
+  .navbar .barra-cinza #acesso #transparenciasp{
+    margin-top: -5px;
+    margin-left: 40px !important;
+  }
+  #portal-header .container-wrapper .portal-header-inner .services #portal-siteactions{
+    padding-right: 0 !important;
+    float: right;
+    width: 456px !important;
+    display: inline-block;
+    line-height: 25px;
+  }
+  #portal-header .sections{
+    margin-top: 24px;
+  }
+  #portal-searchbox .LSBox #searchGadget{
+    height: 25px;
+  }
+  #portal-searchbox .LSBox .searchButton{
+    background-color: #ff0000;
+    height: 39px;
+  }
+
   #footer-nav div section .width-4 {
     margin: 0 10px;
     max-width:
   }
-
   .container-wrapper {
     min-width: 768px;
   }
 }
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-  /*Header*/
-  .navbar .barra-cinza{
-    height: 50px !important;
-    padding: 0.45em 0;
-  }
-  .navbar .barra-cinza #acesso{
-    padding: 0;
-    margin:3px 0 0 25px;
-  }
-  #portal-header .logo h1{
-    height: 50px !important;
-  }
-  #portal-header .services #portal-siteactions{
-   margin: 0 10px 30px 2px !important;
-   float: none !important;
-   padding-right: 165px;
-  }
-  #portal-header .sections{
-    width: 414px;
-  }
-  /*Footer*/
-  .container-wrapper {
-    width: 420px;
-  }
-  #footer-nav div section, .footer-texto div section {
-    margin: 0 10px;
-  }
-  #footer-nav div section .first {
-    margin-left: 0;
-  }
-
-  #footer-nav div section .last {
-    margin-right: 0;
-  }
-
-  #footer-nav div section.last #bloco3 .lista li,
-  #footer-nav div section #bloco2 #social_footer li {
-    margin: 0;
-  }
-
-}
-
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+  #portal-searchbox .LSBox #searchGadget{
+    height: auto;
+  }
+  #portal-searchbox .LSBox .searchButton{
+    height: 29px;
+  }
+  .container-wrapper .portal-header-inner #portal-searchbox{
+    margin-top: 47px !important;
+  }
+  #portal-header .services{
+    width: auto;
+  }
+  #portal-header .container-wrapper .portal-header-inner .services #portal-siteactions{
+    padding-left: 193px;
+  }
+
   #footer-nav section .width-4 {
     width: 23.5%;
   }
@@ -544,28 +561,6 @@ section.width-16, nav.width-16 {
 @media only screen and (min-width : 1200px) {
 
 }
-
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-
-  #portal-header .logo{
-    margin-left: 20px;
-    width: 100% !important;
-  }
-
-  #portal-header .sections{
-    margin: 0 0 0 -22px;
-    width: 100%;
-  }
-
-  #portal-header .portal-header-inner #portal-searchbox{
-    margin: 20px 0 0 15px;
-  }
-  #portal-searchbox #searchGadget{
-    padding: 7px 4px !important;
-  }
-
-
-}
 /* ==========================================================================
    Cabeçalho do Portal
    ========================================================================== */
@@ -584,90 +579,122 @@ section.width-16, nav.width-16 {
   max-width: 960px;
 }
 /* Barra de serviços */
-
 #portal-header .services {
   position: relative;
 }
 
+/*Header*/
+.navbar .barra-cinza{
+  height: 71px;
+  padding: 0;
+  background: none repeat scroll 0 0 #646464;
+}
+
+.bold {
+  font-weight: 700;
+}
+.em09 {
+  font-size: 0.9em;
+  line-height: 1.1em;
+}
+.navbar .barra-cinza .container{
+  padding-left: 1.7em;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+.navbar .container:after{
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+#acesso .four a {
+  font-size:0.9em;
+}
+.upper {
+  text-transform: uppercase;
+}
+.navbar .barra-cinza #acesso{
+  padding: 0;
+  padding-top: 10px !important;
+  margin-left: 5px;
+}
+.navbar .barra-cinza #acesso a {
+  line-height: 23px;
+  font-size:1.0em;
+  color: #cacaca;
+  display: inline-block;
+  float: left;
+}
+.navbar .barra-cinza #acesso .imgI{
+  background: url("../img/sprite.png") repeat scroll -374px 0;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  margin: -30px 0 0 165px;
+}
+.navbar .barra-cinza #acesso #transparenciasp{
+  margin-left: 0;
+  padding-top: 5px;
+  font-size: 1.0em;
+}
+#portal-header .services {
+  position: relative;
+}
 #portal-header .services #portal-siteactions {
-  float: right;
   border-bottom: 1px solid #363636;
   font-size: 0.8em;
   font-weight: 700;
-  padding-left: 334px;
   position: relative;
   padding-top: 5px;
-  margin: 0 10px 30px;
   height: 0px;
 }
 
-#portal-header .services #portal-siteactions #siteaction-accessibility{
-  margin-right: 15px;
-}
-#portal-header .services #portal-siteactions #siteaction-prefeitura-aaz{
-  margin-right: 17px;
-  margin-top: 1px;
-}
-
-#portal-header .services #portal-siteactions li {
-  display: inline-block;
-  line-height: 18px;
-  margin: 0px;
+#portal-header .services #portal-siteactions li{
+  margin: 0;
 }
 
 #portal-header .services #portal-siteactions li a,
 #portal-header .services #portal-siteactions li a:visited {
   color: #333333;
 }
-
 #portal-header .services #portal-siteactions
 #siteaction-solicitar_servicos {
   text-transform: uppercase;
   position: relative;
-
 }
-
 #portal-header .services #portal-siteactions
 #siteaction-solicitar_servicos a {
-  background: url("../img/sprite.png") no-repeat scroll -621px -157px rgba(0, 0, 0, 0);
   display: block;
-  height: 55px;
-  float: right;
-  width: 114px;
-  margin-bottom: -37px;
-  margin-top: -19px;
   text-indent: -9999em;
-  }
+}
 
-/* Fim da barra de serviços */
 
-/* Logo */
+  /* Logo */
 
 #portal-header .logo {
   width:220px;
   display: inline-block;
   float: left;
-  margin-left: 10px;
+  height: 52px;
+  margin-top: 18px;
 }
 
 #portal-header .logo h1 {
   display: inline-block;
   height: 52px;
-  margin-top: -12px;
-  width: 184px;
+  width: 182px;
   background-image: url("../img/sprite.png");
   text-indent: -9999em;
 }
 
-/* Fim do logo */
-
-/* Navegaçao global (seçoes) */
-
 #portal-header .sections {
   float: left;
-  margin:-6px  0 0 20px;
+  margin-left:5px;
+  width: 150px;
 }
-
 #portal-header #portal-globalnav {
   position: relative;
   font-size: 1.7em;
@@ -706,7 +733,6 @@ section.width-16, nav.width-16 {
 #portal-header #portal-globalnav #portaltab-cidadao:before {
   border-left: 7px solid #01A4B7;
 }
-
 #portal-header #portal-globalnav #portaltab-cidadao a:hover {
   color:#01a4b7;
 }
@@ -731,14 +757,13 @@ section.width-16, nav.width-16 {
 
 #portal-header #portal-globalnav #portaltab-turista a:hover {
   color: #919e02;
-
 }
-/* Fim da navegaçao global */
+  /* Search Box */
 
-/* Search Box */
-
-#portal-searchbox {
-  padding-top: 1px;
+.container-wrapper .portal-header-inner #portal-searchbox {
+  padding-top:1px;
+  float: left;
+  margin: 22px 0 0 -10px;
 }
 
 #portal-searchbox fieldset {
@@ -763,7 +788,7 @@ section.width-16, nav.width-16 {
   width: 32px;
   margin-top: 1px;
 }
-/* Fim Search Box*/
+  /* Fim Search Box*/
 
 /* ==========================================================================
    Rodape do Portal
