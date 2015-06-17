@@ -699,6 +699,7 @@ section.width-16, nav.width-16 {
 
 #content{
   float: left;
+  width: 100%;
 }
 #left-column{
   float: left;
