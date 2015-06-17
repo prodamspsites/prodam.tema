@@ -682,7 +682,7 @@ section.width-16, nav.width-16 {
   margin-top: 18px;
 }
 
-#portal-header .logo h1 {
+#portal-header .logo h1 a {
   display: inline-block;
   height: 52px;
   width: 182px;
@@ -914,6 +914,7 @@ section.width-16, nav.width-16 {
 
 #social_footer li {
   float: left;
+  width: 100%;
 }
 
 #social_footer span {
