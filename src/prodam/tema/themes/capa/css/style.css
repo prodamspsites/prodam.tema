@@ -289,14 +289,6 @@ section.width-16, nav.width-16 {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
   /*Header*/
-  .navbar .barra-cinza .container-wrapper #acesso{
-    padding: 0;
-    width: 300px;
-    margin-left: 0;
-  }
-  .navbar .barra-cinza #acesso .imgI{
-    margin-top: -23px;
-  }
   #portal-header .logo h1{
     height: 50px !important;
   }
@@ -421,17 +413,7 @@ section.width-16, nav.width-16 {
     width: 97.75%;
   }
 
-  .navbar .barra-cinza .container-wrapper #acesso{
-    width: 500px !important;
-    padding-top: 3px !important;
-    margin-left: 15px !important;
-    font-size: 0.8em;
-  }
-
-  .navbar .barra-cinza #acesso .imgI{
-    margin-top: -15px !important;
-    margin-left: 130px !important;
-  }
+  /* Header */
   .services ul li {
     display: inline-block;
   }
@@ -462,10 +444,6 @@ section.width-16, nav.width-16 {
     margin-left: 10px;
   }
 
-  .navbar .barra-cinza #acesso #transparenciasp{
-    margin-top: -5px;
-    margin-left: 40px !important;
-  }
   #portal-header .container-wrapper .portal-header-inner .services #portal-siteactions{
     padding-right: 0 !important;
     float: right;
@@ -482,6 +460,22 @@ section.width-16, nav.width-16 {
   #portal-searchbox .LSBox .searchButton{
     background-color: #ff0000;
     height: 39px;
+  }
+
+  /* Footer */
+  #footer-nav section.first #bloco1 ul li strong {
+    font-size: 0.93em;
+  }
+
+  .footer-texto .copyright {
+    font-size: 0.69em;
+    padding: 9px 0 6px 20px;
+  }
+
+  #footer-nav div section .social_footer li,
+  #footer-nav div section  #bloco2 li,
+  #footer-nav div section  #bloco3 li {
+    margin: 0;
   }
 
   #footer-nav section .width-4 {
@@ -532,30 +526,7 @@ section.width-16, nav.width-16 {
     font-size: 1em;
   }
 }
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-  /*Header*/
-  .navbar .barra-cinza{
-    height: 31px !important;
-  }
 
-  #footer-nav section.first #bloco1 ul li strong {
-    font-size: 0.93em;
-  }
-
-  .footer-texto .copyright {
-    font-size: 0.69em;
-    padding: 9px 0 6px 20px;
-  }
-
-  #footer-nav div section .social_footer li,
-  #footer-nav div section  #bloco2 li,
-  #footer-nav div section  #bloco3 li {
-    margin: 0;
-  }
-
-
-}
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
@@ -583,64 +554,6 @@ section.width-16, nav.width-16 {
   position: relative;
 }
 
-/*Header*/
-.navbar .barra-cinza{
-  height: 71px;
-  padding: 0;
-  background: none repeat scroll 0 0 #646464;
-}
-
-.bold {
-  font-weight: 700;
-}
-.em09 {
-  font-size: 0.9em;
-  line-height: 1.1em;
-}
-.navbar .barra-cinza .container{
-  padding-left: 1.7em;
-  position: relative;
-  margin: 0 auto;
-  padding: 0;
-}
-.navbar .container:after{
-  clear: both;
-  content: " ";
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-#acesso .four a {
-  font-size:0.9em;
-}
-.upper {
-  text-transform: uppercase;
-}
-.navbar .barra-cinza #acesso{
-  padding: 0;
-  padding-top: 10px !important;
-  margin-left: 5px;
-  width: 240px;
-}
-.navbar .barra-cinza #acesso a {
-  line-height: 23px;
-  font-size:1.0em;
-  color: #cacaca;
-  display: inline-block;
-  float: left;
-}
-.navbar .barra-cinza #acesso .imgI{
-  background: url("../img/sprite.png") repeat scroll -374px 0;
-  width: 26px;
-  height: 26px;
-  position: absolute;
-  margin: -30px 0 0 165px;
-}
-.navbar .barra-cinza #acesso #transparenciasp{
-  margin-left: 0;
-  padding-top: 5px;
-  font-size: 1.0em;
-}
 #portal-header .services {
   position: relative;
 }
