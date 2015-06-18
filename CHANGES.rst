@@ -4,6 +4,7 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Move css da barra cinza para o main.css [mosesjr]
 * Remove barra cinza do theme.html [mosesjr]
 * Estiliza header responsivo [wblima]
 * Corrige largura das visões de Capa [dadlo]
