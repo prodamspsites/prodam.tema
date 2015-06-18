@@ -1009,8 +1009,18 @@ section.width-16, nav.width-16 {
 }
 
 /* Fim do rodape */
-#barra-titulo{
+
+.portletWrapper{
+  margin-top: 145px;
+}
+.titulo_principal{
   width: 940px ;
   height: 57px;
   background:url("../img/bg-checkers.png") repeat 0 0 transparent;
+}
+.titulo_principal h1{
+  color: #fff;
+  padding-left:29px;
+  line-height: 50px;
+
 }
