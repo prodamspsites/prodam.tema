@@ -29,6 +29,8 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
@@ -51,26 +53,6 @@
 /* ==========================================================================
    Barra Cinza do Topo
    ========================================================================== */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-  .full-cinza{
-    height: 50px;
-  }
-  #acesso{
-    width: 100%;
-    line-height: 35px;
-    margin: 5px 0 0 20px;
-  }
-  #acesso a{
-    font-size: 1.0em;
-  }
-  #acesso #trnsp{
-    width: 333px;
-  }
-  .theI{
-    margin: -27px 0 0 162px !important;
-  }
-}
-
 html body{
   font-family: "HelveticaNeue",Helvetica,"Helvetica Neue",Tahoma,sans-serif;
   font-size: 100%;
@@ -87,26 +69,29 @@ a {
 .bold {
   font-weight: 700;
 }
-.full-cinza{
+.barra-cinza{
   background: none repeat scroll 0 0 #646464;
 }
-.navbar .full, .navbar .full-cinza, .navbar .full-preto {
+.container{
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+.navbar .full, .navbar .barra-cinza, .navbar .full-preto {
   clear: both;
   display: block;
   margin: 0;
-  padding: 0.5em 0;
+  padding: 0.5em;
   position: relative;
-   width: 100%;
+  width: 100%;
+  height: 15px;
 }
 .em09 {
   font-size: 0.9em;
   line-height: 1.1em;
 }
-.navbar .container {
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  width: 960px;
+.navbar .barra-cinza .container{
+  padding-left: 1.7em;
 }
 .navbar .container:after{
   clear: both;
@@ -119,32 +104,17 @@ a {
 #acesso a{
   color: #cacaca;
   display: inline-block;
-  vertical-align: bottom;
+  float: left;
 }
 #acesso .four a {
   font-size:0.9em;
 }
-
-.navbar .container .four.columns{
-  width: 220px;
-}
-.navbar .container .column, .navbar .container .columns {
-  display: inline;
-  float: left;
-  margin-right: 20px;
-}
-
-.theI{
+.imgI{
   background: url("../img/sprite.png") repeat scroll -374px 0;
   width: 26px;
   height: 26px;
   position: absolute;
   margin: -13px 0 0 145px;
-}
-
-#trnsp{
-  font-size: 12px;
-  padding-top: 3px;
 }
 .upper {
   text-transform: uppercase;
