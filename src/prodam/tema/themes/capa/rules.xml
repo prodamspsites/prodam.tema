@@ -9,6 +9,7 @@
         <theme href="theme.html" />
 
         <!-- Header -->
+        <replace css:theme-children=".navbar" css:content=".barra-cinza" />
         <drop css:content="#portal-breadcrumbs" />
         <replace css:content="#portal-personaltools" css:theme="#portal-personaltools" />
         <drop css:theme="#portal-personaltools" css:if-content="body.userrole-anonymous" />

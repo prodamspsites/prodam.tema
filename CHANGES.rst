@@ -4,6 +4,8 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Remove borda de sprite de lupa [dadlo]
+* Remove barra cinza do theme.html [mosesjr]
 * Estiliza header responsivo [wblima]
 * Corrige largura das visões de Capa [dadlo]
 * Remove breadcrumbs [mosesjr]

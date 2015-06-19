@@ -150,7 +150,7 @@ section.width-16, nav.width-16 {
   background-color: #424242;
   color: #787878;
   margin-top: 13px;
-  padding: 9px 0 0 20px;
+  padding: 9px 0 6px 20px;
   line-height: 100%;
   font-size: 1em;
 }
@@ -484,7 +484,7 @@ section.width-16, nav.width-16 {
     height: 39px;
   }
 
-  #footer-nav div section .width-4 {
+  #footer-nav section .width-4 {
     margin: 0 10px;
     max-width:
   }
@@ -620,6 +620,7 @@ section.width-16, nav.width-16 {
   padding: 0;
   padding-top: 10px !important;
   margin-left: 5px;
+  width: 240px;
 }
 .navbar .barra-cinza #acesso a {
   line-height: 23px;
@@ -693,7 +694,7 @@ section.width-16, nav.width-16 {
 #portal-header .sections {
   float: left;
   margin-left:5px;
-  width: 150px;
+  width: 240px;
 }
 #portal-header #portal-globalnav {
   position: relative;
@@ -794,6 +795,7 @@ section.width-16, nav.width-16 {
   float: left;
 }
 
+<<<<<<< HEAD
 /* ==========================================================================
    Rodape do Portal
    ========================================================================== */
