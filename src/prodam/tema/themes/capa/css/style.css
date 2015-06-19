@@ -350,7 +350,14 @@ section.width-16, nav.width-16 {
   #footer-nav div section #bloco2 #social_footer li {
     margin: 0;
   }
-
+  .template-noticias_view #portal-column-two{
+    width: 90.33% !important;
+    margin-left: 22.5px !important;
+  }
+  .template-noticias_view div.position-0{
+    width: 90.33% !important;
+    margin-left: -94.875% !important;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -491,6 +498,26 @@ section.width-16, nav.width-16 {
   .container-wrapper {
     min-width: 768px;
   }
+  /*View de Notícias */
+
+  .template-noticias_view div.position-0{
+    margin-left: -98.875% !important;
+
+  }
+  .template-noticias_view dl.portletCalendar{
+    margin-top: 115px;
+  }
+  .template-noticias_view #portal-column-content{
+    width: 60.417% !important;
+  }
+  .template-noticias_view #portal-column-two{
+    width: 35.417% !important;
+    margin-left: 64.41% !important;
+    clear: none !important;
+    padding-left: 0;
+
+  }
+  /*fim view de notícias*/
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
@@ -1012,16 +1039,16 @@ section.width-16, nav.width-16 {
 
 /* Fim do rodape */
 
-/*View de Notícias */
-.template-noticias_view dl.portletCalendar{
-  margin-top: 160px;
+/*View de notícias*/
+.template-noticias_view #content{
+  margin: 0;
 }
 .template-noticias_view #content h1,
 .template-noticias_view #content h2{
   letter-spacing: 0;
 }
 .template-noticias_view #content .titulo_principal{
-  width: 940px ;
+  width: 100%;
   height: 57px;
   background:url("../img/bg-checkers.png") repeat 0 0 transparent;
 }
@@ -1032,14 +1059,15 @@ section.width-16, nav.width-16 {
   font-size: 1.954em;
 }
 .template-noticias_view #portal-column-content{
-  width: 60.417%;
+  width: 100%;
 }
 .template-noticias_view #portal-column-two{
-  width: 35.417%;
-  margin-left: -350px;
-}
-.template-noticias_view #content{
-  margin: 0;
+  width: 100%;
+  left: 0px;
+  margin-left: 0;
+  float: left;
+  display: inline;
+  clear: both;
 }
 .template-noticias_view #content article header .btn_voltar{
   display: block;
@@ -1064,7 +1092,7 @@ section.width-16, nav.width-16 {
 .template-noticias_view #content article header h1{
   margin-bottom: 10px;
   line-height: 35px;
-  font-size: 2.2em;
+  font-size: 2.25em;
 }
 .template-noticias_view #content article header h2{
   font-style: italic;
@@ -1079,6 +1107,9 @@ section.width-16, nav.width-16 {
   border-top: 1px #979797 solid;
   border-bottom: 1px #979797 solid;
 }
+.template-noticias_view #content article div{
+  text-align: justify;
+}
 .template-noticias_view #content article div p a{
   color: red;
   border:none;
@@ -1087,4 +1118,4 @@ section.width-16, nav.width-16 {
 .template-noticias_view dl.portlet a:hover{
   color: red !important;
 }
-/*fim view de notícias*/
+
