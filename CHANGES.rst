@@ -4,6 +4,7 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Remove borda de sprite de lupa [dadlo]
 * Corrige meta tags do tema [dadlo]
 * Corrige inserção de javascript de analytics no tema [dadlo]
 * Ajusta regras de tema para collective.cover funcionar [dadlo]
