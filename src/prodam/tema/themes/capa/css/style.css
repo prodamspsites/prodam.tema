@@ -284,6 +284,19 @@ section.width-16, nav.width-16 {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
+  div#portal-searchbox {
+    float: left;
+  }
+
+  #portal-searchbox .searchButton{
+    float: right;
+    background: url("../img/sprite4.png") no-repeat scroll -511px -108px #f00;
+    border: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 0;
+    margin: 1px 0 0 1px;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -308,6 +321,7 @@ section.width-16, nav.width-16 {
     float: left;
     margin-left: 1px;
   }
+
   #portal-header .sections{
     width: 414px !important;
   }
@@ -443,6 +457,12 @@ section.width-16, nav.width-16 {
     display: inline-block;
   }
 
+  #portal-searchbox .searchButton {
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    background-position: -508px -105px;
+  }
 
   #portal-header .services{
     width: 768px;
@@ -486,10 +506,6 @@ section.width-16, nav.width-16 {
   #portal-searchbox .LSBox #searchGadget{
     height: 25px;
   }
-  #portal-searchbox .LSBox .searchButton{
-    background-color: #ff0000;
-    height: 39px;
-  }
 
   #footer-nav section .width-4 {
     margin: 0 10px;
@@ -524,12 +540,17 @@ section.width-16, nav.width-16 {
   #portal-searchbox .LSBox #searchGadget{
     height: auto;
   }
-  #portal-searchbox .LSBox .searchButton{
-    height: 29px;
+
+  #portal-searchbox .searchButton{
+    float: right;
+    background-position: -511px -108px;
+    border: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 0;
+    margin: 1px 0 0 1px;
   }
-  .container-wrapper .portal-header-inner #portal-searchbox{
-    margin-top: 47px !important;
-  }
+
   #portal-header .services{
     width: auto;
   }
@@ -700,8 +721,7 @@ section.width-16, nav.width-16 {
 }
 
 
-  /* Logo */
-
+/* Logo */
 #portal-header .logo {
   width:220px;
   display: inline-block;
@@ -786,17 +806,21 @@ section.width-16, nav.width-16 {
 #portal-header #portal-globalnav #portaltab-turista a:hover {
   color: #919e02;
 }
-  /* Search Box */
 
+/* Search Box */
 .container-wrapper .portal-header-inner #portal-searchbox {
   padding-top:1px;
-  float: left;
-  margin: 22px 0 0 -10px;
+  margin: 33px 0 0 36px;
+}
+
+nav #portal-searchbox form {
+  white-space: unset;
 }
 
 #portal-searchbox fieldset {
   border: 0;
-  margin: -15px 15px 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 #portal-searchbox #searchGadget{
@@ -808,15 +832,8 @@ section.width-16, nav.width-16 {
   height: auto;
   margin-top: 1px;
 }
-#portal-searchbox .searchButton{
-  float: right;
-  background: url("../img/sprite4.png") no-repeat scroll -511px -108px rgba(0, 0, 0, 0);
-  border: 0;
-  height: 32px;
-  width: 32px;
-  margin-top: 1px;
-}
-  /* Fim Search Box*/
+
+/* Fim Search Box*/
 
 #left-column{
   float: left;
