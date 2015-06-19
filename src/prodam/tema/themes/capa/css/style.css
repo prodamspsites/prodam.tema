@@ -454,7 +454,7 @@ section.width-16, nav.width-16 {
     border-radius: 2px;
     height: 40px;
     width: 40px;
-    background: #f00 url("../img/sprite4.png") no-repeat scroll -508px -105px;
+    background-position: -508px -105px;
   }
 
   #portal-header .services{
@@ -516,7 +516,7 @@ section.width-16, nav.width-16 {
 
   #portal-searchbox .searchButton{
     float: right;
-    background: url("../img/sprite4.png") no-repeat scroll -511px -108px #f00;
+    background-position: -511px -108px;
     border: 0;
     height: 30px;
     width: 30px;
