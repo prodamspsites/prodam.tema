@@ -9,10 +9,12 @@
         <theme href="theme.html" />
 
         <!-- Header -->
-        <drop css:theme="#portal-personaltools" css:if-content="body.userrole-anonymous" />
+        <replace css:theme-children=".navbar" css:content=".barra-cinza" />
+        <drop css:content="#portal-breadcrumbs" />
         <replace css:content="#portal-personaltools" css:theme="#portal-personaltools" />
+        <drop css:theme="#portal-personaltools" css:if-content="body.userrole-anonymous" />
         <replace css:theme=".services ul" css:content="#portal-siteactions" />
-        <replace css:theme=".logo h1" css:content="#portal-logo" />
+        <replace css:theme-children=".logo" css:content="#portal-title" />
         <replace css:theme-children=".sections" css:content="#portal-globalnav" />
         <replace css:theme-children="#portal-searchbox" css:content-children="#portal-searchbox" />
 
