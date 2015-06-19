@@ -1010,17 +1010,79 @@ section.width-16, nav.width-16 {
 
 /* Fim do rodape */
 
-.portletWrapper{
-  margin-top: 145px;
+/*View de Notícias */
+.template-noticias_view dl.portletCalendar{
+  margin-top: 160px;
 }
-.titulo_principal{
+.template-noticias_view #content h1,
+.template-noticias_view #content h2{
+  letter-spacing: 0;
+}
+.template-noticias_view #content .titulo_principal{
   width: 940px ;
   height: 57px;
   background:url("../img/bg-checkers.png") repeat 0 0 transparent;
 }
-.titulo_principal h1{
+.template-noticias_view #content .titulo_principal h1{
   color: #fff;
-  padding-left:29px;
+  padding-left: 29px;
   line-height: 50px;
-
+  font-size: 1.954em;
 }
+.template-noticias_view #portal-column-content{
+  width: 60.417%;
+}
+.template-noticias_view #portal-column-two{
+  width: 35.417%;
+  margin-left: -350px;
+}
+.template-noticias_view #content{
+  margin: 0;
+}
+.template-noticias_view #content article header .btn_voltar{
+  display: block;
+  border-bottom: 1px #ccc solid;
+  text-align: center;
+  width: 115px;
+  padding: 5px;
+  position: relative;
+  clear: both;
+  margin: 5px 0 20px;
+}
+.template-noticias_view #content article header .btn_voltar a{
+  color: #333;
+  border:0;
+}
+.template-noticias_view #content article header .btn_voltar a span{
+  background:url("../img/sprite5.png") no-repeat -440px -23px;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+.template-noticias_view #content article header h1{
+  margin-bottom: 10px;
+  line-height: 35px;
+  font-size: 2.2em;
+}
+.template-noticias_view #content article header h2{
+  font-style: italic;
+  font-size: 1.25em;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #181818;
+}
+.template-noticias_view #content article .noticias_media{
+  padding: 5px 0 2px;
+  margin: 20px 0 10px 0;
+  border-top: 1px #979797 solid;
+  border-bottom: 1px #979797 solid;
+}
+.template-noticias_view #content article div p a{
+  color: red;
+  border:none;
+}
+.template-noticias_view #content a:hover,
+.template-noticias_view dl.portlet a:hover{
+  color: red !important;
+}
+/*fim view de notícias*/
