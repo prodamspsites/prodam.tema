@@ -5,6 +5,7 @@ Histórico de Alterações
 ^^^^^^^^^^^^^^^^^^
 
 * Move css da barra cinza para o main.css [mosesjr]
+* Remove borda de sprite de lupa [dadlo]
 * Remove barra cinza do theme.html [mosesjr]
 * Estiliza header responsivo [wblima]
 * Corrige largura das visões de Capa [dadlo]
