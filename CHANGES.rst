@@ -3,7 +3,12 @@ Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
+<<<<<<< HEAD
 * Estiliza pagina de notícias responsivo [wblima]
+=======
+
+* Move css da barra cinza para o main.css [mosesjr]
+* Esitiliza pagina de notícias com responsividade [wblima]
 * Remove borda de sprite de lupa [dadlo]
 * Remove barra cinza do theme.html [mosesjr]
 * Estiliza header responsivo [wblima]
