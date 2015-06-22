@@ -7,6 +7,7 @@ Histórico de Alterações
 * Estiliza pagina de notícias responsivo [wblima]
 =======
 
+* Remove viewlet documentbyline [mosesjr]
 * Move css da barra cinza para o main.css [mosesjr]
 * Esitiliza pagina de notícias com responsividade [wblima]
 * Remove borda de sprite de lupa [dadlo]

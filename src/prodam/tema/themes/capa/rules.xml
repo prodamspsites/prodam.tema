@@ -11,6 +11,7 @@
         <!-- Header -->
         <replace css:theme-children=".navbar" css:content=".barra-cinza" />
         <drop css:content="#portal-breadcrumbs" />
+        <drop css:content=".documentByLine" />
         <replace css:content="#portal-personaltools" css:theme="#portal-personaltools" />
         <drop css:theme="#portal-personaltools" css:if-content="body.userrole-anonymous" />
         <replace css:theme=".services ul" css:content="#portal-siteactions" />
