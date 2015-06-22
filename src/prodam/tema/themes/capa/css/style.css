@@ -125,7 +125,6 @@ section.width-16, nav.width-16 {
 
 #footer-nav ul li span {
   display: block;
-  font-size: ;
   font-weight: 700;
   color: #B7B7B7;
 }
@@ -807,6 +806,11 @@ nav #portal-searchbox form {
 }
 
 /* Fim Search Box*/
+
+#content .contentBody {
+  font-size: 1.04em;
+  line-height: 130%;
+}
 
 #left-column{
   float: left;
