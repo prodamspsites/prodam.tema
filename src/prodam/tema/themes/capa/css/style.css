@@ -518,9 +518,6 @@ section.width-16, nav.width-16 {
   .template-noticias_view div.position-0{
     margin-left: -99.875% !important;
   }
-  .template-noticias_view dl.portletCalendar{
-    margin-top: 115px;
-  }
   .template-noticias_view.userrole-authenticated #plone-content #portal-columns{
     background-position: 0 56px !important;
   }
@@ -532,6 +529,7 @@ section.width-16, nav.width-16 {
     margin-left: 64.41% !important;
     clear: none !important;
     padding-left: 0;
+    padding-top: 125px;
   }
   /*fim view de notícias*/
 }
