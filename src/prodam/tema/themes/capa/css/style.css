@@ -482,6 +482,7 @@ section.width-16, nav.width-16 {
   }
   #portal-header .sections{
     margin-top: 24px;
+    margin-left: 20px !important;
   }
   #portal-searchbox .LSBox #searchGadget{
     height: 25px;
@@ -1068,11 +1069,17 @@ nav #portal-searchbox form {
   margin-top: -45px;
   margin-right: 40px;
 }
-  .social_share{
+.template-noticias_view #content .noticias_media .social_share{
     float: right;
-  }
-#viewlet-social-like > div{
-  margin-right: 100px !important;
+}
+.sociallike-network-gplus{
+  margin-left: -9px;
+}
+.template-noticias_view #content .noticias_media #viewlet-social-like > div{
+  margin-right: 5px !important;
+}
+.template-noticias_view #content .noticias_media #viewlet-social-like iframe{
+  width: 106px !important;
 }
 .template-noticias_view #content .noticias_media .noticias_media_col2{
   height: 25px;

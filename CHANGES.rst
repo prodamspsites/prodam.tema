@@ -7,6 +7,7 @@ Histórico de Alterações
 * Estiliza pagina de notícias responsivo [wblima]
 =======
 
+* Estiliza barra de social media da pagina de notícia [wblima]
 * Remove viewlet documentbyline [mosesjr]
 * Move css da barra cinza para o main.css [mosesjr]
 * Esitiliza pagina de notícias com responsividade [wblima]
