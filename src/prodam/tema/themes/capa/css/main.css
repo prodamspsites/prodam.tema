@@ -53,17 +53,19 @@
   }
 
   .navbar .barra-cinza #acesso .imgI{
-    margin-top: -15px !important;
-    margin-left: 130px !important;
+    margin-top: -16px !important;
+    margin-left: 145px !important;
   }
 
   .navbar .barra-cinza #acesso #transparenciasp{
-    margin-top: -5px;
-    margin-left: 40px !important;
+    margin-top: -2px;
+    margin-left: 90px !important;
+    font-size: 0.78em !important;
   }
 
   .navbar .barra-cinza{
     height: 31px !important;
+    font-size: 1.2em;
   }
 }
 
@@ -168,10 +170,8 @@ a {
   clear: both;
   display: block;
   margin: 0;
-  padding: 0.5em;
   position: relative;
   width: 100%;
-  height: 15px;
 }
 .em09 {
   font-size: 0.9em;
