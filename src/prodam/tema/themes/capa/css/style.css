@@ -1036,7 +1036,7 @@ nav #portal-searchbox form {
   font-size: 1.954em;
 }
 .template-noticias_view.userrole-authenticated #content .titulo_principal h1{
-  line-height: 50px;
+  margin-top: 40px;
 }
 .template-noticias_view .width-full,
 .template-noticias_view .width-3\3a 4{
