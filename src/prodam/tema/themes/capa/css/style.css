@@ -34,13 +34,15 @@
   margin-left: -100%;
   clear: both;
 }
-
 /* Estilo para Lista de Letras A a Z */
 .AaZLista li {
   float: left;
   padding-right: 13px;
   font-size: 0.94em;
   font-weight: 600;
+}
+.template-compose .tile .AaZLetraLista li{
+  float: none !important;
 }
 #content .AaZLista li a {
   color: #333;
