@@ -4,6 +4,7 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Estiliza capa AaZ responsiva [wblima]
 * Adiciona estilo para capa AaZ [dadlo]
 * Adiciona estilo para páginas [dadlo]
 * Remove viewlet documentbyline [mosesjr]
