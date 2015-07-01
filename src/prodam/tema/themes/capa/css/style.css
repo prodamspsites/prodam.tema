@@ -20,6 +20,172 @@
  * http://jigsaw.w3.org/css-validator/
  */
 
+/* ==========================================================================
+   Estilos de tiles de Capa
+   ========================================================================== */
+
+/* Estilo para Capas */
+.portaltype-collective-cover-content #content {
+    margin: 0;
+}
+
+.portaltype-collective-cover-content #content .position-0 {
+    margin-left: -100%;
+}
+
+/* Estilo para Lista de Letras A a Z */
+.AaZLista li {
+    float: left;
+    padding-right: 13px;
+    font-size: 0.94em;
+    font-weight: 600;
+}
+#content .AaZLista li a {
+    color: #333;
+    border-bottom: none;
+}
+#content .AaZLista {
+    list-style: outside none none;
+    background: #E9E9E9;
+    float: left;
+    padding: 5px 0px 2px 12px;
+    margin: 0 0 20px 0;
+}
+.AaZLetra {
+    clear:both;
+}
+
+/* Estilo para Letras da Lista de A a Z */
+
+#content .AaZLetra {
+    border-bottom: 1px solid #F00;
+    margin-bottom: 20px;
+}
+
+#content .AaZLetra h2 {
+    background: #F00 none repeat scroll 0% 0%;
+    color: #FFF;
+    font-size: 2.2em;
+    font-weight: 700;
+    padding: 6px 0px;
+    margin-top: 20px;
+    text-align: center;
+    width: 52px;
+}
+
+/* Estilo para Lista de Itens de Casa Letra de A a Z */
+
+#content .AaZLetraLista {
+    list-style: none;
+    margin: 0;
+}
+
+#content .AaZLetraLista li {
+    float: left;
+    width: 32%;
+    padding-right: 1%;
+}
+
+#content .AaZLetraLista li a {
+    font-size: 0.86em;
+    font-weight: 700;
+    line-height: normal;
+    margin: 12px 0px 0px;
+    min-height: 55px;
+    width: 100%;
+    text-decoration: underline;
+    color: #333;
+    border-bottom: none;
+    display: block;
+}
+
+#content .AaZLetraLista li a:hover {
+    color: #000 !important;
+}
+
+/* Estilo do titulo Mais Buscados */
+
+#content .maisBuscadosTitulo {
+    font-size: 1.4em;
+    display: block;
+    border-bottom: 3px double #000;
+    font-weight: bold;
+    margin: 10px 0px 1.1em;
+    padding: 0px 0px 16px;
+}
+
+#content .maisBuscadosLupa {
+    background: transparent url("../img/sprite.png") no-repeat scroll -334px -87px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#content .maisBuscadosLista {
+    list-style: none;
+    margin-left: 0;
+}
+
+#content .maisBuscadosLista span {
+    background: #373737 none repeat scroll 0% 0%;
+    color: #FFF;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    width: 15px;
+    transition: #EDEDED 0.2s linear 0s;
+}
+
+#content .maisBuscadosLista span:hover {
+  background-color: #f00;
+}
+
+#content .maisBuscadosLista a,
+#content .maisBuscadosLista a:hover, {
+    text-decoration: none;
+    color: #FFF !important;
+}
+
+#content .maisBuscadosLista li a:link {
+    color: #333;
+    border-bottom: none;
+}
+
+#content .maisBuscadosLista li a:hover,
+#content .maisBuscadosLista li a:focus {
+    color: #000 !important;
+}
+
+#content .maisBuscadosLista li {
+    margin: 10px 0px;
+}
+
+/* Estilo do titulo header A a Z */
+
+#content .headerAaZ {
+    background: transparent url("../img/bg-checkers.png") repeat scroll 0px 0px;
+    display: block;
+    height: 57px;
+    margin: 0px auto 20px;
+    padding: 0px;
+}
+
+#content .headerAaZ  .documentFirstHeading {
+    background: transparent url("../img/header-page.png") no-repeat scroll 0px -195px;
+    color: #FFF;
+    padding-left: 28px;
+    line-height: 27px;
+    font-size: 1.954em;
+    padding-top: 14px;
+    height: 57px;
+}
+
+body #content div.width-16 {
+    width: 100%;
+}
+
 
 /* Reset - Grid plone */
 body div.width-1, header.width-1,
