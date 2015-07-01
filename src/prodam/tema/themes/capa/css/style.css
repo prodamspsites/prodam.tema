@@ -20,6 +20,126 @@
  * http://jigsaw.w3.org/css-validator/
  */
 
+
+/* ==========================================================================
+   Estilos de tiles de Capa de Solicitação de Serviços da Prefeitura
+   ========================================================================== */
+
+/* Títulos */
+
+#content .cover-banner-tile h2 {
+  display: block;
+  border-bottom: 3px double #000;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0px 0px 0.3em;
+  line-height: normal !important;
+  width: 100%;
+}
+#content .cover-banner-tile h2 a,
+#content .cover-banner-tile h2 a:hover {
+  color: #181818 !important;
+}
+
+#content .cover-richtext-tile {
+  line-height: 1.2em;
+  margin: 15px 0px;
+  font-size: 0.937em;
+  color: #444;
+}
+
+#content .ConteudoServicos {
+  background: #E2E2E2;
+  padding: 30px 25px;
+}
+
+#content .ConteudoSecretaria,
+#content .ConteudoServicos p {
+  font-size: 1.125em;
+}
+
+#content .ConteudoServicos p {
+  width: 50%;
+  border-right: 1px solid #BABABA;
+  padding-right: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+#content .ConteudoServicos .BtnServicos,
+#content .cover-richtext-tile .BtnLink {
+  background: #F00;
+  color: #FFF !important;
+  display: inline-block;
+  vertical-align: middle
+  font-size: 0.833em;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: #EDEDED 0.2s ease-out 0s;
+  margin-left: 25px;
+  width: 30% !important;
+}
+#content .ConteudoServicos a:hover,
+#content .cover-richtext-tile a.BtnLink:hover {
+  background: #a70000;
+  color: #FFF !important;
+}
+#content .cover-richtext-tile .BtnLink {
+  width: 60% !important;
+}
+
+#content a.LinkConheca,
+#content a.LinkConheca:link {
+  color: #333 !important;
+  border-top: 1px solid #000;
+  border-bottom: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
+
+#content a.LinkConheca span {
+  background: transparent url("../img/sprite.png") no-repeat scroll -460px -25px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  vertical-align: middle;
+  margin-top: -3px;
+  }
+
+#content a.LinkConheca:hover {
+  color: #000 !important;
+}
+
+#content .TelefonesLista {
+  background: #E2E2E2;
+  padding: 20px 18px 30px;
+  margin: 0;
+}
+
+#content .TelefonesLista li {
+  color: #7D7D7D;
+  display: inline-block;
+  height: 50px;
+  margin: 0px 8px 10px 0px;
+  vertical-align: top;
+  width: 31%;
+  font-size: 1.334em;
+  font-weight: bold;
+}
+
+
+#content .TelefonesLista li strong {
+  font-weight: bold;
+  color: #333;
+}
+
 /* ==========================================================================
    Estilos de tiles de Capa
    ========================================================================== */
