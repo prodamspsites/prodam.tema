@@ -20,7 +20,80 @@
  * http://jigsaw.w3.org/css-validator/
  */
 
+ /* ==========================================================================
+   Estilos de tiles de Capa de Serviços para servidores
+   ========================================================================== */
 
+/* Serviços */
+#content .servicosTitulo {
+  border: 1px solid #979799;
+}
+
+#content .servicosTitulo h1 {
+  margin: 0px;
+  padding: 7px 25px;
+}
+
+#content .servicoTitulo {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#content .secoesServicos {
+  background: #F9F9F2;
+  border-left: 1px solid #979799;
+  border-right: 1px solid #979799;
+  border-bottom: 1px solid #979799;
+  margin: -30px 0 0;
+  list-style: none;
+}
+
+#content .secoesServicos li {
+  padding: 30px 15px 10px;
+  border-bottom: 1px solid #D7D7D7;
+  margin: 0px -4px 0px 0px;
+  width: 22%;
+  text-align: center;
+  height: 145px;
+  display: inline-table;
+}
+
+#content .secoesServicos li a {
+  border-bottom: none;
+  color: #000;
+}
+
+#content .secoesServicos li a:hover {
+  color: #F00 !important;
+}
+
+#content .secoesServicos small {
+  font-size: 0.9em;
+}
+
+/* Estilo de header de Embed */
+#content .cover-embed-tile h2 {
+  font-size: 1.25em;
+}
+
+/* Estilo de títulos em tile de coleções */
+
+#content .cover-collection-tile h4 {
+  line-height: 1.125em;
+  border-bottom: 1px solid #D7D7D7;
+  padding-bottom: 10px;
+}
+
+#content .cover-collection-tile h4 a {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.875em;
+}
+
+#content .cover-collection-tile h4 a:hover {
+  color: #000 !important;
+}
 /* ==========================================================================
    Estilos de tiles de Capa de Solicitação de Serviços da Prefeitura
    ========================================================================== */

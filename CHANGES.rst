@@ -4,6 +4,7 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Adiciona estilo para capas de seções [dadlo]
 * Adiciona estilo para capa Solicitar Serviços [dadlo]
 * Estiliza capa AaZ responsiva [wblima]
 * Adiciona estilo para capa AaZ [dadlo]
