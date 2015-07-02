@@ -669,6 +669,16 @@ section.width-16, nav.width-16 {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   /*Estilo para Capas*/
+  #content .position-5,
+  #content .position-8{
+    clear: none;
+  }
+  #content .position-8{
+    margin-left: -48.875% !important;
+  }
+  #content .position-5{
+    margin-left:-67.625% !important;
+  }
   .portaltype-collective-cover-content #content .position-10{
     clear: none;
     margin-left: -36.375%;
