@@ -308,6 +308,7 @@
   padding-top: 14px;
   height: 57px;
   letter-spacing: 0;
+  font-weight: normal;
 }
 
 body #content div.width-16 {
@@ -670,7 +671,11 @@ section.width-16, nav.width-16 {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-  /*Estilo para Capas*/
+
+  /* ==========================================================================
+   Estilos de tiles de Capa de Solicitação de Serviços da Prefeitura
+   ========================================================================== */
+
   #content .position-5,
   #content .position-8{
     clear: none;
@@ -680,6 +685,30 @@ section.width-16, nav.width-16 {
   }
   #content .position-5{
     margin-left:-67.625% !important;
+  }
+  #content .ConteudoServicos{
+    padding: 30px 20px;
+  }
+  #content .ConteudoServicos p{
+    width: 50%;
+    border-bottom: none;
+    border-right: 1px solid #BABABA;
+    padding-right: 30px;
+
+  }
+  #content .ConteudoServicos .BtnServicos, #content .cover-richtext-tile .BtnLink{
+    width: auto;
+  }
+  #content .TelefonesLista {
+    padding: 20px 18px 30px;
+  }
+  #content .TelefonesLista li {
+    height: 50px;
+    width: 47%;
+    margin: 0px 8px 10px 0px;
+  }
+  #TelLista li{
+    width: 47% !important;
   }
   .portaltype-collective-cover-content #content .position-10{
     clear: none;
@@ -855,6 +884,9 @@ section.width-16, nav.width-16 {
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+  #content .TelefonesLista li{
+    width: 31%;
+  }
   /*Estilo para capas*/
   #content .AaZLetraLista li{
     width: 31%;
