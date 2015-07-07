@@ -795,7 +795,7 @@ section.width-16, nav.width-16 {
     width: 768px;
   }
   #portal-header .services #portal-siteactions #siteaction-accessibility{
-    margin-left: 100px !important;
+    margin-left: 101px !important;
   }
   #portal-header .services #portal-siteactions #siteaction-solicitar_servicos{
     float: right;
@@ -819,9 +819,9 @@ section.width-16, nav.width-16 {
   #portal-header .container-wrapper .portal-header-inner .services #portal-siteactions{
     padding-right: 0 !important;
     float: right;
-    width: 456px !important;
+    width: 467px !important;
     display: inline-block;
-    line-height: 25px;
+    line-height: 20px;
   }
   #portal-header .sections{
     margin-top: 24px;
@@ -909,8 +909,12 @@ section.width-16, nav.width-16 {
     width: auto;
     padding-right: 10px;
   }
+
+  .userrole-authenticated #portal-header .container-wrapper .portal-header-inner .services #portal-siteactions{
+    padding-left: 165px;
+  }
   #portal-header .container-wrapper .portal-header-inner .services #portal-siteactions{
-    padding-left: 244px;
+    padding-left: 233px;
   }
 
   #footer-nav section .width-4 {
