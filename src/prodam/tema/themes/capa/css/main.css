@@ -59,7 +59,7 @@
 
   .navbar .barra-cinza #acesso #transparenciasp{
     margin-top: -2px;
-    margin-left: 90px !important;
+    margin-left: 95px !important;
     font-size: 0.78em !important;
   }
 
@@ -144,6 +144,7 @@ a {
   color: #cacaca;
   display: inline-block;
   float: left;
+  margin-left: -5px;
 }
 .navbar .barra-cinza #acesso .imgI{
   background: url("../img/sprite.png") repeat scroll -374px 0;
