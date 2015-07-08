@@ -4,7 +4,7 @@ Histórico de Alterações
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-* Adiciona imagens de ícones de serviços da capa de seção de servidor [dadlo]
+* Adiciona imagens de ícones de serviços das capas de seções [dadlo]
 * Adiciona estilo para capas de seções [dadlo]
 * Adiciona estilo para capa Solicitar Serviços [dadlo]
 * Estiliza capa AaZ responsiva [wblima]
