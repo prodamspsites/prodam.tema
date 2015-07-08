@@ -96,6 +96,11 @@
   border: none;
 }
 
+#content #secoes-empresa li a img {
+  width: 65px;
+  height: 65px;
+}
+
 #content .navegacaoSecoesEmpresa .linha li a:hover{
   color: #F00 !important;
 }
