@@ -3,7 +3,6 @@ Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
-
 * Adiciona imagens de ícones de serviços das capas de seções [dadlo]
 * Adiciona estilo para capas de seções [dadlo]
 * Adiciona estilo para capa Solicitar Serviços [dadlo]
