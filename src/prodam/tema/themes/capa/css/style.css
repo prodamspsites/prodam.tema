@@ -109,13 +109,94 @@
    Estilos de tiles de Capa de Serviços para servidores
    ========================================================================== */
 
+/* Turista */
+
+#content .width-3 .tile-edge .cover-basic-tile img {
+  width: 100%;
+  height: auto;
+}
+
+#content .width-5 .tile-edge .cover-basic-tile img,
+#content .width-3 .tile-edge .cover-basic-tile img {
+  width: 100%;
+  height: auto;
+}
+
+#content .tile-edge .cover-basic-tile h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 0 15px;
+  text-align: center;
+  height: 44px;
+  overflow: hidden;
+  padding-top: 15px;
+}
+
+#content .width-3 .tile-edge .cover-basic-tile h3 {
+  padding-top: 0px;
+  text-align: left;
+}
+
+#content .width-3 .tile-edge {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+#content .tile-edge .cover-basic-tile a {
+  color: #333;
+}
+
+#content .width-10 .capaTituloSublinhado {
+  width: 100%;
+}
+
+#content .tile-edge .cover-basic-tile a:hover {
+  color: #F00 !important;
+}
+
+#content .width-3 .tile-edge .cover-basic-tile a:hover {
+  color: #000 !important;
+}
+
+#content .tile-edge {
+  border: #979797 1px solid;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+
+#content .servicosTituloTurista .setaDireita {
+  background: url(../img/sprite.png) no-repeat -497px -6px transparent;
+  content: ' ';
+  height: 12px;
+  width: 15px;
+  display: inline-block;
+  margin-right: 30p;
+}
+
+#content .servicosTituloTurista h1 {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+#content #secoes-turista strong {
+  display: block;
+}
+
+#content #secoes-turista li {
+  width: 20%;
+}
+
 /* Serviços */
 #content .servicosTitulo {
   border: 1px solid #979799;
+}
+
+#content .servicosTituloCidadao {
   margin-top: 20px;
 }
 
-#content .servicosTitulo:before {
+#content .servicosTituloCidadao:before {
   content: " ";
   position: absolute;
   margin-top: -22px;
@@ -399,7 +480,8 @@
 
 /* Estilo do titulo Mais Buscados */
 
-#content .maisBuscadosTitulo {
+#content .maisBuscadosTitulo,
+#content .capaTituloSublinhado {
   font-size: 1.4em;
   display: block;
   border-bottom: 3px double #000;
