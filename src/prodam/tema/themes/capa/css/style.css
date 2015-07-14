@@ -112,6 +112,18 @@
 /* Serviços */
 #content .servicosTitulo {
   border: 1px solid #979799;
+  margin-top: 20px;
+}
+
+#content .servicosTitulo:before {
+  content: " ";
+  position: absolute;
+  margin-top: -22px;
+  margin-left: -3px;
+  width: 940px;
+  background: rgba(0,0,0,0) url("../img/sprite2.png") 0 -132px no-repeat;
+  height: 20px;
+  left: 1px;
 }
 
 #content .servicosTitulo h1 {
