@@ -44,7 +44,6 @@
 
 #content .cover-richtext-tile {
   line-height: 1.2em;
-  margin: 15px 0px;
   font-size: 0.937em;
   color: #444;
 }
@@ -56,7 +55,7 @@
 
 #content .ConteudoSecretaria,
 #content .ConteudoServicos p {
-  font-size: 1.125em;
+  font-size: 1.23em;
 }
 #content .SecretariaText{
   font-size: 14px;
@@ -87,6 +86,7 @@
 #content .cover-richtext-tile a.BtnLink:hover {
   background: #a70000;
   color: #FFF !important;
+  transition: background .2s ease-out;
 }
 
 #content a.LinkConheca,
@@ -154,7 +154,7 @@
 #content .AaZLista li {
   float: left;
   padding-right: 13px;
-  font-size: 0.94em;
+  font-size: 1em;
   font-weight: 600;
 }
 .template-compose .tile .AaZLetraLista li{
@@ -165,7 +165,8 @@
   border-bottom: none;
 }
 #content .AaZLista li a:hover{
-  color: red
+  color: red !important;
+  transition: all .2s ease-out;
 }
 #content .AaZLista {
   list-style: outside none none;
@@ -189,7 +190,7 @@
 #content .AaZLetra h2 {
   background: #F00 none repeat scroll 0% 0%;
   color: #FFF;
-  font-size: 2.2em;
+  font-size: 2.35em;
   font-weight: 700;
   padding: 5px 0px;
   margin-top: 20px;
@@ -211,7 +212,7 @@
 }
 
 #content .AaZLetraLista li a {
-  font-size: 0.86em;
+  font-size: 0.9em;
   font-weight: 700;
   line-height: normal;
   margin: 12px 0px 0px;
@@ -303,11 +304,14 @@
   color: #FFF;
   padding-left: 29px;
   line-height: 23px;
-  font-size: 1.954em;
+  font-size: 2.1em;
   padding-top: 14px;
   height: 57px;
   letter-spacing: 0;
-  font-weight: normal;
+  font-weight: bold;
+}
+#content .headerAaZ  .documentFirstHeading span {
+  font-weight: bold;
 }
 
 body #content div.width-16 {
@@ -577,19 +581,6 @@ section.width-16, nav.width-16 {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-  div#portal-searchbox {
-    float: left;
-  }
-
-  #portal-searchbox .searchButton{
-    float: right;
-    background: url("../img/sprite4.png") no-repeat scroll -511px -108px #f00;
-    border: 0;
-    height: 30px;
-    width: 30px;
-    border-radius: 0;
-    margin: 1px 0 0 1px;
-  }
 }
 
 /* Extra Small Devices, Phones */
@@ -605,6 +596,7 @@ section.width-16, nav.width-16 {
   #portal-header .services #portal-siteactions #siteaction-accessibility{
     float: left;
     margin-left: 1px;
+    font-size: 1em;
   }
 
   #portal-header .sections{
@@ -689,14 +681,16 @@ section.width-16, nav.width-16 {
     padding: 30px 20px;
   }
   #content .ConteudoServicos p{
-    width: 50%;
+    width: 49%;
     border-bottom: none;
     border-right: 1px solid #BABABA;
-    padding-right: 30px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
   }
   #content .ConteudoServicos .BtnServicos, #content .cover-richtext-tile .BtnLink{
-    width: auto;
+    width: 162px;
   }
   #content .TelefonesLista {
     padding: 20px 18px 30px;
@@ -795,7 +789,7 @@ section.width-16, nav.width-16 {
     width: 768px;
   }
   #portal-header .services #portal-siteactions #siteaction-accessibility{
-    margin-left: 101px !important;
+    margin-left: 102px !important;
   }
   #portal-header .services #portal-siteactions #siteaction-solicitar_servicos{
     float: right;
@@ -811,20 +805,24 @@ section.width-16, nav.width-16 {
     margin-top: -5px;
     text-indent: -9999em;
   }
-
-  #portal-header .logo {
-    margin-left: 10px;
+  #portal-header .services #portal-siteactions li{
+    margin: 0 0 0 19px !important;
   }
-
+  #portal-header .logo {
+    margin-left: 10px !important;
+    margin-bottom: 0 !important;
+  }
   #portal-header .container-wrapper .portal-header-inner .services #portal-siteactions{
     padding-right: 0 !important;
+    padding-left: 50px;
     float: right;
     width: 467px !important;
     display: inline-block;
     line-height: 20px;
+    text-align: inherit;
   }
   #portal-header .sections{
-    margin-top: 24px;
+    margin-top: 37px;
     margin-left: 20px !important;
   }
   #portal-searchbox .LSBox #searchGadget{
@@ -894,7 +892,9 @@ section.width-16, nav.width-16 {
   #portal-searchbox .LSBox #searchGadget{
     height: auto;
   }
-
+  .container-wrapper .portal-header-inner #portal-searchbox{
+    margin-left: 34px !important;
+  }
   #portal-searchbox .searchButton{
     float: right;
     background-position: -511px -108px;
@@ -1010,10 +1010,14 @@ section.width-16, nav.width-16 {
   position: relative;
   padding-top: 5px;
   height: 0px;
+  text-align: inherit;
 }
+#portal-header .services #portal-siteactions #siteaction-accessibility{
+  margin-left: 20px;
 
-#portal-header .services #portal-siteactions li{
-  margin: 0;
+}
+.userrole-authenticated #portal-header .services #portal-siteactions li{
+  font-size: 0.9em;
 }
 
 #portal-header .services #portal-siteactions li a,
@@ -1039,6 +1043,8 @@ section.width-16, nav.width-16 {
   float: left;
   height: 52px;
   margin-top: 18px;
+  margin-bottom:10px;
+  margin-left: 20px;
 }
 
 #portal-header .logo h1 a {
@@ -1051,8 +1057,8 @@ section.width-16, nav.width-16 {
 
 #portal-header .sections {
   float: left;
-  margin-left:5px;
-  width: 240px;
+  margin-left:20px;
+  width: 242px;
 }
 #portal-header #portal-globalnav {
   position: relative;
@@ -1063,7 +1069,6 @@ section.width-16, nav.width-16 {
 
 #portal-header #portal-globalnav li {
   float: left;
-  margin: 13px 15px 0 0;
 }
 
 #portal-header #portal-globalnav li a {
@@ -1121,7 +1126,7 @@ section.width-16, nav.width-16 {
 /* Search Box */
 .container-wrapper .portal-header-inner #portal-searchbox {
   padding-top:1px;
-  margin: 33px 0 0 36px;
+  margin: 33px 0 0 20px;
 }
 
 nav #portal-searchbox form {
@@ -1132,6 +1137,18 @@ nav #portal-searchbox form {
   border: 0;
   margin: 0;
   padding: 0;
+}
+div#portal-searchbox {
+  float: left;
+}
+#portal-searchbox .searchButton{
+  float: right;
+  background: url("../img/sprite4.png") no-repeat scroll -511px -108px #f00;
+  border: 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 0;
+  margin: 1px 0 0 1px;
 }
 
 #portal-searchbox #searchGadget{
