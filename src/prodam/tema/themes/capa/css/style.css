@@ -24,7 +24,10 @@
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
-
+#content .cover-banner-tile a img{
+  max-width: 100%;
+  height: auto;
+}
 #content .navegacaoSecoesEmpresa:before {
   background: url(../img/sprite2.png) no-repeat -2px -175px transparent;
   content: ' ';
