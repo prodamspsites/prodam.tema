@@ -47,7 +47,6 @@
   height: 12px;
   width: 15px;
   display: inline-block;
-  margin-right: 30p
 }
 
 #content .navegacaoSecoesEmpresa nav.navWrapper {
@@ -117,7 +116,8 @@
 }
 
 #content .width-5 .tile-edge .cover-basic-tile img,
-#content .width-3 .tile-edge .cover-basic-tile img {
+#content .width-3 .tile-edge .cover-basic-tile img,
+#content .width-6 .tile-edge .cover-basic-tile img {
   width: 100%;
   height: auto;
 }
@@ -190,6 +190,7 @@
 /* Serviços */
 #content .servicosTitulo {
   border: 1px solid #979799;
+  margin:2px 0 30px 0;
 }
 
 #content .servicosTituloCidadao {
@@ -398,7 +399,10 @@
 }
 
 .portaltype-collective-cover-content #content .position-0,
-.portaltype-collective-cover-content #content .position-10 {
+.portaltype-collective-cover-content #content .position-10,
+.portaltype-collective-cover-content #content .position-3,
+.portaltype-collective-cover-content #content .position-6,
+.portaltype-collective-cover-content #content .position-9 {
   margin-left: -100%;
   clear: both;
 }
@@ -490,7 +494,7 @@
   font-weight: bold;
   margin: 10px 0px 1.1em;
   padding: 0px 0px 14px;
-  width: 280px;
+  width: 100%;
   color: black;
 }
 
@@ -920,15 +924,25 @@ section.width-16, nav.width-16 {
    Estilos de tiles de Capa de Solicitação de Serviços da Prefeitura
    ========================================================================== */
 
-  #content .position-5,
-  #content .position-8{
+  .portaltype-collective-cover-content #content .position-8{
+    margin-left: -48.875% !important;
     clear: none;
   }
-  #content .position-8{
-    margin-left: -48.875% !important;
-  }
-  #content .position-5{
+  .portaltype-collective-cover-content #content .position-5{
     margin-left:-67.625% !important;
+    clear: none;
+  }
+  .portaltype-collective-cover-content #content .position-3{
+    margin-left: -78.125% !important;
+    clear: none;
+  }
+  .portaltype-collective-cover-content #content .position-6{
+    margin-left: -56.375% !important;
+    clear: none;
+  }
+  .portaltype-collective-cover-content #content .position-9{
+    margin-left:-35.625% !important;
+    clear: none;
   }
   #content .ConteudoServicos{
     padding: 30px 20px;
@@ -958,7 +972,7 @@ section.width-16, nav.width-16 {
   }
   .portaltype-collective-cover-content #content .position-10{
     clear: none;
-    margin-left: -36.375%;
+    margin-left: -35.375%;
   }
   body div.width-1, header.width-1,
   section.width-1, nav.width-1 {
