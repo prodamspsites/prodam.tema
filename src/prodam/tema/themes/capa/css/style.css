@@ -162,19 +162,24 @@
   border: #979797 1px solid;
   padding: 0px;
   border-radius: 0px;
+  margin-bottom: 15px
 }
 
-
-#content .servicosTituloTurista .setaDireita {
+#content .servicosTituloTurista .setaBaixo,
+#content .servicosTituloCidadao .setaBaixo {
   background: url(../img/sprite.png) no-repeat -497px -6px transparent;
   content: ' ';
   height: 12px;
   width: 15px;
   display: inline-block;
-  margin-right: 30p;
 }
 
-#content .servicosTituloTurista h1 {
+#content .servicosTituloCidadao .setaBaixo {
+  margin-left: 20px;
+}
+
+#content .servicosTituloTurista h1,
+#content .servicosTituloCidadao h1 {
   display: inline-block;
   padding-right: 5px;
 }
@@ -190,7 +195,7 @@
 /* Serviços */
 #content .servicosTitulo {
   border: 1px solid #979799;
-  margin:2px 0 30px 0;
+  margin: 2px 0 30px 0;
 }
 
 #content .servicosTituloCidadao {
@@ -212,6 +217,11 @@
 #content .servicosTitulo h1 {
   margin: 0px;
   padding: 7px 25px;
+  font-weight: normal;
+}
+
+#content .servicosTitulo h1 span {
+  font-weight: bold;
 }
 
 #content .servicoTitulo {
