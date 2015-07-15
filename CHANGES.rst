@@ -3,7 +3,7 @@ Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
-
+* Estiliza estilo para nevegação com firefox [wblima]
 * Adiciona estilo para capa Solicitar Serviços [dadlo]
 * Estiliza capa AaZ responsiva [wblima]
 * Adiciona estilo para capa AaZ [dadlo]
