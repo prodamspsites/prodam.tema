@@ -47,25 +47,22 @@
 @media only screen and (min-width : 768px) {
   .navbar .barra-cinza .container-wrapper #acesso{
     width: 500px !important;
-    padding-top: 3px !important;
-    margin-left: 15px !important;
-    font-size: 0.8em;
+    padding-top: 4px !important;
+    margin-left: 10px !important;
+    font-size: 0.9em;
   }
 
   .navbar .barra-cinza #acesso .imgI{
-    margin-top: -16px !important;
-    margin-left: 145px !important;
+    margin: -17px 0 0 145px !important;
   }
-
   .navbar .barra-cinza #acesso #transparenciasp{
-    margin-top: -2px;
-    margin-left: 90px !important;
-    font-size: 0.78em !important;
+    padding-top: 2px !important;
+    margin-left: 95px !important;
+    font-size: 0.84em !important;
   }
 
   .navbar .barra-cinza{
     height: 31px !important;
-    font-size: 1.2em;
   }
 }
 
@@ -135,7 +132,7 @@ a {
 .navbar .barra-cinza #acesso{
   padding: 0;
   padding-top: 10px !important;
-  margin-left: 5px;
+  margin-left: 20px;
   width: 240px;
 }
 .navbar .barra-cinza #acesso a {
@@ -195,13 +192,6 @@ a {
 }
 #acesso .four a {
   font-size:0.9em;
-}
-.imgI{
-  background: url("../img/sprite.png") repeat scroll -374px 0;
-  width: 26px;
-  height: 26px;
-  position: absolute;
-  margin: -13px 0 0 145px;
 }
 .upper {
   text-transform: uppercase;
