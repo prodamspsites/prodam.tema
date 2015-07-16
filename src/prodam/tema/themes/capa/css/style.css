@@ -21,6 +21,272 @@
  */
 
 
+ /* ==========================================================================
+   Estilos de tiles de Capa de Serviços para empresa
+   ========================================================================== */
+#content .cover-banner-tile a img{
+  max-width: 100%;
+  height: auto;
+}
+#content .navegacaoSecoesEmpresa:before {
+  background: url(../img/sprite2.png) no-repeat -2px -175px transparent;
+  content: ' ';
+  display: block;
+  height: 20px;
+  width: 257px;
+}
+
+#content .navegacaoSecoesEmpresa .para {
+  float: left;
+  font-size: 1.92em;
+  height: auto;
+  margin-left: 1.2em;
+  font-weight: normal;
+}
+
+#content .navegacaoSecoesEmpresa .para:after {
+  background: url(../img/sprite.png) no-repeat -455px -3px transparent;
+  content: ' ';
+  height: 12px;
+  width: 15px;
+  display: inline-block;
+}
+
+#content .navegacaoSecoesEmpresa nav.navWrapper {
+  overflow: hidden;
+}
+
+#content .navegacaoSecoesEmpresa .para span {
+  font-weight: bold;
+}
+
+#content .navegacaoSecoesEmpresa:after {
+  background: url(../img/sprite2.png) no-repeat -2px -198px transparent;
+  content: ' ';
+  display: block;
+  height: 20px;
+  width: 257px;
+}
+
+#content .navegacaoSecoesEmpresa .linha {
+  float: left;
+  font-size: 1.084em;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  padding-top: 10px;
+}
+
+#content .navegacaoSecoesEmpresa .linha li {
+  float: left;
+  max-width: 150px;
+  padding: 0 .3em;
+  height: 50px;
+  margin-right: 1.6em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#content .navegacaoSecoesEmpresa .linha li.mei {
+  max-width: 190px;
+}
+
+#content .navegacaoSecoesEmpresa .linha li a,
+#content .navegacaoSecoesEmpresa .linha li a:visited {
+  color: #333;
+  text-decoration: none;
+  border: none;
+}
+
+#content #secoes-empresa li a img {
+  width: 65px;
+  height: 65px;
+}
+
+#content .navegacaoSecoesEmpresa .linha li a:hover{
+  color: #F00 !important;
+}
+
+ /* ==========================================================================
+   Estilos de tiles de Capa de Serviços para servidores
+   ========================================================================== */
+
+/* Turista */
+
+#content .width-3 .tile-edge .cover-basic-tile img {
+  width: 100%;
+  height: auto;
+}
+
+#content .width-5 .tile-edge .cover-basic-tile img,
+#content .width-3 .tile-edge .cover-basic-tile img,
+#content .width-6 .tile-edge .cover-basic-tile img {
+  width: 100%;
+  height: auto;
+}
+
+#content .tile-edge .cover-basic-tile h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 0 15px;
+  text-align: center;
+  height: 44px;
+  overflow: hidden;
+  padding-top: 15px;
+}
+
+#content .width-3 .tile-edge .cover-basic-tile h3 {
+  padding-top: 0px;
+  text-align: left;
+}
+
+#content .width-3 .tile-edge {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+#content .tile-edge .cover-basic-tile a {
+  color: #333;
+}
+
+#content .width-10 .capaTituloSublinhado {
+  width: 100%;
+}
+
+#content .tile-edge .cover-basic-tile a:hover {
+  color: #F00 !important;
+}
+
+#content .width-3 .tile-edge .cover-basic-tile a:hover {
+  color: #000 !important;
+}
+
+#content .tile-edge {
+  border: #979797 1px solid;
+  padding: 0px;
+  border-radius: 0px;
+  margin-bottom: 15px
+}
+
+#content .servicosTituloTurista .setaBaixo,
+#content .servicosTituloCidadao .setaBaixo {
+  background: url(../img/sprite.png) no-repeat -497px -6px transparent;
+  content: ' ';
+  height: 12px;
+  width: 15px;
+  display: inline-block;
+}
+
+#content .servicosTituloCidadao .setaBaixo {
+  margin-left: 20px;
+}
+
+#content .servicosTituloTurista h1,
+#content .servicosTituloCidadao h1 {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+#content #secoes-turista strong {
+  display: block;
+}
+
+#content #secoes-turista li {
+  width: 20%;
+}
+
+/* Serviços */
+#content .servicosTitulo {
+  border: 1px solid #979799;
+  margin: 2px 0 30px 0;
+}
+
+#content .servicosTituloCidadao {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#content .servicosTituloCidadao:before {
+  content: " ";
+  position: absolute;
+  margin-top: -22px;
+  margin-left: -3px;
+  width: 940px;
+  background: rgba(0,0,0,0) url("../img/sprite2.png") 0 -132px no-repeat;
+  height: 20px;
+  left: 1px;
+}
+
+#content .servicosTitulo h1 {
+  margin: 0px;
+  padding: 7px 25px;
+  font-weight: normal;
+}
+
+#content .servicosTitulo h1 span {
+  font-weight: bold;
+}
+
+#content .servicoTitulo {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#content .secoesServicos {
+  background: #F9F9F2;
+  border-left: 1px solid #979799;
+  border-right: 1px solid #979799;
+  border-bottom: 1px solid #979799;
+  margin: -30px 0 0;
+  list-style: none;
+}
+
+#content .secoesServicos li {
+  padding: 30px 15px 10px;
+  border-bottom: 1px solid #D7D7D7;
+  margin: 0px -4px 0px 0px;
+  width: 22%;
+  text-align: center;
+  height: 145px;
+  display: inline-table;
+}
+
+#content .secoesServicos li a {
+  border-bottom: none;
+  color: #000;
+}
+
+#content .secoesServicos li a:hover {
+  color: #F00 !important;
+}
+
+#content .secoesServicos small {
+  font-size: 0.9em;
+}
+
+/* Estilo de header de Embed */
+#content .cover-embed-tile h2 {
+  font-size: 1.25em;
+}
+
+/* Estilo de títulos em tile de coleções */
+
+#content .cover-collection-tile h4 {
+  line-height: 1.125em;
+  border-bottom: 1px solid #D7D7D7;
+  padding-bottom: 10px;
+}
+
+#content .cover-collection-tile h4 a {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.875em;
+}
+
+#content .cover-collection-tile h4 a:hover {
+  color: #000 !important;
+}
 /* ==========================================================================
    Estilos de tiles de Capa de Solicitação de Serviços da Prefeitura
    ========================================================================== */
@@ -146,7 +412,10 @@
 }
 
 .portaltype-collective-cover-content #content .position-0,
-.portaltype-collective-cover-content #content .position-10 {
+.portaltype-collective-cover-content #content .position-10,
+.portaltype-collective-cover-content #content .position-3,
+.portaltype-collective-cover-content #content .position-6,
+.portaltype-collective-cover-content #content .position-9 {
   margin-left: -100%;
   clear: both;
 }
@@ -230,14 +499,15 @@
 
 /* Estilo do titulo Mais Buscados */
 
-#content .maisBuscadosTitulo {
+#content .maisBuscadosTitulo,
+#content .capaTituloSublinhado {
   font-size: 1.4em;
   display: block;
   border-bottom: 3px double #000;
   font-weight: bold;
   margin: 10px 0px 1.1em;
   padding: 0px 0px 14px;
-  width: 280px;
+  width: 100%;
   color: black;
 }
 
@@ -667,15 +937,25 @@ section.width-16, nav.width-16 {
    Estilos de tiles de Capa de Solicitação de Serviços da Prefeitura
    ========================================================================== */
 
-  #content .position-5,
-  #content .position-8{
+  .portaltype-collective-cover-content #content .position-8{
+    margin-left: -48.875% !important;
     clear: none;
   }
-  #content .position-8{
-    margin-left: -48.875% !important;
-  }
-  #content .position-5{
+  .portaltype-collective-cover-content #content .position-5{
     margin-left:-67.625% !important;
+    clear: none;
+  }
+  .portaltype-collective-cover-content #content .position-3{
+    margin-left: -78.125% !important;
+    clear: none;
+  }
+  .portaltype-collective-cover-content #content .position-6{
+    margin-left: -56.375% !important;
+    clear: none;
+  }
+  .portaltype-collective-cover-content #content .position-9{
+    margin-left:-35.625% !important;
+    clear: none;
   }
   #content .ConteudoServicos{
     padding: 30px 20px;
@@ -705,7 +985,7 @@ section.width-16, nav.width-16 {
   }
   .portaltype-collective-cover-content #content .position-10{
     clear: none;
-    margin-left: -36.375%;
+    margin-left: -35.375%;
   }
   body div.width-1, header.width-1,
   section.width-1, nav.width-1 {
