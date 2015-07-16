@@ -3,7 +3,10 @@ Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
-* Estiliza estilo para nevegação com firefox [wblima]
+* Estiliza navegação em firefox [wblima]
+* Adiciona estilo responsivo para capas de seções [wblima]
+* Adiciona imagens de ícones de serviços das capas de seções [dadlo]
+* Adiciona estilo para capas de seções [dadlo]
 * Adiciona estilo para capa Solicitar Serviços [dadlo]
 * Estiliza capa AaZ responsiva [wblima]
 * Adiciona estilo para capa AaZ [dadlo]
