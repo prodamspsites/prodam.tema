@@ -57,13 +57,14 @@
 #content .width-2 .cover-basic-tile h2 a{
   font-size: 0.6em;
   line-height: 1.3em;
+  letter-spacing: 0;
+}
+#content .tile-edge .cover-basic-tile h2 a{
+  margin-top: 5px;
 }
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
-
-
-
 
 #content .cover-banner-tile a img{
   max-width: 100%;
@@ -114,15 +115,13 @@
   font-size: 1.084em;
   display: inline-block;
   vertical-align: middle;
-  height: 30px;
+  height: auto;
   padding-top: 10px;
 }
 
 #content .navegacaoSecoesEmpresa .linha li {
   float: left;
-  max-width: 150px;
   padding: 0 .3em;
-  height: 50px;
   margin-right: 1.6em;
   display: table-cell;
   vertical-align: middle;
@@ -627,6 +626,10 @@
 #content .headerAaZ  .documentFirstHeading span {
   font-weight: bold;
 }
+iframe{
+  max-width: 100%;
+  height: auto;
+}
 
 body #content div.width-16 {
     width: 100%;
@@ -994,7 +997,7 @@ section.width-16, nav.width-16 {
     clear: none;
   }
   .portaltype-collective-cover-content #content .position-2{
-    margin-left: -86.375% !important;
+    margin-left: -85.375% !important;
     clear: none;
   }
   .portaltype-collective-cover-content #content .position-4{
@@ -1045,7 +1048,7 @@ section.width-16, nav.width-16 {
   }
   body div.width-2, header.width-2,
   section.width-2, nav.width-2 {
-    width: 10.25%;
+    width: 13.25%;
   }
   body div.width-3, header.width-3,
   section.width-3, nav.width-3 {
