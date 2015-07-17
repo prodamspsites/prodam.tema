@@ -20,10 +20,100 @@
  * http://jigsaw.w3.org/css-validator/
  */
 
-
+ /* ==========================================================================
+   Estilos de tiles de Capa inicial do Portal
+   ========================================================================== */
+#content .iconeMais {
+  background: url(../img/sprite.png) no-repeat -379px -29px transparent;
+  content: ' ';
+  display: inline-block;
+  height: 20px;
+  vertical-align: top;
+  width: 20px;
+}
+#content .cover-basic-tile a img{
+  max-width: 100%;
+  height: auto;
+}
+#content .cover-basic-tile h2{
+  font-size: 1.61em;
+  line-height: 1.0em;
+  font-weight: bold;
+}
+#content .width-2 .cover-basic-tile h2{
+  margin-bottom: 40px;
+}
+#content .cover-basic-tile h2 a,
+#content .cover-basic-tile h2 a:hover{
+  color: #181818 !important;
+}
+#content .cover-basic-tile p{
+  margin-top: 7px;
+}
+#content .tabs{
+  text-align: center;
+  margin-left: 5px;
+  margin-bottom: 35px;
+  font-size: 1.33em;
+}
+#content .tabs li {
+  display: inline-block !important;
+  border-right: 1px solid black;
+  padding: .3em 1em;
+}
+#content .tabs li a{
+  color: #333 !important;
+  border: none;
+}
+#content .tabs li:first-child {
+  border-left: 1px solid black;
+}
+#content #tab-cid a:hover{
+  color: #01a4b7 !important;
+}
+#content #tab-tur a:hover{
+  color: #919e02 !important;
+}
+#content #tab-emp a:hover{
+  color: #fd8a03 !important;
+}
+#content #home-secoes-turista{
+  position: relative;
+  border-top: #919e02 solid 3px;
+}
+#content #home-secoes-turista:before{
+  content: "";
+  position: absolute;
+  border-top: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-left: solid transparent 7px;
+  border-bottom: solid #919e02 7px;
+  margin-left: 71%;
+  margin-top: -17px
+}
+#content #home-secoes-turista li{
+  width: 20%;
+  margin-left: 20px;
+}
+#content .width-2 .cover-basic-tile h2 a{
+  font-size: 0.6em;
+  line-height: 1.3em;
+  letter-spacing: 0;
+}
+#content .tile-edge .cover-basic-tile h2{
+  padding-top: 20px;
+  padding-right: 15px;
+}
+#content .tile-edge .cover-basic-tile p{
+  padding-right: 15px;
+}
+#content .tile-edge .cover-basic-tile h2 a:hover{
+  color:#181818 !important;
+}
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
+
 #content .cover-banner-tile a img{
   max-width: 100%;
   height: auto;
@@ -73,15 +163,13 @@
   font-size: 1.084em;
   display: inline-block;
   vertical-align: middle;
-  height: 30px;
+  height: auto;
   padding-top: 10px;
 }
 
 #content .navegacaoSecoesEmpresa .linha li {
   float: left;
-  max-width: 150px;
   padding: 0 .3em;
-  height: 50px;
   margin-right: 1.6em;
   display: table-cell;
   vertical-align: middle;
@@ -169,7 +257,8 @@
 }
 
 #content .servicosTituloTurista .setaBaixo,
-#content .servicosTituloCidadao .setaBaixo {
+#content .servicosTituloCidadao .setaBaixo,
+#content .servicosPara .setaBaixo{
   background: url(../img/sprite.png) no-repeat -497px -6px transparent;
   content: ' ';
   height: 12px;
@@ -365,6 +454,7 @@
   text-align: center;
   padding-top: 5px;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 #content a.LinkConheca span {
@@ -415,6 +505,8 @@
 .portaltype-collective-cover-content #content .position-10,
 .portaltype-collective-cover-content #content .position-3,
 .portaltype-collective-cover-content #content .position-6,
+.portaltype-collective-cover-content #content .position-4,
+.portaltype-collective-cover-content #content .position-2,
 .portaltype-collective-cover-content #content .position-9 {
   margin-left: -100%;
   clear: both;
@@ -501,12 +593,12 @@
 
 #content .maisBuscadosTitulo,
 #content .capaTituloSublinhado {
-  font-size: 1.4em;
+  font-size: 1.5em;
   display: block;
   border-bottom: 3px double #000;
   font-weight: bold;
   margin: 10px 0px 1.1em;
-  padding: 0px 0px 14px;
+  padding: 0px 0px 10px;
   width: 100%;
   color: black;
 }
@@ -554,7 +646,9 @@
 #content .maisBuscadosLista li a:focus {
   color: #000 !important;
 }
-
+#content .maisBuscadosLista li:first-child {
+  margin: 0;
+}
 #content .maisBuscadosLista li {
   margin: 10px 0px;
 }
@@ -582,6 +676,10 @@
 }
 #content .headerAaZ  .documentFirstHeading span {
   font-weight: bold;
+}
+iframe{
+  max-width: 100%;
+  height: auto;
 }
 
 body #content div.width-16 {
@@ -949,6 +1047,14 @@ section.width-16, nav.width-16 {
     margin-left: -78.125% !important;
     clear: none;
   }
+  .portaltype-collective-cover-content #content .position-2{
+    margin-left: -85.375% !important;
+    clear: none;
+  }
+  .portaltype-collective-cover-content #content .position-4{
+    margin-left: -71.125%% !important;
+    clear: none;
+  }
   .portaltype-collective-cover-content #content .position-6{
     margin-left: -56.375% !important;
     clear: none;
@@ -993,7 +1099,7 @@ section.width-16, nav.width-16 {
   }
   body div.width-2, header.width-2,
   section.width-2, nav.width-2 {
-    width: 10.25%;
+    width: 13.25%;
   }
   body div.width-3, header.width-3,
   section.width-3, nav.width-3 {
