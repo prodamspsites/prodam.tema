@@ -31,9 +31,6 @@
   vertical-align: top;
   width: 20px;
 }
-#content .servicosPara{
-  height: 85px;
-}
 #content .cover-basic-tile a img{
   max-width: 100%;
   height: auto;
@@ -43,12 +40,56 @@
   line-height: 1.0em;
   font-weight: bold;
 }
+#content .width-2 .cover-basic-tile h2{
+  margin-bottom: 40px;
+}
 #content .cover-basic-tile h2 a,
 #content .cover-basic-tile h2 a:hover{
   color: #181818 !important;
 }
 #content .cover-basic-tile p{
   margin-top: 7px;
+}
+#content .tabs{
+  text-align: center;
+  margin-left: 5px;
+  margin-bottom: 35px;
+  font-size: 1.33em;
+}
+#content .tabs li {
+  display: inline-block !important;
+  border-right: 1px solid black;
+  padding: .3em 1em;
+}
+#content .tabs li a{
+  color: #333 !important;
+  border: none;
+}
+#content .tabs li:first-child {
+  border-left: 1px solid black;
+}
+#content #tab-cid a:hover{
+  color: #01a4b7 !important;
+}
+#content #tab-tur a:hover{
+  color: #919e02 !important;
+}
+#content #tab-emp a:hover{
+  color: #fd8a03 !important;
+}
+#content #home-secoes-turista{
+  position: relative;
+  border-top: #919e02 solid 3px;
+}
+#content #home-secoes-turista:before{
+  content: "";
+  position: absolute;
+  border-top: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-left: solid transparent 7px;
+  border-bottom: solid #919e02 7px;
+  margin-left: 71%;
+  margin-top: -17px
 }
 #content #home-secoes-turista li{
   width: 20%;
@@ -59,8 +100,15 @@
   line-height: 1.3em;
   letter-spacing: 0;
 }
-#content .tile-edge .cover-basic-tile h2 a{
-  margin-top: 5px;
+#content .tile-edge .cover-basic-tile h2{
+  padding-top: 20px;
+  padding-right: 15px;
+}
+#content .tile-edge .cover-basic-tile p{
+  padding-right: 15px;
+}
+#content .tile-edge .cover-basic-tile h2 a:hover{
+  color:#181818 !important;
 }
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
@@ -597,7 +645,9 @@
 #content .maisBuscadosLista li a:focus {
   color: #000 !important;
 }
-
+#content .maisBuscadosLista li:first-child {
+  margin: 0;
+}
 #content .maisBuscadosLista li {
   margin: 10px 0px;
 }
