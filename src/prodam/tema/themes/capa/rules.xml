@@ -55,8 +55,12 @@
         <!-- Footer -->
         <replace css:theme-children="#footer" css:content-children="#portal-footer" />
 
-
         <after theme-children="/html/body" css:content-children="#plone-analytics" />
+
+        <!-- adiciona classe ao body caso o portlet seção tenha três colunas -->
+        <replace content="/html/body/@class" css:if-content=".navTreeLevel2">
+            <xsl:attribute name="class"><xsl:value-of select="."/> secao-tres-colunas</xsl:attribute>
+        </replace>
 
     </rules>
 
