@@ -1734,3 +1734,22 @@ div#portal-searchbox {
 }
 /*fim view de notícias*/
 
+/* Resultados de busca */
+
+
+#content #searchResults>div {
+  border-bottom: 1px solid #d7d7d7; 
+}
+
+#content #search-results a,
+#content #search-results a:visited,
+#content #search-results a:focus,
+#content #search-results a:link {
+  color: #363636 !important;
+  border-bottom: none;
+
+}
+
+#content #search-results a:hover {
+  color: #F00 !important;
+}

@@ -333,6 +333,11 @@ section.width-16, nav.width-16 {
    Resultado da busca
    ========================================================================== */
 
+#content .contenttype-news-item {
+    background: none !important;
+    padding-left: 0px !important;
+}
+
 #search-results {
     width: 66.5% !important;
     padding: 0;
