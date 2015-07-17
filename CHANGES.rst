@@ -3,6 +3,7 @@ Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
+* Adiciona estilo base para página de busca [dadlo]
 * Adiciona prodam.secoes para checkout [dadlo]
 * Ajusta sources externo padrão do buildout [dadlo]
 * Estiliza navegação em firefox [wblima]

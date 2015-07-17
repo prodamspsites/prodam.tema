@@ -271,3 +271,117 @@ section.width-16, nav.width-16 {
   width: 97.75%;
 }
 /* */
+
+
+/* ==========================================================================
+   Paginação
+   ========================================================================== */
+
+#plone-content #content .paginacao {
+    display: block;
+    margin: 72px 0 20px 0;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#plone-content #content .paginacao li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#plone-content #content .paginacao li a {
+    text-transform: uppercase;
+    min-width: 25px;
+    height: 25px;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    display: block;
+    line-height: 25px;
+    color: #36424d;
+    margin: 0 4px;
+}
+
+#plone-content #content .paginacao li a:hover,
+#plone-content #content .paginacao li a:focus {
+    text-decoration: underline;
+}
+
+#plone-content #content .paginacao li a.anterior,
+#plone-content #content .paginacao li a.proximo {
+    border: none;
+    width: auto;
+    height: auto;
+    color: #2c66ce;
+}
+
+#plone-content #content .paginacao li a.anterior { margin-right: 26px; }
+#plone-content #content .paginacao li a.proximo { margin-left: 26px; }
+
+#plone-content #content .paginacao li span {
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+
+
+/* ==========================================================================
+   Resultado da busca
+   ========================================================================== */
+
+#search-results {
+    width: 66.5% !important;
+    padding: 0;
+    margin-left: 35%;
+}
+
+#search-results > dl.searchResults > dd > span.discreet > span {
+    float: left;
+    width: 100%;
+}
+
+#search-results-bar {
+    margin-top: 25px;
+    padding: 0 !important;
+    width: 30% !important;
+    border-top: 0 none !important;
+    border-top: 0 !important;
+    border-bottom: 0 none !important;
+    border-bottom: 0 !important;
+    background: #fff;
+    font-size: 0.9em;
+}
+
+#search-results-bar > span:first-child {
+    margin: 2px 0 0 20px;
+    width: 90%;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#search-results-bar > span:first-child + dl { margin-left: 20px; }
+
+#content-core form.searchPage dd {
+    overflow: hidden;
+    margin: 0 0 1.5em 0;
+}
+
+#search-filter,
+#search-filter .field { background: transparent !important; }
+#search-filter .field { padding: 1em 0 !important; }
+#search-filter .field div { width: 100%; }
+#search-filter .field input { margin-right: 8px; }
+
+#search-results-wrapper { min-height: 600px; }
+
+.optionsToggle {
+    border: medium none transparent;
+    background-color: transparent;
+    font-size: 100%;
+}
