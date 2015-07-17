@@ -3,6 +3,8 @@ Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
+* Adiciona prodam.secoes para checkout [dadlo]
+* Ajusta sources externo padrão do buildout [dadlo]
 * Estiliza navegação em firefox [wblima]
 * Adiciona estilo responsivo para capas de seções [wblima]
 * Adiciona imagens de ícones de serviços das capas de seções [dadlo]
