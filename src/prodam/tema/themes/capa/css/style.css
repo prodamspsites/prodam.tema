@@ -1734,8 +1734,97 @@ div#portal-searchbox {
 }
 /*fim view de notícias*/
 
+
 /* Resultados de busca */
 
+.template-busca div#search-results-bar,
+.template-busca div#search-results {
+  border-top: 1px solid #000 !important;
+  margin-top: 0px;
+  padding-top: 17px !important;
+}
+
+.template-busca div#search-results {
+  margin-top: 35px !important;
+  padding: 0;
+}
+
+.template-busca #search-results-bar dl {
+  width: 100%;
+}
+
+.template-busca h2.buscaPor {
+  color: #363636;
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+.template-busca .actionMenuHeader {
+  font-size: 1.542em;
+  border-bottom: 3px black double;
+  padding-bottom: 20px;
+  margin-bottom: 10px !important;
+}
+
+.template-busca #content div#search-filter legend {
+  background: #000;
+  color: #FFF;
+  display: block;
+  width: 100%;
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
+.template-busca #search-filter span.optionsToggle {
+  display: none;
+}
+
+.template-busca #search-filter label {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold !important;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.template-busca #search-filter input {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+}
+
+.template-busca #search-filter label:hover {
+  color: #000;
+}
+
+.template-busca .actionMenuHeader:after {
+  background: url(../img/sprite.png) no-repeat -498px -3px transparent;
+  content: ' ';
+  display: inline-block;
+  height: 12px;
+  margin-left: 8px;
+  width: 15px;
+}
+
+.template-busca .searchResults div {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 4px 0 10px;
+}
+
+.template-busca .searchResults .itemTitle {
+  font-weight: bold;
+  display: block;
+  line-height: 0.8em;
+  padding-top: 5px;
+}
+
+.template-busca .searchResults .itemType {
+  text-transform: uppercase;
+}
 
 #content #searchResults>div {
   border-bottom: 1px solid #d7d7d7;
