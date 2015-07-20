@@ -1842,3 +1842,47 @@ div#portal-searchbox {
 #content #search-results a:hover {
   color: #F00 !important;
 }
+
+/* Paginação da busca */
+
+.template-busca ul.paginacao.listingBar {
+  border: 1px solid #979797 !important;
+  margin-top: 30px !important;
+  padding: 8px 7px;
+  overflow: hidden;
+}
+
+.template-busca #content #search-results ul.paginacao li a,
+.template-busca #content #search-results ul.paginacao li span {
+  border: 1px solid #f00 !important;
+  padding: 3px;
+  color: #F00 !important;
+  font-weight: bold;
+  font-size: 1.275em;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+}
+
+.template-busca #content #search-results ul.paginacao li span {
+  border-radius: 3px;
+  line-height: 25px;
+  margin: 0 4px;
+  background: #F00;
+  color: #FFF !important;
+}
+
+.template-busca #content #search-results ul.paginacao li a.proximo,
+.template-busca #content #search-results ul.paginacao li a.anterior {
+  background: #000;
+  padding: 3px 10px !important;
+}
+
+.template-busca #content #search-results ul.paginacao li a:hover {
+  text-decoration: none;
+  color: #FFF !important;
+  background: #F00;
+}
+
