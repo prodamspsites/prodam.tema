@@ -339,7 +339,7 @@ section.width-16, nav.width-16 {
 }
 
 #search-results {
-    width: 66.5% !important;
+    width: 64.5% !important;
     padding: 0;
     margin-left: 35%;
 }
@@ -352,7 +352,7 @@ section.width-16, nav.width-16 {
 #search-results-bar {
     margin-top: 25px;
     padding: 0 !important;
-    width: 30% !important;
+    width: 33% !important;
     border-top: 0 none !important;
     border-top: 0 !important;
     border-bottom: 0 none !important;
