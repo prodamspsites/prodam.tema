@@ -1759,7 +1759,7 @@ div#portal-searchbox {
   font-size: 2.5em;
 }
 
-.template-busca .actionMenuHeader {
+.template-busca #content .actionMenuHeader {
   font-size: 1.542em;
   border-bottom: 3px black double;
   padding-bottom: 20px;
@@ -1799,7 +1799,7 @@ div#portal-searchbox {
   color: #000;
 }
 
-.template-busca .actionMenuHeader:after {
+.template-busca #content  .actionMenuHeader:after {
   background: url(../img/sprite.png) no-repeat -498px -3px transparent;
   content: ' ';
   display: inline-block;
