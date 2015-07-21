@@ -1500,6 +1500,10 @@ section.width-16, nav.width-16 {
   color:#01a4b7;
 }
 
+#portal-header #portal-globalnav #portaltab-cidadao.selected a {
+  color:#01a4b7;
+}
+
 #portal-header #portal-globalnav #portaltab-empresa {
   margin-right: 17px;
 }
@@ -1513,12 +1517,19 @@ section.width-16, nav.width-16 {
   color: #fd8a03;
 }
 
+#portal-header #portal-globalnav #portaltab-empresa.selected a {
+  color: #fd8a03;
+}
 
 #portal-header #portal-globalnav #portaltab-turista:before {
   border-left: 7px solid #919e02;
 }
 
 #portal-header #portal-globalnav #portaltab-turista a:hover {
+  color: #919e02;
+}
+
+#portal-header #portal-globalnav #portaltab-turista.selected a {
   color: #919e02;
 }
 
