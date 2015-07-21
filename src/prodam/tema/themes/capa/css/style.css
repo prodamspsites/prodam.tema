@@ -1242,11 +1242,13 @@ section.width-16, nav.width-16 {
 
   .template-noticias_view div.position-0,
   .template-document_view div.position-0,
-  .template-busca div.position-0{
+  .template-busca div.position-0,
+  .template-maps_view div.position-0 {
     margin-left: -98.875% !important;
   }
   .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
   .template-document_view.userrole-authenticated #plone-content #portal-columns,
+  .template-maps_view.userrole-authenticated #plone-content #portal-columns,
   .template-busca.userrole-authenticated #plone-content #portal-columns
   {
     background-position: 0 56px !important;
@@ -1257,6 +1259,7 @@ section.width-16, nav.width-16 {
   }
   .template-noticias_view .width-full,
   .template-document_view .width-full,
+  .template-maps_view .width-full,
   .template-busca .width-full{
     width: 100% !important;
   }
@@ -1331,22 +1334,26 @@ section.width-16, nav.width-16 {
   /*View de Notícias Página e Busca */
   .template-noticias_view div.position-0,
   .template-document_view div.position-0,
+  .template-maps_view div.position-0,
   .template-busca div.position-0{
     margin-left: -99.875% !important;
   }
   .template-noticias_view #plone-content #portal-columns,
   .template-document_view #plone-content #portal-columns,
+  .template-maps_view #plone-content #portal-columns,
   .template-busca #plone-content #portal-columns{
     margin-left: 10px;
     width: 97.91%;
   }
   .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
   .template-document_view.userrole-authenticated #plone-content #portal-columns,
+  .template-maps_view.userrole-authenticated #plone-content #portal-columns,
   .template-busca.userrole-authenticated #plone-content #portal-columns{
     background-position: 0 41px !important;
   }
   .template-noticias_view.userrole-authenticated #content .titulo_principal h1,
-  .template-document_view.userrole-authenticated #content .documentFirstHeading
+  .template-document_view.userrole-authenticated #content .documentFirstHeading,
+  .template-maps_view.userrole-authenticated #content .documentFirstHeading
   {
     margin-top: 27px !important;
   }
@@ -1597,6 +1604,7 @@ div#portal-searchbox {
   height: auto;
 }
 .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
+.template-maps_view.userrole-authenticated #plone-content #portal-columns,
 .template-document_view.userrole-authenticated #plone-content #portal-columns{
   background: url("../img/bg-checkers.png") repeat-x;
   background-position: 0 54px;
@@ -1608,6 +1616,7 @@ div#portal-searchbox {
 }
 
 .template-noticias_view.userrole-anonymous #plone-content #portal-columns,
+.template-maps_view.userrole-anonymous #plone-content #portal-columns,
 .template-document_view.userrole-anonymous #plone-content #portal-columns{
   background: url("../img/bg-checkers.png") repeat-x;
 }
@@ -1620,8 +1629,20 @@ div#portal-searchbox {
   height: 90px;
 }
 
+.template-maps_view #content .documentFirstHeading {
+  height: 45px;
+}
+
+.template-maps_view #map-canvas {
+  height: 600px;
+  width: 939px;
+  margin-left: -4px;
+  padding: 0;
+}
+
 .template-noticias_view #content .titulo_principal h1,
 .template-document_view #content .documentFirstHeading,
+.template-maps_view #content .documentFirstHeading,
 .template-busca #content .documentFirstHeading{
   color: #fff;
   padding-left: 28px;
