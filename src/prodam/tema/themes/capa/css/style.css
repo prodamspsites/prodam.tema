@@ -31,6 +31,9 @@
   vertical-align: top;
   width: 20px;
 }
+#content .maisBuscadosTitulo .iconeMais{
+  margin-left: 3px;
+}
 #content .cover-basic-tile a img{
   max-width: 100%;
   height: auto;
@@ -176,7 +179,7 @@
 }
 
 #content .navegacaoSecoesEmpresa .linha li.mei {
-  max-width: 190px;
+  max-width: 195px;
 }
 
 #content .navegacaoSecoesEmpresa .linha li a,
