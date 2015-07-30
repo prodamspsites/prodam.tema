@@ -110,9 +110,45 @@
 #content .tile-edge .cover-basic-tile h2 a:hover{
   color:#181818 !important;
 }
+/* ==========================================================================
+   Estilos de tiles de notícias
+   ========================================================================== */
+#content .tile-image-h2{
+  margin-bottom: 15px;
+}
+#content .tile-image-h2 h2{
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 188px;
+  color: #fff;
+  z-index: 10;
+  line-height: 1.05em;
+  font-size: 1.49em !important;
+  letter-spacing: 0;
+}
+#content .width-10 .tile-image-h2 h2 a{
+  color: #fff !important;
+}
+#content .tile-image-h2 h2:before{
+  content: " ";
+  position: absolute;
+  width: 318px;
+  height: 234px;
+  margin-top: -30px;
+  margin-left: -30px;
+  background: transparent url("../img/corte-not.png") no-repeat 0 0;
+  z-index: -1;
+}
+#content .width-10 .cover-basic-tile h2{
+  font-size: 1.25em;
+}
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
+
+
 
 #content .cover-banner-tile a img{
   max-width: 100%;
