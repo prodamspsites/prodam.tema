@@ -3,6 +3,8 @@ Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
+* Responsividade do Tile de notícias [wblima]
+* Estiliza Tile de notícias. [wblima]
 * Adiciona estilo para item de menu ativo [dadlo]
 * Adiciona estilo base para página de busca [dadlo]
 * Adiciona prodam.secoes para checkout [dadlo]

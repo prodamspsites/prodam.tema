@@ -110,9 +110,45 @@
 #content .tile-edge .cover-basic-tile h2 a:hover{
   color:#181818 !important;
 }
+/* ==========================================================================
+   Estilos de tiles de notícias
+   ========================================================================== */
+#content .tile-image-h2{
+  margin-bottom: 15px;
+}
+#content .tile-image-h2 h2{
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 188px;
+  color: #fff;
+  z-index: 10;
+  line-height: 1.05em;
+  font-size: 1.49em !important;
+  letter-spacing: 0;
+}
+#content .width-10 .tile-image-h2 h2 a{
+  color: #fff !important;
+}
+#content .tile-image-h2 h2:before{
+  content: " ";
+  position: absolute;
+  width: 318px;
+  height: 123px;
+  margin-top: -30px;
+  margin-left: -30px;
+  background: transparent url("../img/corte-not.png") no-repeat 0 0;
+  z-index: -1;
+}
+#content .width-10 .cover-basic-tile h2{
+  font-size: 1.25em;
+}
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
+
+
 
 #content .cover-banner-tile a img{
   max-width: 100%;
@@ -1026,6 +1062,13 @@ section.width-16, nav.width-16 {
     margin-right: 5px;
   }
   /*fim view de notícias*/
+
+  /*Tile de notícias*/
+
+  #content .tile-image-h2 h2:before{
+    height: 188px;
+  }
+  /*fim tile de notícias*/
 }
 
 /* Small Devices, Tablets */
@@ -1132,7 +1175,7 @@ section.width-16, nav.width-16 {
   }
   body div.width-10, header.width-10,
   section.width-10, nav.width-10 {
-    width: 60.25%;
+    width: 61.25%;
   }
   body div.width-11, header.width-11,
   section.width-11, nav.width-11 {
@@ -1375,6 +1418,13 @@ section.width-16, nav.width-16 {
     margin-top: -28px;
   }
   /*Fim view de notícias*/
+
+  /*Tile de notícias*/
+
+  #content .tile-image-h2 h2:before{
+    height: 234px;
+  }
+  /*Fim tile de notícias*/
 }
 
 
