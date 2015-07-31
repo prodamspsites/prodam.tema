@@ -694,7 +694,7 @@
 
 /* Estilo do titulo header A a Z */
 
-#content .headerAaZ {
+#content .header-title {
   background: transparent url("../img/bg-checkers.png") repeat scroll 0px 0px;
   display: block;
   height: 57px;
@@ -702,7 +702,7 @@
   padding: 0px;
 }
 
-#content .headerAaZ  .documentFirstHeading {
+#content .header-title  .documentFirstHeading {
   background: transparent url("../img/header-page.png") no-repeat scroll 0px -195px;
   color: #FFF;
   padding-left: 29px;
@@ -713,7 +713,7 @@
   letter-spacing: 0;
   font-weight: bold;
 }
-#content .headerAaZ  .documentFirstHeading span {
+#content .header-title  .documentFirstHeading span {
   font-weight: bold;
 }
 iframe{
@@ -983,6 +983,24 @@ section.width-16, nav.width-16 {
 /* Fim do rodape */
 
 /* ==========================================================================
+   Estilos do page template de error 404
+   ========================================================================== */
+
+.template-default_error_message #content .header-title .documentFirstHeading{
+  background: none;
+}   
+.template-default_error_message #content a{
+  color: #000 !important;
+  border-bottom: none !important;
+}
+.template-default_error_message #content a:hover{
+  color: #F00 !important;
+}
+.template-default_error_message #content dd,
+.template-default_error_message #content h3{
+  margin-bottom:10px;  
+}
+/* ==========================================================================
    Media Queries
    ========================================================================== */
 
@@ -1072,6 +1090,7 @@ section.width-16, nav.width-16 {
     height: 188px;
   }
   /*fim tile de notícias*/
+
 }
 
 /* Small Devices, Tablets */
