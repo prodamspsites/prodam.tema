@@ -31,6 +31,9 @@
   vertical-align: top;
   width: 20px;
 }
+#content .maisBuscadosTitulo .iconeMais{
+  margin-left: 3px;
+}
 #content .cover-basic-tile a img{
   max-width: 100%;
   height: auto;
@@ -212,7 +215,7 @@
 }
 
 #content .navegacaoSecoesEmpresa .linha li.mei {
-  max-width: 190px;
+  max-width: 195px;
 }
 
 #content .navegacaoSecoesEmpresa .linha li a,
@@ -252,16 +255,16 @@
 #content .tile-edge .cover-basic-tile h3 {
   font-size: 1.1em;
   font-weight: 700;
-  padding: 0 15px;
   text-align: center;
-  height: 44px;
-  overflow: hidden;
-  padding-top: 15px;
 }
 
 #content .width-3 .tile-edge .cover-basic-tile h3 {
   padding-top: 0px;
-  text-align: left;
+}
+#content .width-5 .tile-edge .cover-basic-tile h3,
+#content .width-6 .tile-edge .cover-basic-tile h3 {
+  padding-top: 200px;
+  padding-bottom: 20px;
 }
 
 #content .width-3 .tile-edge {
@@ -1095,7 +1098,7 @@ section.width-16, nav.width-16 {
     clear: none;
   }
   .portaltype-collective-cover-content #content .position-4{
-    margin-left: -71.125%% !important;
+    margin-left: -71.125% !important;
     clear: none;
   }
   .portaltype-collective-cover-content #content .position-6{
