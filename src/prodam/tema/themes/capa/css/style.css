@@ -135,7 +135,7 @@
   content: " ";
   position: absolute;
   width: 318px;
-  height: 234px;
+  height: 123px;
   margin-top: -30px;
   margin-left: -30px;
   background: transparent url("../img/corte-not.png") no-repeat 0 0;
@@ -1062,6 +1062,13 @@ section.width-16, nav.width-16 {
     margin-right: 5px;
   }
   /*fim view de notícias*/
+
+  /*Tile de notícias*/
+
+  #content .tile-image-h2 h2:before{
+    height: 188px;
+  }
+  /*fim tile de notícias*/
 }
 
 /* Small Devices, Tablets */
@@ -1411,6 +1418,13 @@ section.width-16, nav.width-16 {
     margin-top: -28px;
   }
   /*Fim view de notícias*/
+
+  /*Tile de notícias*/
+
+  #content .tile-image-h2 h2:before{
+    height: 234px;
+  }
+  /*Fim tile de notícias*/
 }
 
 
