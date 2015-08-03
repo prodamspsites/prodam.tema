@@ -120,7 +120,7 @@
   width: 97.75%;
 }
 .subsection-noticias #portal-column-two{
-  margin-top: 115px;
+  clear: both
 }
 #content .tile-image-h2{
   margin-bottom: 15px;
@@ -184,10 +184,10 @@
   color: red !important;
 }
 .position-3\3a 4 {
-  margin-left: -35.375% !important;
+  margin-left: -98% !important;
 }
 .width-1\3a 4 {
-  width: 34.4% !important;
+  width: 100% !important;
 }
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
@@ -1380,6 +1380,20 @@ section.width-16, nav.width-16 {
     padding-top: 125px;
   }
   /*fim view de notícias*/
+
+  /* ==========================================================================
+   Estilos de tiles de notícias
+   ========================================================================== */
+  .subsection-noticias #portal-column-two{
+    margin-top: 115px;
+    clear: none;
+  }
+  .position-3\3a 4 {
+    margin-left: -35.375% !important;
+  }
+  .width-1\3a 4 {
+    width: 34.4% !important;
+  }
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
