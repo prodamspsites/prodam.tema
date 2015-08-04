@@ -190,12 +190,47 @@
 .subsection-noticias .width-1\3a 4 {
   width: 98% !important;
 }
+/* ==========================================================================
+   Estilos da pagina da agenda do prefeito
+   ========================================================================== */
+
+/*Estilos do portlet do calendario*/
+.portletCalendar .ploneCalendar td {
+  padding: 17px;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #e9e9e9;
+}
+.portletCalendar .ploneCalendar td:hover,
+.portletCalendar .ploneCalendar td:first-child:hover,
+.portletCalendar .ploneCalendar td:last-child:hover {
+  background: red;
+  color: #fff;
+}
+.portletCalendar .ploneCalendar td:first-child,
+.portletCalendar .ploneCalendar td:last-child {
+  color: red;
+}
+.portletCalendar .ploneCalendar .weekdays th {
+  background-color: #e9e9e9;
+  text-align: center;
+  padding: 15px;
+}
+.portletCalendar .portletItem{
+  padding: 0 !important;
+}
+#portal-column-two dl.portlet dt{
+  background: #fff !important;
+}
+.portletHeader .calendarPrev,
+.portletHeader .calendarNext{
+  border: 1px solid #e9e9e9 !important;
+  padding: 5px 8px !important;
+}
+
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
-
-
-
 
 
 #content .cover-banner-tile a img{
