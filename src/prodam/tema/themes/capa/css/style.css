@@ -676,6 +676,7 @@
 /* Estilo do titulo Mais Buscados */
 
 #content .maisBuscadosTitulo,
+#portal-column-two .maisBuscadosTitulo,
 #content .capaTituloSublinhado {
   font-size: 1.5em;
   display: block;
