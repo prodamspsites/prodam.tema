@@ -552,7 +552,7 @@
   font-weight: bold;
   padding: 10px 15px;
   text-align: center;
-  transition: #EDEDED 0.2s ease-out 0s;
+  transition: 0.2s ease-out 0s;
   margin: 10px 0 0 35px;
   width: 60%;
 }
@@ -743,7 +743,7 @@
   padding: 2px 4px;
   text-align: center;
   width: 15px;
-  transition: #EDEDED 0.2s linear 0s;
+  transition: 0.2s linear 0s;
 }
 
 #content .maisBuscadosLista span:hover {
@@ -751,13 +751,13 @@
 }
 
 #content .maisBuscadosLista a,
-#content .maisBuscadosLista a:hover, {
+#content .maisBuscadosLista a:hover {
   text-decoration: none;
   color: #FFF !important;
 }
 
 #content .maisBuscadosLista li a:link {
-  color: #333;
+  color: #333 !important;
   border-bottom: none;
 }
 
@@ -1378,7 +1378,6 @@ section.width-16, nav.width-16 {
 
   #footer-nav section .width-4 {
     margin: 0 10px;
-    max-width:
   }
   .container-wrapper {
     min-width: 768px;
@@ -1471,10 +1470,6 @@ section.width-16, nav.width-16 {
 
   #footer-nav section .width-4 {
     width: 23.5%;
-  }
-
-  #footer-nav section:first .width-4 {
-    padding-bottom: 37px;
   }
 
   .container-wrapper {
@@ -1713,7 +1708,7 @@ section.width-16, nav.width-16 {
 }
 
 nav #portal-searchbox form {
-  white-space: unset;
+  white-space: normal;
 }
 
 #portal-searchbox fieldset {
@@ -1880,7 +1875,7 @@ div#portal-searchbox {
 }
 .template-noticias_view #content .noticias_actions a:hover{
   color: #222 !important;
-  background: #ddd -webkit-linear-gradient(top,rgba(255,255,255,.3) 0,rgba(0,0,0,.3) 100%);
+  background: #ddd ;
   border: 1px solid #888;
   border-top: 1px solid #aaa;
   border-left: 1px solid #aaa;
@@ -2058,17 +2053,13 @@ div#portal-searchbox {
   font-weight: bold;
   font-size: 1.275em;
   transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -ms-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  -webkit-transition: all .2s ease-out;
 }
 
 .template-busca #content #search-results ul.paginacao li span {
   border-radius: 3px;
   line-height: 25px;
   margin: 0 4px;
-  background: #F00;
+  background: #FF0;
   color: #FFF !important;
 }
 
