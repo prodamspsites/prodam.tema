@@ -58,6 +58,7 @@
   margin-left: 5px;
   margin-bottom: 35px;
   font-size: 1.33em;
+  margin-top: -12px;
 }
 #content .tabs li {
   display: inline-block !important;
@@ -94,6 +95,11 @@
   border-top: #fd8a03 solid 3px;
   display: none;
 }
+#content #home-secoes-cidadao li,
+#content #home-secoes-empresa li,
+#content #home-secoes-turista li{
+  border-bottom: none;
+}
 #content #home-secoes-turista:before{
   content: "";
   position: absolute;
@@ -127,8 +133,7 @@
 #content #home-secoes-turista li,
 #content #home-secoes-cidadao li,
 #content #home-secoes-empresa li{
-  width: 20%;
-  margin-left: 20px;
+  width: 145px;
 }
 #content .width-2 .cover-basic-tile h2 a{
   font-size: 0.6em;
@@ -483,13 +488,17 @@
 }
 
 #content .secoesServicos li {
-  padding: 30px 15px 10px;
   border-bottom: 1px solid #D7D7D7;
-  margin: 0px -4px 0px 0px;
+  margin: 0px -4px 0px 5px;
   width: 22%;
   text-align: center;
   height: 145px;
   display: inline-table;
+}
+.subsection-cidadao #content .secoesServicos li,
+.subsection-empresa #content .secoesServicos li,
+.subsection-turista #content .secoesServicos li{
+  margin-left: 25px;
 }
 
 #content .secoesServicos li a {
@@ -1301,7 +1310,7 @@ section.width-16, nav.width-16 {
   }
   body div.width-8, header.width-8,
   section.width-8, nav.width-8 {
-    width: 47.75%;
+    width: 48.75%;
   }
   body div.width-9, header.width-9,
   section.width-9, nav.width-9 {
