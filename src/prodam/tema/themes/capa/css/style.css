@@ -116,6 +116,12 @@
 /* ==========================================================================
    Estilos de tiles de notícias
    ========================================================================== */
+.subsection-noticias div.width-3\3a 4{
+  width: 97.75%;
+}
+.subsection-noticias #portal-column-two{
+  clear: both
+}
 #content .tile-image-h2{
   margin-bottom: 15px;
 }
@@ -131,8 +137,15 @@
   font-size: 1.49em !important;
   letter-spacing: 0;
 }
+.subsection-noticias #content .header-title .documentFirstHeading{
+  background: none;
+}
 #content .width-10 .tile-image-h2 h2 a{
   color: #fff !important;
+}
+.subsection-noticias #content .width-5 .tile-edge .cover-basic-tile h3{
+  padding-top: 130px !important;
+  padding: 10px;
 }
 #content .tile-image-h2 h2:before{
   content: " ";
@@ -147,9 +160,41 @@
 #content .width-10 .cover-basic-tile h2{
   font-size: 1.25em;
 }
+
+/*Estilização do portlet de últimas ocorrências*/
+
+#plone-content #portal-column-two .news-list {
+  font-size: 0.95em;
+}
+
+#plone-content #portal-column-two .news-list ul li{
+  background: url(../img/twitter-red.png) no-repeat top left transparent;
+  border-bottom: 1px solid #d7d7d7;
+  display: block;
+  margin: 11px 0 0;
+  padding-left: 24px;
+  padding-bottom: 11px;
+}
+#plone-content #portal-column-two .news-list ul li a{
+  color: #333;
+}
+#plone-content #portal-column-two .news-list ul li time{
+  font-weight: bold;
+}
+#plone-content #portal-column-two .news-list ul li a:hover{
+  color: red !important;
+}
+.subsection-noticias .position-3\3a 4 {
+  margin-left: -98% !important;
+}
+.subsection-noticias .width-1\3a 4 {
+  width: 98% !important;
+}
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
+
+
 
 
 
@@ -631,6 +676,7 @@
 /* Estilo do titulo Mais Buscados */
 
 #content .maisBuscadosTitulo,
+#portal-column-two .maisBuscadosTitulo,
 #content .capaTituloSublinhado {
   font-size: 1.5em;
   display: block;
@@ -1336,6 +1382,20 @@ section.width-16, nav.width-16 {
     padding-top: 125px;
   }
   /*fim view de notícias*/
+
+  /* ==========================================================================
+   Estilos de tiles de notícias
+   ========================================================================== */
+  .subsection-noticias #portal-column-two{
+    margin-top: 115px;
+    clear: none;
+  }
+  .subsection-noticias .position-3\3a 4 {
+    margin-left: -35.375% !important;
+  }
+  .subsection-noticias .width-1\3a 4 {
+    width: 34.4% !important;
+  }
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
