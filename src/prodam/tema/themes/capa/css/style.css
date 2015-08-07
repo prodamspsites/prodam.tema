@@ -83,6 +83,16 @@
 #content #home-secoes-turista{
   position: relative;
   border-top: #919e02 solid 3px;
+  display: none;
+}
+#content #home-secoes-cidadao{
+  position: relative;
+  border-top: #01a4b7 solid 3px;
+}
+#content #home-secoes-empresa{
+  position: relative;
+  border-top: #fd8a03 solid 3px;
+  display: none;
 }
 #content #home-secoes-turista:before{
   content: "";
@@ -94,7 +104,29 @@
   margin-left: 71%;
   margin-top: -17px
 }
-#content #home-secoes-turista li{
+#content #home-secoes-cidadao:before{
+  content: "";
+  position: absolute;
+  border-top: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-left: solid transparent 7px;
+  border-bottom: solid #01a4b7 7px;
+  margin-left: 28%;
+  margin-top: -17px
+}
+#content #home-secoes-empresa:before{
+  content: "";
+  position: absolute;
+  border-top: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-left: solid transparent 7px;
+  border-bottom: solid #fd8a03 7px;
+  margin-left: 50%;
+  margin-top: -17px
+}
+#content #home-secoes-turista li,
+#content #home-secoes-cidadao li,
+#content #home-secoes-empresa li{
   width: 20%;
   margin-left: 20px;
 }
