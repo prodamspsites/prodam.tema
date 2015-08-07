@@ -1,8 +1,13 @@
 Histórico de Alterações
 ------------------------
+Histórico de Alterações
 
 0.5.0 (unreleased)
 ^^^^^^^^^^^^^^^^^^
+* Estilização do portlet do twitter [wblima]
+* Estilização da página de notícias [wblima]
+* Responsividade da área de seções da home [wblima]
+* Estiliza área de seções da home [wblima]
 * Responsividade do Tile de notícias [wblima]
 * Estiliza Tile de notícias. [wblima]
 * Adiciona estilo para item de menu ativo [dadlo]
