@@ -58,6 +58,7 @@
   margin-left: 5px;
   margin-bottom: 35px;
   font-size: 1.33em;
+  margin-top: -12px;
 }
 #content .tabs li {
   display: inline-block !important;
@@ -83,6 +84,24 @@
 #content #home-secoes-turista{
   position: relative;
   border-top: #919e02 solid 3px;
+  display: none;
+  padding-top: 10px;
+}
+#content #home-secoes-cidadao{
+  position: relative;
+  border-top: #01a4b7 solid 3px;
+  padding-top: 10px;
+}
+#content #home-secoes-empresa{
+  position: relative;
+  border-top: #fd8a03 solid 3px;
+  display: none;
+  padding-top: 10px;
+}
+#content #home-secoes-cidadao li,
+#content #home-secoes-empresa li,
+#content #home-secoes-turista li{
+  border-bottom: none;
 }
 #content #home-secoes-turista:before{
   content: "";
@@ -92,11 +111,32 @@
   border-left: solid transparent 7px;
   border-bottom: solid #919e02 7px;
   margin-left: 71%;
-  margin-top: -17px
+  margin-top: -27px
 }
-#content #home-secoes-turista li{
-  width: 20%;
-  margin-left: 20px;
+#content #home-secoes-cidadao:before{
+  content: "";
+  position: absolute;
+  border-top: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-left: solid transparent 7px;
+  border-bottom: solid #01a4b7 7px;
+  margin-left: 28%;
+  margin-top: -27px
+}
+#content #home-secoes-empresa:before{
+  content: "";
+  position: absolute;
+  border-top: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-left: solid transparent 7px;
+  border-bottom: solid #fd8a03 7px;
+  margin-left: 50%;
+  margin-top: -27px
+}
+#content #home-secoes-turista li,
+#content #home-secoes-cidadao li,
+#content #home-secoes-empresa li{
+  width: 145px;
 }
 #content .width-2 .cover-basic-tile h2 a{
   font-size: 0.6em;
@@ -190,12 +230,47 @@
 .subsection-noticias .width-1\3a 4 {
   width: 98% !important;
 }
+/* ==========================================================================
+   Estilos da pagina da agenda do prefeito
+   ========================================================================== */
+
+/*Estilos do portlet do calendario*/
+.portletCalendar .ploneCalendar td {
+  padding: 17px;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #e9e9e9;
+}
+.portletCalendar .ploneCalendar td:hover,
+.portletCalendar .ploneCalendar td:first-child:hover,
+.portletCalendar .ploneCalendar td:last-child:hover {
+  background: red;
+  color: #fff;
+}
+.portletCalendar .ploneCalendar td:first-child,
+.portletCalendar .ploneCalendar td:last-child {
+  color: red;
+}
+.portletCalendar .ploneCalendar .weekdays th {
+  background-color: #e9e9e9;
+  text-align: center;
+  padding: 15px;
+}
+.portletCalendar .portletItem{
+  padding: 0 !important;
+}
+#portal-column-two dl.portlet dt{
+  background: #fff !important;
+}
+.portletHeader .calendarPrev,
+.portletHeader .calendarNext{
+  border: 1px solid #e9e9e9 !important;
+  padding: 5px 8px !important;
+}
+
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
-
-
-
 
 
 #content .cover-banner-tile a img{
@@ -416,13 +491,17 @@
 }
 
 #content .secoesServicos li {
-  padding: 30px 15px 10px;
   border-bottom: 1px solid #D7D7D7;
-  margin: 0px -4px 0px 0px;
+  margin: 0px -4px 0px 5px;
   width: 22%;
   text-align: center;
   height: 145px;
   display: inline-table;
+}
+.subsection-cidadao #content .secoesServicos li,
+.subsection-empresa #content .secoesServicos li,
+.subsection-turista #content .secoesServicos li{
+  margin-left: 25px;
 }
 
 #content .secoesServicos li a {
@@ -517,7 +596,7 @@
   font-weight: bold;
   padding: 10px 15px;
   text-align: center;
-  transition: #EDEDED 0.2s ease-out 0s;
+  transition: 0.2s ease-out 0s;
   margin: 10px 0 0 35px;
   width: 60%;
 }
@@ -709,7 +788,7 @@
   padding: 2px 4px;
   text-align: center;
   width: 15px;
-  transition: #EDEDED 0.2s linear 0s;
+  transition: 0.2s linear 0s;
 }
 
 #content .maisBuscadosLista span:hover {
@@ -717,13 +796,13 @@
 }
 
 #content .maisBuscadosLista a,
-#content .maisBuscadosLista a:hover, {
+#content .maisBuscadosLista a:hover {
   text-decoration: none;
   color: #FFF !important;
 }
 
 #content .maisBuscadosLista li a:link {
-  color: #333;
+  color: #333 !important;
   border-bottom: none;
 }
 
@@ -1235,7 +1314,7 @@ section.width-16, nav.width-16 {
   }
   body div.width-8, header.width-8,
   section.width-8, nav.width-8 {
-    width: 47.75%;
+    width: 48.75%;
   }
   body div.width-9, header.width-9,
   section.width-9, nav.width-9 {
@@ -1344,7 +1423,6 @@ section.width-16, nav.width-16 {
 
   #footer-nav section .width-4 {
     margin: 0 10px;
-    max-width:
   }
   .container-wrapper {
     min-width: 768px;
@@ -1437,10 +1515,6 @@ section.width-16, nav.width-16 {
 
   #footer-nav section .width-4 {
     width: 23.5%;
-  }
-
-  #footer-nav section:first .width-4 {
-    padding-bottom: 37px;
   }
 
   .container-wrapper {
@@ -1679,7 +1753,7 @@ section.width-16, nav.width-16 {
 }
 
 nav #portal-searchbox form {
-  white-space: unset;
+  white-space: normal;
 }
 
 #portal-searchbox fieldset {
@@ -1846,7 +1920,7 @@ div#portal-searchbox {
 }
 .template-noticias_view #content .noticias_actions a:hover{
   color: #222 !important;
-  background: #ddd -webkit-linear-gradient(top,rgba(255,255,255,.3) 0,rgba(0,0,0,.3) 100%);
+  background: #ddd ;
   border: 1px solid #888;
   border-top: 1px solid #aaa;
   border-left: 1px solid #aaa;
@@ -2024,17 +2098,13 @@ div#portal-searchbox {
   font-weight: bold;
   font-size: 1.275em;
   transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -ms-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  -webkit-transition: all .2s ease-out;
 }
 
 .template-busca #content #search-results ul.paginacao li span {
   border-radius: 3px;
   line-height: 25px;
   margin: 0 4px;
-  background: #F00;
+  background: #FF0;
   color: #FFF !important;
 }
 
