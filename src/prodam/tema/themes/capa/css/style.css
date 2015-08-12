@@ -48,24 +48,23 @@
 #content #controler-carrossel a:hover{
   color: #333 !important;
 }
-#content #controler-carrossel .controle1:visited,
-#content #controler-carrossel .controle2:visited,
-#content #controler-carrossel .controle3:visited,
-#content #controler-carrossel .controle4:visited{
+#content #controler-carrossel .ativo {
   background: #000;
   color: #fff !important;
   border: 1px solid #fff;
 }
+#content #controler-carrossel .ativo:hover {
+  color: #fff !important;
+}
 
 .collection-item {
   position: relative;
-}
-div.controle2,
-div.controle3,
-div.controle4{
   display: none;
 }
 
+.collection-item.ativo {
+  display: block;
+}
 .bannerInfo{
   color: #fff !important;
   position: absolute;
