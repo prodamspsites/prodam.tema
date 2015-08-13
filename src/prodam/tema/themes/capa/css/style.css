@@ -24,7 +24,7 @@
    Estilos de tiles de Capa inicial do Portal
    ========================================================================== */
 
-#content .cover-collection-tile {
+#content .cover-chamada-tile {
   position: relative;
   width: 940px;
   height: 450px;
@@ -57,15 +57,15 @@
   color: #fff !important;
 }
 
-.collection-item {
+#content .chamada-item {
   position: relative;
   display: none;
 }
 
-.collection-item.ativo {
+#content .chamada-item.ativo {
   display: block;
 }
-.bannerInfo{
+#content .bannerInfo{
   color: #fff !important;
   position: absolute;
   width: 350px;
@@ -74,19 +74,19 @@
   background: url("../img/slider-back.png");
   padding: 16px 16px 50px 16px;
 }
-#content .bannerInfo h2{
+#content .chamada-item .bannerInfo h2{
   font-size: 1.9em;
   letter-spacing: 0;
 
 }
-#content .bannerInfo p{
+#content .chamada-item .bannerInfo p{
   font-size: 1.5em;
   letter-spacing: 0;
   line-height: 21px;
 }
 
-#content .bannerInfo h2 a,
-#content .bannerInfo h2 a:hover {
+#content .chamada-item .bannerInfo h2 a,
+#content .chamada-item.bannerInfo h2 a:hover {
   color: #fff !important;
   font-size: 1em;
 }
