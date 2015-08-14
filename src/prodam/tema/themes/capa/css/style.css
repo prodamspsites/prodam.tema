@@ -21,7 +21,7 @@
  */
 
  /* ==========================================================================
-   Estilos de tiles de Capa inicial do Portal
+   Estilos de banner rotativos do portal
    ========================================================================== */
 
 #content .tile-default .cover-chamada-tile {
@@ -40,7 +40,7 @@
 #content .destaque .chamada-item img {
   max-width: 100%;
   height: auto;
-  border-bottom: 5px solid #f00;  
+  border-bottom: 5px solid #f00;
 }
 
 #content .tile-default #controler-carrossel {
@@ -102,6 +102,68 @@
   color: #fff !important;
   font-size: 1em;
 }
+
+/*Banner de seções*/
+.subsection-cidadao #content .tile-default .cover-chamada-tile span{
+  background: url("../img/cortado.png") no-repeat;
+  width: 960px;
+  height: 360px;
+  position: absolute;
+  z-index: 2;
+}
+.subsection-cidadao #content .tile-default .chamada-item {
+  display: block !important;
+  position: static;
+}
+.subsection-cidadao #content .tile-default .bannerInfo{
+  top:60px;
+  background: none;
+  position: static;
+  padding: 0;
+}
+.subsection-cidadao #content .tile-default .bannerInfo h2{
+  background: url(../img/sprite2.png) no-repeat 1px 3px transparent;
+  font-size: 1.4em;
+  cursor: pointer;
+  float: left;
+  position: relative;
+  z-index: 3;
+}
+.subsection-cidadao #content .tile-default .bannerInfo h2:hover{
+  background: url(../img/sprite2.png) no-repeat -1px -68px transparent;
+}
+.subsection-cidadao .chamada-item img,
+.subsection-cidadao .chamada-item p {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+.subsection-cidadao #content .tile-default .bannerInfo p{
+  position: absolute;
+  z-index: 3;
+  width: 300px;
+  left: 220px;
+  top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.subsection-cidadao .chamada-item.ativo img,
+.subsection-cidadao .chamada-item.ativo p {
+  display: block;
+}
+.subsection-cidadao #content .tile-default .chamada-item .bannerInfo h2 a {
+  width: 160px;
+  height: 54px;
+  display: block;
+  padding: 10px 0 0 10px;
+}
+.subsection-cidadao #content .tile-default .controle1 .bannerInfo{
+  margin-top: 40px;
+}
+
+ /* ==========================================================================
+   Estilos de tiles de Capa inicial do Portal
+   ========================================================================== */
 
 #content .iconeMais {
   background: url(../img/sprite.png) no-repeat -379px -29px transparent;
@@ -522,7 +584,7 @@
   width: 20%;
 }
 
-/* Serviços */
+/* Serviços para Cidadão */
 #content .servicosTitulo {
   border: 1px solid #979799;
   margin: 2px 0 30px 0;
