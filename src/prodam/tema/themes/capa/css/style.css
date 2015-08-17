@@ -104,24 +104,28 @@
 }
 
 /*Banner de seções*/
-.subsection-cidadao #content .tile-default .cover-chamada-tile span{
+.subsection-cidadao #content .tile-default .cover-chamada-tile span,
+.subsection-empresa #content .tile-default .cover-chamada-tile span{
   background: url("../img/cortado.png") no-repeat;
   width: 960px;
   height: 360px;
   position: absolute;
   z-index: 2;
 }
-.subsection-cidadao #content .tile-default .chamada-item {
+.subsection-cidadao #content .tile-default .chamada-item,
+.subsection-empresa #content .tile-default .chamada-item {
   display: block !important;
   position: static;
 }
-.subsection-cidadao #content .tile-default .bannerInfo{
+.subsection-cidadao #content .tile-default .bannerInfo,
+.subsection-empresa #content .tile-default .bannerInfo{
   top:60px;
   background: none;
   position: static;
   padding: 0;
 }
-.subsection-cidadao #content .tile-default .bannerInfo h2{
+.subsection-cidadao #content .tile-default .bannerInfo h2,
+.subsection-empresa #content .tile-default .bannerInfo h2 {
   background: url(../img/sprite2.png) no-repeat 1px 3px transparent;
   font-size: 1.4em;
   cursor: pointer;
@@ -129,35 +133,43 @@
   position: relative;
   z-index: 3;
 }
-.subsection-cidadao #content .tile-default .bannerInfo h2:hover{
+.subsection-cidadao #content .tile-default .bannerInfo h2:hover,
+.subsection-empresa #content .tile-default .bannerInfo h2:hover {
   background: url(../img/sprite2.png) no-repeat -1px -68px transparent;
 }
 .subsection-cidadao .chamada-item img,
-.subsection-cidadao .chamada-item p {
+.subsection-cidadao .chamada-item p,
+.subsection-empresa .chamada-item img,
+.subsection-empresa .chamada-item p {
   display: none;
   position: absolute;
   top: 0;
 }
-.subsection-cidadao #content .tile-default .bannerInfo p{
+.subsection-cidadao #content .tile-default .bannerInfo p,
+.subsection-empresa #content .tile-default .bannerInfo p{
   position: absolute;
   z-index: 3;
-  width: 300px;
-  left: 220px;
+  width: 340px;
+  left: 170px;
   top: 40px;
   font-size: 24px;
   font-weight: bold;
 }
 .subsection-cidadao .chamada-item.ativo img,
-.subsection-cidadao .chamada-item.ativo p {
+.subsection-cidadao .chamada-item.ativo p,
+.subsection-empresa .chamada-item.ativo img,
+.subsection-empresa .chamada-item.ativo p {
   display: block;
 }
-.subsection-cidadao #content .tile-default .chamada-item .bannerInfo h2 a {
+.subsection-cidadao #content .tile-default .chamada-item .bannerInfo h2 a,
+.subsection-empresa #content .tile-default .chamada-item .bannerInfo h2 a {
   width: 160px;
   height: 54px;
   display: block;
   padding: 10px 0 0 10px;
 }
-.subsection-cidadao #content .tile-default .controle1 .bannerInfo{
+.subsection-cidadao #content .tile-default .controle1 .bannerInfo,
+.subsection-empresa #content .tile-default .controle1 .bannerInfo {
   margin-top: 40px;
 }
 
