@@ -21,23 +21,35 @@
  */
 
  /* ==========================================================================
-   Estilos de tiles de Capa inicial do Portal
+   Estilos de banner rotativos do portal
    ========================================================================== */
 
-#content .cover-collection-tile {
+#content .tile-default .cover-chamada-tile {
   position: relative;
   width: 940px;
   height: 450px;
   overflow: hidden;
 }
+#content .destaque .chamada-item{
+  width: 22.7%;
+  float: left;
+  margin-right: 13px;
+  height: 170px;
+}
 
-#content #controler-carrossel {
+#content .destaque .chamada-item img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 5px solid #f00;
+}
+
+#content .tile-default #controler-carrossel {
   position: absolute;
   top: 340px;
   left: 17px;
   font-size: 1.1em;
 }
-#content #controler-carrossel a{
+#content .tile-default #controler-carrossel a{
   border: 1px solid black;
   color: #000 !important;
   padding: 2px 5px;
@@ -45,27 +57,27 @@
   font-weight: bold;
   text-decoration: none;
 }
-#content #controler-carrossel a:hover{
+#content .tile-default #controler-carrossel a:hover{
   color: #333 !important;
 }
-#content #controler-carrossel .ativo {
+#content .tile-default #controler-carrossel .ativo {
   background: #000;
   color: #fff !important;
   border: 1px solid #fff;
 }
-#content #controler-carrossel .ativo:hover {
+#content .tile-default #controler-carrossel .ativo:hover {
   color: #fff !important;
 }
 
-.collection-item {
+#content .tile-default .chamada-item {
   position: relative;
   display: none;
 }
 
-.collection-item.ativo {
+#content .tile-default .chamada-item.ativo {
   display: block;
 }
-.bannerInfo{
+#content .tile-default .bannerInfo{
   color: #fff !important;
   position: absolute;
   width: 350px;
@@ -74,22 +86,96 @@
   background: url("../img/slider-back.png");
   padding: 16px 16px 50px 16px;
 }
-#content .bannerInfo h2{
+#content .tile-default .chamada-item .bannerInfo h2{
   font-size: 1.9em;
   letter-spacing: 0;
 
 }
-#content .bannerInfo p{
+#content .tile-default .chamada-item .bannerInfo p{
   font-size: 1.5em;
   letter-spacing: 0;
   line-height: 21px;
 }
 
-#content .bannerInfo h2 a,
-#content .bannerInfo h2 a:hover {
+#content .tile-default .chamada-item .bannerInfo h2 a,
+#content .tile-default .chamada-item.bannerInfo h2 a:hover {
   color: #fff !important;
   font-size: 1em;
 }
+
+/*Banner de seções*/
+.subsection-cidadao #content .tile-default .cover-chamada-tile span,
+.subsection-empresa #content .tile-default .cover-chamada-tile span{
+  background: url("../img/cortado.png") no-repeat;
+  width: 960px;
+  height: 360px;
+  position: absolute;
+  z-index: 2;
+}
+.subsection-cidadao #content .tile-default .chamada-item,
+.subsection-empresa #content .tile-default .chamada-item {
+  display: block !important;
+  position: static;
+}
+.subsection-cidadao #content .tile-default .bannerInfo,
+.subsection-empresa #content .tile-default .bannerInfo{
+  top:60px;
+  background: none;
+  position: static;
+  padding: 0;
+}
+.subsection-cidadao #content .tile-default .bannerInfo h2,
+.subsection-empresa #content .tile-default .bannerInfo h2 {
+  background: url(../img/sprite2.png) no-repeat 1px 3px transparent;
+  font-size: 1.4em;
+  cursor: pointer;
+  float: left;
+  position: relative;
+  z-index: 3;
+}
+.subsection-cidadao #content .tile-default .bannerInfo h2:hover,
+.subsection-empresa #content .tile-default .bannerInfo h2:hover {
+  background: url(../img/sprite2.png) no-repeat -1px -68px transparent;
+}
+.subsection-cidadao .chamada-item img,
+.subsection-cidadao .chamada-item p,
+.subsection-empresa .chamada-item img,
+.subsection-empresa .chamada-item p {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+.subsection-cidadao #content .tile-default .bannerInfo p,
+.subsection-empresa #content .tile-default .bannerInfo p{
+  position: absolute;
+  z-index: 3;
+  width: 340px;
+  left: 170px;
+  top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.subsection-cidadao .chamada-item.ativo img,
+.subsection-cidadao .chamada-item.ativo p,
+.subsection-empresa .chamada-item.ativo img,
+.subsection-empresa .chamada-item.ativo p {
+  display: block;
+}
+.subsection-cidadao #content .tile-default .chamada-item .bannerInfo h2 a,
+.subsection-empresa #content .tile-default .chamada-item .bannerInfo h2 a {
+  width: 160px;
+  height: 54px;
+  display: block;
+  padding: 10px 0 0 10px;
+}
+.subsection-cidadao #content .tile-default .controle1 .bannerInfo,
+.subsection-empresa #content .tile-default .controle1 .bannerInfo {
+  margin-top: 40px;
+}
+
+ /* ==========================================================================
+   Estilos de tiles de Capa inicial do Portal
+   ========================================================================== */
 
 #content .iconeMais {
   background: url(../img/sprite.png) no-repeat -379px -29px transparent;
@@ -106,15 +192,19 @@
   max-width: 100%;
   height: auto;
 }
-#content .cover-basic-tile h2{
+#content .cover-basic-tile h2 {
   font-size: 1.61em;
   line-height: 1.0em;
   font-weight: bold;
 }
-#content .width-2 .cover-basic-tile h2{
+#content .destaque h2{
   margin-bottom: 40px;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: bold;
 }
 #content .cover-basic-tile h2 a,
+#content .destaque h2 a,
 #content .cover-basic-tile h2 a:hover{
   color: #181818 !important;
 }
@@ -205,11 +295,6 @@
 #content #home-secoes-cidadao li,
 #content #home-secoes-empresa li{
   width: 145px;
-}
-#content .width-2 .cover-basic-tile h2 a{
-  font-size: 0.6em;
-  line-height: 1.3em;
-  letter-spacing: 0;
 }
 #content .tile-edge .cover-basic-tile h2{
   padding-top: 20px;
@@ -511,7 +596,7 @@
   width: 20%;
 }
 
-/* Serviços */
+/* Serviços para Cidadão */
 #content .servicosTitulo {
   border: 1px solid #979799;
   margin: 2px 0 30px 0;
