@@ -53,8 +53,8 @@
 
 
         <!-- Footer -->
-        <replace css:theme-children="#footer" css:content-children="#portal-footer" />
-
+        <replace css:content="#footer-nav" css:theme=".footer-wrapper" />
+        <drop css:theme=".span12" />
         <after theme-children="/html/body" css:content-children="#plone-analytics" />
 
 
