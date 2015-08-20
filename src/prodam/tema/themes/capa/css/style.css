@@ -188,11 +188,11 @@
 #content .maisBuscadosTitulo .iconeMais{
   margin-left: 3px;
 }
-#content .cover-basic-tile a img{
+#content .cover-collection-tile a img{
   max-width: 100%;
   height: auto;
 }
-#content .cover-basic-tile h2 {
+#content .cover-collection-tile h2 {
   font-size: 1.61em;
   line-height: 1.0em;
   font-weight: bold;
@@ -203,12 +203,12 @@
   line-height: 1.5em;
   font-weight: bold;
 }
-#content .cover-basic-tile h2 a,
+#content .cover-collection-tile h2 a,
 #content .destaque h2 a,
-#content .cover-basic-tile h2 a:hover{
+#content .cover-collection-tile h2 a:hover{
   color: #181818 !important;
 }
-#content .cover-basic-tile p{
+#content .cover-collection-tile p{
   margin-top: 7px;
 }
 #content .tabs{
@@ -296,14 +296,14 @@
 #content #home-secoes-empresa li{
   width: 145px;
 }
-#content .tile-edge .cover-basic-tile h2{
+#content .cover-collection-tile .tile-edge  h2{
   padding-top: 20px;
   padding-right: 15px;
 }
-#content .tile-edge .cover-basic-tile p{
+#content .cover-collection-tile .tile-edge p{
   padding-right: 15px;
 }
-#content .tile-edge .cover-basic-tile h2 a:hover{
+#content .cover-collection-tile .tile-edge h2 a:hover{
   color:#181818 !important;
 }
 /* ==========================================================================
@@ -761,10 +761,11 @@
 }
 
 #content a.LinkConheca,
-#content a.LinkConheca:link {
+#content a.LinkConheca:link,
+#content .tile-footer a {
   color: #333 !important;
   border-top: 1px solid #000;
-  border-bottom: none;
+  border-bottom: none !important;
   width: 100%;
   display: block;
   text-align: center;
@@ -773,7 +774,8 @@
   margin-top: 10px;
 }
 
-#content a.LinkConheca span {
+#content a.LinkConheca span,
+#content .tile-footer a span {
   background: transparent url("../img/sprite.png") no-repeat scroll -460px -25px;
   display: inline-block;
   height: 10px;
@@ -782,7 +784,8 @@
   margin-top: -3px;
   }
 
-#content a.LinkConheca:hover {
+#content a.LinkConheca:hover,
+#content .tile-footer a:hover {
   color: #000 !important;
 }
 #content .position-5,
@@ -905,11 +908,12 @@
   color: #000 !important;
 }
 
-/* Estilo do titulo Mais Buscados */
+/* Estilo do titulo de tiles */
 
 #content .maisBuscadosTitulo,
 #portal-column-two .maisBuscadosTitulo,
-#content .capaTituloSublinhado {
+#content .capaTituloSublinhado,
+#content .cover-collection-tile .tile-header h1{
   font-size: 1.5em;
   display: block;
   border-bottom: 3px double #000;
@@ -918,7 +922,12 @@
   padding: 0px 0px 10px;
   width: 100%;
   color: black;
+  letter-spacing: 0;
 }
+#content .cover-collection-tile .tile-header{
+  font-size: 0.937em;
+}
+
 
 #content .maisBuscadosLupa {
   background: transparent url("../img/sprite.png") no-repeat scroll -334px -87px;
