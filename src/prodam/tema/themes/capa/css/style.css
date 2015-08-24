@@ -779,8 +779,10 @@
 }
 .subsection-cidadao #content .secoesServicos li,
 .subsection-empresa #content .secoesServicos li,
-.subsection-turista #content .secoesServicos li{
+.subsection-turista #content .secoesServicos li,
+.subsection-servidor #content .secoesServicos li{
   margin-left: 25px;
+  padding-top: 30px;
 }
 
 #content .secoesServicos li a {
