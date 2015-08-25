@@ -103,9 +103,39 @@
   font-size: 1em;
 }
 
+#content .tile-default .tile-content .governo-lista select {
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 2px;
+  color: #777;
+  margin: 0;
+  width: 220px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+#content .tile-default .tile-content .governo-lista h2 {
+  margin-bottom: 5px;
+  padding-top: 10px;
+  border-top: 1px solid #d7d7d7;
+  letter-spacing: 0;
+}
+#content .tile-default .tile-content .governo-lista h2:first-child {
+  border-top: none;
+}
+#content .tile-default .tile-content .governo-lista .tile-footer {
+  margin-top: 74px;
+}
+#content .tile-default .tile-content .tile-header {
+  line-height: 1.2em;
+  font-size: 0.937em;
+}
 /*Banner de seções*/
 .subsection-cidadao #content .tile-default .cover-chamada-tile span,
-.subsection-empresa #content .tile-default .cover-chamada-tile span{
+.subsection-empresa #content .tile-default .cover-chamada-tile span,
+.subsection-servidor #content .tile-default .cover-chamada-tile span{
   background: url("../img/cortado.png") no-repeat;
   width: 960px;
   height: 360px;
@@ -113,19 +143,22 @@
   z-index: 2;
 }
 .subsection-cidadao #content .tile-default .chamada-item,
-.subsection-empresa #content .tile-default .chamada-item {
+.subsection-empresa #content .tile-default .chamada-item,
+.subsection-servidor #content .tile-default .chamada-item {
   display: block !important;
   position: static;
 }
 .subsection-cidadao #content .tile-default .bannerInfo,
-.subsection-empresa #content .tile-default .bannerInfo{
+.subsection-empresa #content .tile-default .bannerInfo,
+.subsection-servidor #content .tile-default .bannerInfo{
   top:60px;
   background: none;
   position: static;
   padding: 0;
 }
 .subsection-cidadao #content .tile-default .bannerInfo h2,
-.subsection-empresa #content .tile-default .bannerInfo h2 {
+.subsection-empresa #content .tile-default .bannerInfo h2,
+.subsection-servidor #content .tile-default .bannerInfo h2 {
   background: url(../img/sprite2.png) no-repeat 1px 3px transparent;
   font-size: 1.4em;
   cursor: pointer;
@@ -134,19 +167,23 @@
   z-index: 3;
 }
 .subsection-cidadao #content .tile-default .bannerInfo h2:hover,
-.subsection-empresa #content .tile-default .bannerInfo h2:hover {
+.subsection-empresa #content .tile-default .bannerInfo h2:hover,
+.subsection-servidor #content .tile-default .bannerInfo h2:hover {
   background: url(../img/sprite2.png) no-repeat -1px -68px transparent;
 }
 .subsection-cidadao .chamada-item img,
 .subsection-cidadao .chamada-item p,
 .subsection-empresa .chamada-item img,
-.subsection-empresa .chamada-item p {
+.subsection-empresa .chamada-item p,
+.subsection-servidor .chamada-item img,
+.subsection-servidor .chamada-item p {
   display: none;
   position: absolute;
   top: 0;
 }
 .subsection-cidadao #content .tile-default .bannerInfo p,
-.subsection-empresa #content .tile-default .bannerInfo p{
+.subsection-empresa #content .tile-default .bannerInfo p,
+.subsection-servidor #content .tile-default .bannerInfo p{
   position: absolute;
   z-index: 3;
   width: 340px;
@@ -158,18 +195,22 @@
 .subsection-cidadao .chamada-item.ativo img,
 .subsection-cidadao .chamada-item.ativo p,
 .subsection-empresa .chamada-item.ativo img,
-.subsection-empresa .chamada-item.ativo p {
+.subsection-empresa .chamada-item.ativo p,
+.subsection-servidor .chamada-item.ativo img,
+.subsection-servidor .chamada-item.ativo p {
   display: block;
 }
 .subsection-cidadao #content .tile-default .chamada-item .bannerInfo h2 a,
-.subsection-empresa #content .tile-default .chamada-item .bannerInfo h2 a {
+.subsection-empresa #content .tile-default .chamada-item .bannerInfo h2 a,
+.subsection-servidor #content .tile-default .chamada-item .bannerInfo h2 a {
   width: 160px;
   height: 54px;
   display: block;
   padding: 10px 0 0 10px;
 }
 .subsection-cidadao #content .tile-default .controle1 .bannerInfo,
-.subsection-empresa #content .tile-default .controle1 .bannerInfo {
+.subsection-empresa #content .tile-default .controle1 .bannerInfo,
+.subsection-servidor #content .tile-default .controle1 .bannerInfo {
   margin-top: 40px;
 }
 
@@ -333,7 +374,7 @@
 .subsection-noticias #content .header-title .documentFirstHeading{
   background: none;
 }
-#content .width-10 .tile-image-h2 h2 a{
+#content .width-10 .tile-image-h2 .cover-basic-tile h2 a{
   color: #fff !important;
 }
 .subsection-noticias #content .width-5 .tile-edge .cover-basic-tile h3{
@@ -352,6 +393,91 @@
 }
 #content .width-10 .cover-basic-tile h2{
   font-size: 1.25em;
+}
+#content .cover-basic-tile h2 a,
+#content .cover-basic-tile h2 a:hover {
+  color: #333 !important;
+}
+#portal-column-two .portlet .carrossel{
+  border: 1px solid #333;
+}
+#portal-column-two .portlet .carrossel header{
+  background: #000;
+  border-bottom: 1px solid #979797;
+  padding: 5px 40px;
+}
+#portal-column-two .portlet .carrossel header h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.9em;
+  letter-spacing: 0;
+}
+#portal-column-two .portlet .carrossel .carrossel-wrapper{
+  padding: 20px;
+  height: 470px;
+}
+#portal-column-two .portlet .principal-video{
+  margin-bottom: 10px;
+}
+#portal-column-two .portlet .principal-video #tituloVideo{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#portal-column-two .portlet #lista-videos .videos{
+  float: left;
+  padding: 8px;
+  position: relative;
+  margin-left: 10px;
+}
+#portal-column-two .portlet #lista-videos a{
+  border-top: 1px solid;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  color: #333;
+  border-bottom: none;
+}
+#portal-column-two .portlet #lista-videos a:hover{
+  color: #333 !important;
+}
+
+.data-noticia{
+  background: #f00;
+  color: #fff;
+  display: block;
+  left: 0;
+  padding: 6px 5px 12px;
+  text-align: center;
+  top: 0;
+  width: 24px;
+  font-weight: bold;
+  height: 32px;
+  float: left;
+}
+.data-noticia span{
+  font-size: 20px;
+}
+.data-noticia span:first-child{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.subsection-noticias .cover-collection-tile .titulo-noticia {
+  margin-left: 45px;
+  margin-top: 25px;
+}
+.subsection-noticias .cover-collection-tile .titulo-noticia p a {
+  color: #333 !important;
+  font-weight: bold;
+  border-bottom: none !important;
+}
+.subsection-noticias #content .cover-collection-tile .titulo-noticia p a:hover {
+  color: #f00 !important;
+}
+.subsection-noticias .cover-collection-tile .titulo-noticia p{
+  border-bottom: 1px solid  #d7d7d7;
+  line-height: 17px;
+  padding-bottom: 10px;
 }
 
 /*Estilização do portlet de últimas ocorrências*/
@@ -653,8 +779,10 @@
 }
 .subsection-cidadao #content .secoesServicos li,
 .subsection-empresa #content .secoesServicos li,
-.subsection-turista #content .secoesServicos li{
+.subsection-turista #content .secoesServicos li,
+.subsection-servidor #content .secoesServicos li{
   margin-left: 25px;
+  padding-top: 30px;
 }
 
 #content .secoesServicos li a {
@@ -775,7 +903,8 @@
 }
 
 #content a.LinkConheca span,
-#content .tile-footer a span {
+#content .tile-footer a span,
+#lista-videos a span {
   background: transparent url("../img/sprite.png") no-repeat scroll -460px -25px;
   display: inline-block;
   height: 10px;
@@ -913,7 +1042,8 @@
 #content .maisBuscadosTitulo,
 #portal-column-two .maisBuscadosTitulo,
 #content .capaTituloSublinhado,
-#content .cover-collection-tile .tile-header h1{
+#content .cover-collection-tile .tile-header h1,
+#content .cover-embed-tile .tile-header h1 {
   font-size: 1.5em;
   display: block;
   border-bottom: 3px double #000;
@@ -923,6 +1053,7 @@
   width: 100%;
   color: black;
   letter-spacing: 0;
+  height: 26px;
 }
 #content .cover-collection-tile .tile-header{
   font-size: 0.937em;
