@@ -168,8 +168,12 @@
 }
 .subsection-cidadao #content .tile-default .bannerInfo h2:hover,
 .subsection-empresa #content .tile-default .bannerInfo h2:hover,
-.subsection-servidor #content .tile-default .bannerInfo h2:hover {
+.subsection-servidor #content .tile-default .bannerInfo h2:hover,
+.subsection-cidadao #content .tile-default .ativo h2,
+.subsection-empresa #content .tile-default .ativo h2,
+.subsection-servidor #content .tile-default .ativo h2 {
   background: url(../img/sprite2.png) no-repeat -1px -68px transparent;
+  display: none !important;
 }
 .subsection-cidadao .chamada-item img,
 .subsection-cidadao .chamada-item p,
