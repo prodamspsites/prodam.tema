@@ -1057,6 +1057,7 @@
   color: black;
   letter-spacing: 0;
   height: 26px;
+  text-transform: uppercase;
 }
 #content .cover-collection-tile .tile-header{
   font-size: 0.937em;
@@ -1087,7 +1088,7 @@
   transition: 0.2s linear 0s;
 }
 
-#content .maisBuscadosLista span:hover {
+#content .maisBuscadosLista a:hover span {
   background-color: #f00;
 }
 
@@ -1097,7 +1098,7 @@
   color: #FFF !important;
 }
 
-#content .maisBuscadosLista li a:link {
+#content .maisBuscadosLista li a {
   color: #333 !important;
   border-bottom: none;
 }
