@@ -122,9 +122,9 @@
   border-top: 1px solid #d7d7d7;
   letter-spacing: 0;
 }
-#content .tile-default .tile-content .governo-lista .ConteudoSecretaria{
-	font-size: 1.15em;
-	font-weight: normal;
+#content .tile-default .tile-content .governo-lista .ConteudoSecretaria {
+  font-size: 1.15em;
+  font-weight: normal;
 }
 #content .tile-default .tile-content .governo-lista h2:first-child {
   border-top: none;
