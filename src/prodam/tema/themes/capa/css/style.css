@@ -122,11 +122,18 @@
   border-top: 1px solid #d7d7d7;
   letter-spacing: 0;
 }
+#content .tile-default .tile-content .governo-lista .ConteudoSecretaria {
+  font-size: 1.15em;
+  font-weight: normal;
+}
 #content .tile-default .tile-content .governo-lista h2:first-child {
   border-top: none;
 }
 #content .tile-default .tile-content .governo-lista .tile-footer {
   margin-top: 74px;
+}
+.subsection-solicitar-servicos #content .tile-default .tile-content .governo-lista .tile-footer {
+  margin-top: 31px;
 }
 #content .tile-default .tile-content .tile-header {
   line-height: 1.2em;
@@ -828,22 +835,6 @@
    ========================================================================== */
 
 /* Títulos */
-#content .cover-banner-tile h2 {
-  display: block;
-  border-bottom: 3px double #000;
-  font-size: 1.4em;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0 0 10px;
-  padding: 0px 0px 0.3em;
-  line-height: normal !important;
-  width: 100%;
-}
-#content .cover-banner-tile h2 a,
-#content .cover-banner-tile h2 a:hover {
-  color: #181818 !important;
-}
-
 #content .cover-richtext-tile {
   line-height: 1.2em;
   font-size: 0.937em;
@@ -1046,7 +1037,8 @@
 #portal-column-two .maisBuscadosTitulo,
 #content .capaTituloSublinhado,
 #content .cover-collection-tile .tile-header h1,
-#content .cover-embed-tile .tile-header h1 {
+#content .cover-embed-tile .tile-header h1,
+#content .cover-banner-tile h2 {
   font-size: 1.5em;
   display: block;
   border-bottom: 3px double #000;
@@ -1058,6 +1050,10 @@
   letter-spacing: 0;
   height: 26px;
   text-transform: uppercase;
+}
+#content .cover-banner-tile h2 a,
+#content .cover-banner-tile h2 a:hover {
+  color: #181818 !important;
 }
 #content .cover-collection-tile .tile-header{
   font-size: 0.937em;
