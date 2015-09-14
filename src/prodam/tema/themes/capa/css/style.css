@@ -281,13 +281,16 @@
 #content .tabs li:first-child {
   border-left: 1px solid black;
 }
-#content #tab-cid a:hover{
+#content #tab-cid a:hover,
+#content #tab-cid .menuAtivo {
   color: #01a4b7 !important;
 }
-#content #tab-tur a:hover{
+#content #tab-tur a:hover,
+#content #tab-tur .menuAtivo{
   color: #919e02 !important;
 }
-#content #tab-emp a:hover{
+#content #tab-emp a:hover,
+#content #tab-emp .menuAtivo{
   color: #fd8a03 !important;
 }
 #content #home-secoes-turista{
