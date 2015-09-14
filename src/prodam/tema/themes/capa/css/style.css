@@ -137,7 +137,7 @@
 }
 #content .tile-default .tile-content .tile-header {
   line-height: 1.2em;
-  font-size: 0.937em;
+  font-size: 12px;
 }
 /*Banner de seções*/
 .subsection-cidadao #content .tile-default .cover-chamada-tile span,
@@ -261,6 +261,7 @@
 }
 #content .cover-collection-tile p{
   margin-top: 7px;
+  margin-bottom: 0;
 }
 #content .tabs{
   text-align: center;
@@ -706,6 +707,10 @@
   border-radius: 0px;
   margin-bottom: 15px
 }
+.subsection-cidadao #content .tile-edge,
+.subsection-empresa #content .tile-edge {
+  border: none;
+}
 
 #content .servicosTituloTurista .setaBaixo,
 #content .servicosTituloCidadao .setaBaixo,
@@ -1053,6 +1058,9 @@
   letter-spacing: 0;
   height: 26px;
   text-transform: uppercase;
+}
+#content .cover-embed-tile{
+  font-size: 0.937em;
 }
 #content .cover-banner-tile h2 a,
 #content .cover-banner-tile h2 a:hover {
