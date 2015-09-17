@@ -148,6 +148,7 @@
   height: 360px;
   position: absolute;
   z-index: 2;
+  top: 0;
 }
 .subsection-cidadao #content .tile-default .chamada-item,
 .subsection-empresa #content .tile-default .chamada-item,
@@ -201,6 +202,12 @@
   top: 40px;
   font-size: 24px;
   font-weight: bold;
+}
+#content .bannerInfo .description a,
+#content .bannerInfo .description a:hover{
+  color: #fff !important;
+  text-decoration: none !important;
+  border: none;
 }
 .subsection-cidadao .chamada-item.ativo img,
 .subsection-cidadao .chamada-item.ativo p,
