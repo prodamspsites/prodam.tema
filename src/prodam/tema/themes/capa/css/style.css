@@ -501,7 +501,7 @@
   padding-bottom: 10px;
 }
 
-.filter-panel{
+#content .cover-collection-tile .filter-panel{
   background: url(../img/filter-bg.jpg) repeat 0 0 transparent;
   border-bottom: 1px solid #000;
   color: #fff;
@@ -509,10 +509,10 @@
   overflow: hidden;
   padding: 16px 23px 18px 25px;
 }
-.filter-by {
+#content .cover-collection-tile .filter-by {
   margin-right: 47px;
 }
-.filter-by select{
+#content .cover-collection-tile .filter-by select{
   display: block;
   margin: 0 0 5px;
   width: 310px;
@@ -522,7 +522,7 @@
   padding: 0;
   background: #fff;
 }
-.filter-panel input{
+#content .cover-collection-tile .filter-panel input{
   display: inline-block;
   margin: 0;
   padding: 4px;
@@ -534,12 +534,12 @@
   border-radius: 3px;
 }
 
-.filter-panel label{
+#content .cover-collection-tile .filter-panel label{
   display: block;
   margin-bottom: 7px;
 }
-.filter-by,
-.filter-date {
+#content .cover-collection-tile .filter-by,
+#content .cover-collection-tile .filter-date {
   float: left;
   font-size: 1.25em;
 }
