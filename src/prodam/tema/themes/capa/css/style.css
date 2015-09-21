@@ -501,6 +501,49 @@
   padding-bottom: 10px;
 }
 
+.filter-panel{
+  background: url(../img/filter-bg.jpg) repeat 0 0 transparent;
+  border-bottom: 1px solid #000;
+  color: #fff;
+  margin-bottom: 19px;
+  overflow: hidden;
+  padding: 16px 23px 18px 25px;
+}
+.filter-by {
+  margin-right: 47px;
+}
+.filter-by select{
+  display: block;
+  margin: 0 0 5px;
+  width: 310px;
+  border: 1px solid #232323;
+  color: #595959;
+  font-size: 14px;
+  padding: 0;
+  background: #fff;
+}
+.filter-panel input{
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+  width: 66px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.filter-panel label{
+  display: block;
+  margin-bottom: 7px;
+}
+.filter-by,
+.filter-date {
+  float: left;
+  font-size: 1.25em;
+}
+
 /*Estilização do portlet de últimas ocorrências*/
 
 #plone-content #portal-column-two .news-list {
