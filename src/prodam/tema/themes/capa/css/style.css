@@ -779,10 +779,6 @@
   width: 250px;
 }
 
-#content #content-core #parent-fieldname-text .column-center{
-  margin: 0 90px;
-}
-
 #content #content-core #parent-fieldname-text .section-group section {
   margin-bottom: 50px;
 }
@@ -1940,6 +1936,9 @@ section.width-16, nav.width-16 {
   }
   .subsection-noticias .width-1\3a 4 {
     width: 34.4% !important;
+  }
+  #content #content-core #parent-fieldname-text .column-center{
+    margin: 0 90px;
   }
 }
 /* Medium Devices, Desktops */
