@@ -495,13 +495,13 @@
 .subsection-noticias #content .cover-collection-tile .titulo-noticia p a:hover {
   color: #f00 !important;
 }
-.subsection-noticias .cover-collection-tile .titulo-noticia p{
+.subsection-noticias .cover-collection-tile .titulo-noticia p {
   border-bottom: 1px solid  #d7d7d7;
   line-height: 17px;
   padding-bottom: 10px;
 }
 
-#content .cover-collection-tile .filter-panel{
+#content .cover-collection-tile .filter-panel {
   background: url(../img/filter-bg.jpg) repeat 0 0 transparent;
   border-bottom: 1px solid #000;
   color: #fff;
@@ -512,7 +512,7 @@
 #content .cover-collection-tile .filter-by {
   margin-right: 47px;
 }
-#content .cover-collection-tile .filter-by select{
+#content .cover-collection-tile .filter-by select {
   display: block;
   margin: 0 0 5px;
   width: 310px;
@@ -522,7 +522,7 @@
   padding: 0;
   background: #fff;
 }
-#content .cover-collection-tile .filter-panel input{
+#content .cover-collection-tile .filter-panel input {
   display: inline-block;
   margin: 0;
   padding: 4px;
@@ -534,7 +534,7 @@
   border-radius: 3px;
 }
 
-#content .cover-collection-tile .filter-panel label{
+#content .cover-collection-tile .filter-panel label {
   display: block;
   margin-bottom: 7px;
 }
@@ -542,6 +542,47 @@
 #content .cover-collection-tile .filter-date {
   float: left;
   font-size: 1.25em;
+}
+#ui-datepicker-div{
+  width: 221px;
+}
+#ui-datepicker-div .ui-state-default {
+  background: #fff !important;
+  border: 1px solid #f3f3f3 !important;
+  color: grey !important;
+  padding: 5px;
+  text-align: center;
+}
+#ui-datepicker-div .ui-state-highlight {
+  background: #BFBFBF !important;
+  color: #fff !important;
+}
+#ui-datepicker-div .ui-state-default:hover,
+#ui-datepicker-div .ui-state-active {
+  color: #fff !important;
+  background: #0064cd !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.ui-datepicker-calendar tr th span,
+.ui-datepicker-title{
+  color: grey;
+  font-size: 13px;
+}
+.ui-widget-header .ui-icon{
+  background-image: url(/Prefeitura/++resource++jquery-ui-themes/sunburst/images/ui-icons_444444_256x240.png) !important;
+}
+#ui-datepicker-div .ui-state-hover {
+  border: none !important;
+  background: #f5f5f5 !important;
+}
+.ui-datepicker .ui-datepicker-header {
+  border: 0px;
+  font-weight: bold;
+  width: 100%;
+  padding: 4px 0;
+  background: #f5f5f5 !important;
 }
 
 /*Estilização do portlet de últimas ocorrências*/
