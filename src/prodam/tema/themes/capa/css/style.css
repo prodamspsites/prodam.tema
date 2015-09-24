@@ -482,6 +482,7 @@
 .data-noticia span:first-child{
   font-size: 12px;
   text-transform: uppercase;
+  display: block;
 }
 .subsection-noticias .cover-collection-tile .titulo-noticia {
   margin-left: 45px;
