@@ -482,6 +482,7 @@
 .data-noticia span:first-child{
   font-size: 12px;
   text-transform: uppercase;
+  display: block;
 }
 .subsection-noticias .cover-collection-tile .titulo-noticia {
   margin-left: 45px;
@@ -495,13 +496,13 @@
 .subsection-noticias #content .cover-collection-tile .titulo-noticia p a:hover {
   color: #f00 !important;
 }
-.subsection-noticias .cover-collection-tile .titulo-noticia p{
+.subsection-noticias .cover-collection-tile .titulo-noticia p {
   border-bottom: 1px solid  #d7d7d7;
   line-height: 17px;
   padding-bottom: 10px;
 }
 
-#content .cover-collection-tile .filter-panel{
+#content .cover-collection-tile .filter-panel {
   background: url(../img/filter-bg.jpg) repeat 0 0 transparent;
   border-bottom: 1px solid #000;
   color: #fff;
@@ -512,7 +513,7 @@
 #content .cover-collection-tile .filter-by {
   margin-right: 47px;
 }
-#content .cover-collection-tile .filter-by select{
+#content .cover-collection-tile .filter-by select {
   display: block;
   margin: 0 0 5px;
   width: 310px;
@@ -522,7 +523,7 @@
   padding: 0;
   background: #fff;
 }
-#content .cover-collection-tile .filter-panel input{
+#content .cover-collection-tile .filter-panel input {
   display: inline-block;
   margin: 0;
   padding: 4px;
@@ -534,7 +535,7 @@
   border-radius: 3px;
 }
 
-#content .cover-collection-tile .filter-panel label{
+#content .cover-collection-tile .filter-panel label {
   display: block;
   margin-bottom: 7px;
 }
@@ -542,6 +543,47 @@
 #content .cover-collection-tile .filter-date {
   float: left;
   font-size: 1.25em;
+}
+#ui-datepicker-div{
+  width: 221px;
+}
+#ui-datepicker-div .ui-state-default {
+  background: #fff !important;
+  border: 1px solid #f3f3f3 !important;
+  color: grey !important;
+  padding: 5px;
+  text-align: center;
+}
+#ui-datepicker-div .ui-state-highlight {
+  background: #BFBFBF !important;
+  color: #fff !important;
+}
+#ui-datepicker-div .ui-state-default:hover,
+#ui-datepicker-div .ui-state-active {
+  color: #fff !important;
+  background: #0064cd !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.ui-datepicker-calendar tr th span,
+.ui-datepicker-title{
+  color: grey;
+  font-size: 13px;
+}
+.ui-widget-header .ui-icon{
+  background-image: url(/Prefeitura/++resource++jquery-ui-themes/sunburst/images/ui-icons_444444_256x240.png) !important;
+}
+#ui-datepicker-div .ui-state-hover {
+  border: none !important;
+  background: #f5f5f5 !important;
+}
+.ui-datepicker .ui-datepicker-header {
+  border: 0px;
+  font-weight: bold;
+  width: 100%;
+  padding: 4px 0;
+  background: #f5f5f5 !important;
 }
 
 /*Estilização do portlet de últimas ocorrências*/
@@ -700,6 +742,73 @@
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para servidores
    ========================================================================== */
+#content #content-core #parent-fieldname-text .section-servidor-header{
+  border-bottom: 3px double #000;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+#content #content-core #parent-fieldname-text .section-servidor-header:after{
+  clear: both;
+  content: '';
+}
+
+#content #content-core #parent-fieldname-text .section-servidor-header h1{
+  font-size: 1.25em;
+}
+
+#content #content-core #parent-fieldname-text .section-servidor-header a{
+  border-bottom: 2px solid #f00;
+  float: right;
+  padding: 0 0 4px;
+  font-size: 1em;
+  color: #000;
+  margin-top: -15px;
+}
+
+#content #content-core #parent-fieldname-text .section-servidor-header a span{
+  background: url(../img/sprite5.png) no-repeat -460px -15px;
+  background-position: -441px -24px;
+  width: 12px;
+  height: 12px;
+  float: left;
+}
+
+#content #content-core #parent-fieldname-text .section-group{
+  float: left;
+  width: 250px;
+}
+
+#content #content-core #parent-fieldname-text .section-group section {
+  margin-bottom: 50px;
+}
+
+#content #content-core #parent-fieldname-text .section-group section strong {
+  font-size: 1.25em;
+}
+
+#content #content-core #parent-fieldname-text .section-group section ul{
+  margin-top: 12px;
+  list-style: none;
+  margin-left: 0;
+}
+
+#content #content-core #parent-fieldname-text .section-group section ul li{
+  margin-right: 25px;
+  color: #595959;
+  font-size: 13px!important;
+  margin-bottom: 5px;
+}
+
+#content #content-core #parent-fieldname-text .section-group section ul li a{
+  color: #595959;
+}
+#content #content-core #parent-fieldname-text .section-group section ul li a:before{
+  content: '\2022';
+  color: red;
+  margin-right: 5px;
+}
+
 
 /* Turista */
 
@@ -1827,6 +1936,9 @@ section.width-16, nav.width-16 {
   }
   .subsection-noticias .width-1\3a 4 {
     width: 34.4% !important;
+  }
+  #content #content-core #parent-fieldname-text .column-center{
+    margin: 0 90px;
   }
 }
 /* Medium Devices, Desktops */
