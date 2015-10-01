@@ -614,7 +614,7 @@
 #content .lista-noticias .paginacao .proximo{
   background: #000;
   border: 1px solid #000 !important;
-  height: 25px;
+  height: 25px !important;
   width: 43px !important;
   margin-left: 2px !important;
   text-transform: none !important;
