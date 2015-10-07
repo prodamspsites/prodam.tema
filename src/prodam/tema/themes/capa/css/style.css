@@ -609,20 +609,25 @@
 #content .lista-noticias .paginacao li .ativo{
   background: #f00;
   color: #fff !important;
+  text-decoration: none !important;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
 }
 
 #content .lista-noticias .paginacao .proximo{
   background: #000;
   border: 1px solid #000 !important;
   height: 25px !important;
-  width: 43px !important;
   margin-left: 2px !important;
   text-transform: none !important;
 }
 #content .lista-noticias .paginacao .anterior{
   background: #000;
   border: 1px solid #000 !important;
-  height: 25px;
+  height: 25px !important;
 }
 
 
