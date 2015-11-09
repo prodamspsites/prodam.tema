@@ -1289,6 +1289,9 @@
   height: 26px;
   text-transform: uppercase;
 }
+.template-folder_contents #portal-column-two .maisBuscadosTitulo{
+  height: 50px;
+}
 #content .cover-embed-tile{
   font-size: 0.937em;
 }
