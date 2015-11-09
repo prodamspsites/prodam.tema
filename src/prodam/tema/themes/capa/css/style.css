@@ -685,6 +685,20 @@
    ========================================================================== */
 
 /*Estilos do portlet do calendario*/
+body.template-agenda_view h2#agendaPrefeitura {
+  border-bottom: 3px black double;
+  font-size: 17.6px;
+}
+
+body.template-agenda_view #portal-column-content header {
+  padding: 15px 0;
+  border-bottom: 1px solid #f00;
+}
+
+body.template-agenda_view #portal-column-content header strong {
+  font-size: 16px;
+}
+
 .portletCalendar dt a.prev-month {
   float: left;
 }
