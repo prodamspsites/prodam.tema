@@ -20,8 +20,7 @@
         <replace css:theme-children="#portal-searchbox" css:content-children="#portal-searchbox" />
 
         <!-- Head elements -->
-        <replace css:theme="html head title" css:content="html head title" />
-        <after css:theme-children="html head" css:content="html head" />
+        <after css:theme-children="html head" css:content-children="html head" />
 
         <copy attributes="class" css:theme="body" css:content="body" />
 
