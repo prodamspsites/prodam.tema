@@ -620,6 +620,15 @@
    ========================================================================== */
 
 /*Estilos do portlet do calendario*/
+.portletCalendar dt a.prev-month {
+  float: left;
+}
+
+.portletCalendar dt a.next-month {
+  float: right;
+}
+
+
 .portletCalendar .ploneCalendar td {
   padding: 17px;
   color: #333;
