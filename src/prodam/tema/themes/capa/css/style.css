@@ -2808,6 +2808,9 @@ div#portal-searchbox {
   padding:10px 0 0 3px;
   cursor:pointer;
 }
+.template-maps_view #content .menuItens > ul > li a.tituloMenu:hover{
+  color: #fff !important;
+}
 .template-maps_view ul.subItens{
   margin:0 0 0 -5px;
   padding:0;
