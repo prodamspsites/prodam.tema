@@ -685,6 +685,21 @@
    ========================================================================== */
 
 /*Estilos do portlet do calendario*/
+.portletCalendar table caption {
+  display: none
+}
+.portletCalendar dt {
+  width: 335px;
+}
+
+.portletCalendar dt a.prev-month {
+  float: left;
+}
+
+.portletCalendar dt a.next-month {
+  float: right;
+}
+
 .portletCalendar table td,
 .portletCalendar table td a:visited {
   padding: 17px;
