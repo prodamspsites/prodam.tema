@@ -2655,11 +2655,20 @@ div#portal-searchbox {
  /* ==========================================================================
    Estilos para template de mapa
    ========================================================================== */
+.section-mapa {
+  display: block;
+  background: url(../img/verao-atencao-bg.png) repeat-x -0px 255px transparent;
+  height: 56px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
 .template-maps_view #map-canvas {
   height: 600px;
-  width: 939px;
+  width: 935px;
   margin-left: -4px;
   padding: 0;
+  border:1px solid #979797;
 }
 .template-maps_view #iw_container .iw_title {
   font-size: 16px;
@@ -2678,12 +2687,14 @@ div#portal-searchbox {
   width:225px;
 }
 .template-maps_view .roteOption{
-  margin-top: 40px;
+  margin: 40px 0 0 10px;
 }
 .template-maps_view .roteOption label{
   color: #222;
   padding: 5px 2px;
-  font-size: 1em;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin-left: 5px;
 }
 .template-maps_view .rotaForm{
   position: absolute;
@@ -2698,29 +2709,30 @@ div#portal-searchbox {
   float: left;
   background: #01A4B7 none repeat scroll 0% 0%;
   display: block;
-  padding: 10px 0px !important;
+  padding: 5px 0px !important;
   text-align: center;
   width: 210px;
-  height: 10px;
   color: #fff;
   font-size: 1em !important;
 }
-.template-maps_view .rotaForm fieldset{
+.template-maps_view #content .rotaForm fieldset{
   border: none;
-  padding: 0;
+  padding: 0px;
+  margin-top: 0px;
 }
-.template-maps_view .rotaForm .txtEndereco{
+
+.template-maps_view #content .rotaForm .txtEndereco{
   width: 140px;
 }
-.template-maps_view .rotaForm .rotaChegada{
+.template-maps_view #content .rotaForm .rotaChegada{
   margin-top: 15px;
   margin-left: 10px;
 }
-.template-maps_view .rotaForm .rotaPartida{
-  margin: 30px 0 0 10px;
+.template-maps_view #content .rotaForm .rotaPartida{
+  margin: 15px 0 0 10px;
 }
-.template-maps_view .rotaForm .rotaPartida label,
-.template-maps_view .rotaForm .rotaChegada label{
+.template-maps_view #content .rotaForm .rotaPartida label,
+.template-maps_view #content .rotaForm .rotaChegada label{
   background: #5B5B5B none repeat scroll 0% 0%;
   color: #FFF;
   display: block;
@@ -2732,7 +2744,7 @@ div#portal-searchbox {
   padding: 5px 2px;
   width: 20px;
 }
-.template-maps_view .rotaForm .rotaEnviar input{
+.template-maps_view #content .rotaForm .rotaEnviar input{
   border: 0px none;
   border-radius: 0px;
   width: 188px;
@@ -2743,9 +2755,9 @@ div#portal-searchbox {
   font-weight: bold;
   padding: 10px 15px;
   text-align: center;
-  margin: 30px 0 10px 10px;
+  margin: 15px 0 0 10px;
 }
-.template-maps_view .ui-autocomplete{
+.template-maps_view #content .ui-autocomplete{
   cursor: default;
   overflow: hidden;
   list-style: none;
@@ -2760,29 +2772,30 @@ div#portal-searchbox {
   left: 90px !important;
   background-color: #fff;
 }
-.template-maps_view .ui-autocomplete li:first-child{
+.template-maps_view #content .ui-autocomplete li:first-child{
   margin-top: 0;
 }
-.template-maps_view .ui-menu-item{
+.template-maps_view #content .ui-menu-item{
   border-bottom: 1px solid black;
   margin: 15px 0 0 0;
   box-shadow: 1px solid black;
 }
-.template-maps_view .ui-menu-item a{
+.template-maps_view #content .ui-menu-item a{
   font-size: 13px;
   font-family: Arial;
 }
-.template-maps_view .menuItens ul{
+.template-maps_view #content .menuItens ul{
   float:left !important;
   width:180px !important;
-  margin-left: -4px !important;
+  margin-left: -5px !important;
 }
-.template-maps_view .menuItens ul li{
+.template-maps_view #content .menuItens ul li{
   display:block;
   list-style:none;
   color:#fff;
+  margin-bottom: 0px;
 }
-.template-maps_view .menuItens > ul > li{
+.template-maps_view #content .menuItens > ul > li{
     border-bottom: 1px solid #7c7c7c;
   background:#5b5b5b;
   border-left:5px solid #5b5b5b;
@@ -2792,18 +2805,18 @@ div#portal-searchbox {
   padding:5px 0 0 0;
   width:100%;
 }
-.template-maps_view .menuItens > ul > li:hover{
+.template-maps_view #content .menuItens > ul > li:hover{
   background:#01a4b7;
   border-left:5px solid #07c5db;
 }
-.template-maps_view .menuItens > ul > li.active{
+.template-maps_view #content .menuItens > ul > li.active{
   background:#01a4b7;
   border-left:5px solid #07c5db;
 }
-.template-maps_view .menuItens > ul > li img{
+.template-maps_view #content .menuItens > ul > li img{
   float:left;
 }
-.template-maps_view .menuItens > ul > li a.tituloMenu{
+.template-maps_view #content .menuItens > ul > li a.tituloMenu{
   float:left;
   padding:10px 0 0 3px;
   cursor:pointer;
@@ -2811,19 +2824,64 @@ div#portal-searchbox {
 .template-maps_view #content .menuItens > ul > li a.tituloMenu:hover{
   color: #fff !important;
 }
-.template-maps_view ul.subItens{
+.template-maps_view #content ul.subItens{
   margin:0 0 0 -5px;
   padding:0;
   float:left;
   clear:both;
-  width:179px;
+  width:179px !important;
   display:none;
 }
-.template-maps_view ul.subItens li{
+.template-maps_view #content ul.subItens li{
   background:#5b5b5b;
   float:left;
   display:block;
   clear:both;
   width:100%;
   padding:3px;
+}
+#content .wrap-events .eventBanner{
+  width: 100%;
+  height: 56px;
+  background:url(../img/verao-header-observacao3.png) no-repeat 0 0 #252525!important;
+}
+.template-maps_view .wrap-events {
+  display: block;
+  height: 56px;
+  position: relative;
+  width: 100%;
+}
+.template-maps_view #content .wrap-events .aba-left{
+  left: -56px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  margin-top: 1px;
+  background-image: url("../img/verao-op-aba.png");
+    background-position: top left;
+}
+.template-maps_view #content .wrap-events .aba-right{
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  background-image: url("../img/verao-op-aba.png");
+  right: -56px;
+  background-position: top right;
+}
+.template-maps_view #content .wrap-events .event-list {
+  float: right;
+  margin-right: 5px!important;
+  width: 570px;
+  margin-top: 6px;
+}
+.template-maps_view #content .wrap-events .event-list li {
+  color: #fff;
+  font-size: 1em;
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+}
+.template-maps_view #content .wrap-events .event-list li label{
+  font-weight: normal !important;
+  margin-left: 5px;
 }
