@@ -2824,6 +2824,10 @@ div#portal-searchbox {
   background:#01a4b7;
   border-left:5px solid #07c5db;
 }
+.template-maps_view #content .menuItens ul li:hover{
+  background: #01a4b7;
+}
+
 .template-maps_view #content .menuItens > ul > li.active{
   background:#01a4b7;
   border-left:5px solid #07c5db;
@@ -2854,6 +2858,11 @@ div#portal-searchbox {
   clear:both;
   width:100%;
   padding:3px;
+  background: #027784;
+}
+.template-maps_view #content ul.subItens li input{
+  margin-left: 10px;
+  margin-right: 5px;
 }
 #content .wrap-events .eventBanner{
   width: 100%;
