@@ -685,6 +685,12 @@
    ========================================================================== */
 
 /*Estilos do portlet do calendario*/
+.portletCalendar table caption {
+  display: none
+}
+.portletCalendar dt {
+  width: 335px;
+}
 body.template-agenda_view h2#agendaPrefeitura {
   border-bottom: 3px black double;
   font-size: 17.6px;
@@ -1310,6 +1316,9 @@ body.template-agenda_view #portal-column-content header strong {
   letter-spacing: 0;
   height: 26px;
   text-transform: uppercase;
+}
+.template-folder_contents #portal-column-two .maisBuscadosTitulo{
+  height: 50px;
 }
 #content .cover-embed-tile{
   font-size: 0.937em;
@@ -2397,14 +2406,6 @@ div#portal-searchbox {
 .template-maps_view #content .documentFirstHeading {
   height: 45px;
 }
-
-.template-maps_view #map-canvas {
-  height: 600px;
-  width: 939px;
-  margin-left: -4px;
-  padding: 0;
-}
-
 .template-noticias_view #content .titulo_principal h1,
 .template-document_view #content .documentFirstHeading,
 .template-maps_view #content .documentFirstHeading,
@@ -2677,4 +2678,247 @@ div#portal-searchbox {
   text-decoration: none;
   color: #FFF !important;
   background: #F00;
+}
+
+ /* ==========================================================================
+   Estilos para template de mapa
+   ========================================================================== */
+.section-mapa {
+  display: block;
+  background: url(../img/verao-atencao-bg.png) repeat-x -0px 255px transparent;
+  height: 56px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.template-maps_view #map-canvas {
+  height: 600px;
+  width: 935px;
+  margin-left: -4px;
+  padding: 0;
+  border:1px solid #979797;
+}
+.template-maps_view #iw_container .iw_title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.template-maps_view .iw_content {
+  padding: 15px 15px 15px 0;
+}
+.template-maps_view .menuItens{
+  position:absolute;
+  right:30px;
+  top:170px;
+  z-index:9;
+  padding:0;
+  margin:0;
+  width:225px;
+}
+.template-maps_view .roteOption{
+  margin: 40px 0 0 10px;
+}
+.template-maps_view .roteOption label{
+  color: #222;
+  padding: 5px 2px;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.template-maps_view .rotaForm{
+  position: absolute;
+  top: 170px;
+  z-index: 9;
+  margin: 0px;
+  width: 210px;
+  left: 50px;
+  background-color: #fff;
+}
+.template-maps_view .rotaForm legend{
+  float: left;
+  background: #01A4B7 none repeat scroll 0% 0%;
+  display: block;
+  padding: 5px 0px !important;
+  text-align: center;
+  width: 210px;
+  color: #fff;
+  font-size: 1em !important;
+}
+.template-maps_view #content .rotaForm fieldset{
+  border: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.template-maps_view #content .rotaForm .txtEndereco{
+  width: 140px;
+}
+.template-maps_view #content .rotaForm .rotaChegada{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.template-maps_view #content .rotaForm .rotaPartida{
+  margin: 15px 0 0 10px;
+}
+.template-maps_view #content .rotaForm .rotaPartida label,
+.template-maps_view #content .rotaForm .rotaChegada label{
+  background: #5B5B5B none repeat scroll 0% 0%;
+  color: #FFF;
+  display: block;
+  float: left;
+  font-weight: normal;
+  height: 15px;
+  margin-right: 8px;
+  text-align: center;
+  padding: 5px 2px;
+  width: 20px;
+}
+.template-maps_view #content .rotaForm .rotaEnviar input{
+  border: 0px none;
+  border-radius: 0px;
+  width: 188px;
+  background: #F00 none repeat scroll 0% 0%;
+  color: #FFF !important;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 15px 0 0 10px;
+}
+.template-maps_view #content .ui-autocomplete{
+  cursor: default;
+  overflow: hidden;
+  list-style: none;
+  white-space: nowrap;
+  text-align: left;
+  border: 1px solid #E6E6E6;
+  font-size: 11px;
+  padding: 20px 4px;
+  color: #999;
+  width: 140px !important;
+  max-height: 70px;
+  left: 90px !important;
+  background-color: #fff;
+}
+.template-maps_view #content .ui-autocomplete li:first-child{
+  margin-top: 0;
+}
+.template-maps_view #content .ui-menu-item{
+  border-bottom: 1px solid black;
+  margin: 15px 0 0 0;
+  box-shadow: 1px solid black;
+}
+.template-maps_view #content .ui-menu-item a{
+  font-size: 13px;
+  font-family: Arial;
+}
+.template-maps_view #content .menuItens ul{
+  float:left !important;
+  width:180px !important;
+  margin-left: -5px !important;
+}
+.template-maps_view #content .menuItens ul li{
+  display:block;
+  list-style:none;
+  color:#fff;
+  margin-bottom: 0px;
+}
+.template-maps_view #content .menuItens > ul > li{
+    border-bottom: 1px solid #7c7c7c;
+  background:#5b5b5b;
+  border-left:5px solid #5b5b5b;
+  height:40px;
+  display:block;
+  clear:both;
+  padding:5px 0 0 0;
+  width:100%;
+}
+.template-maps_view #content .menuItens > ul > li:hover{
+  background:#01a4b7;
+  border-left:5px solid #07c5db;
+}
+.template-maps_view #content .menuItens ul li:hover{
+  background: #01a4b7;
+}
+
+.template-maps_view #content .menuItens > ul > li.active{
+  background:#01a4b7;
+  border-left:5px solid #07c5db;
+}
+.template-maps_view #content .menuItens > ul > li img{
+  float:left;
+}
+.template-maps_view #content .menuItens > ul > li a.tituloMenu{
+  float:left;
+  padding:10px 0 0 3px;
+  cursor:pointer;
+}
+.template-maps_view #content .menuItens > ul > li a.tituloMenu:hover{
+  color: #fff !important;
+}
+.template-maps_view #content ul.subItens{
+  margin:0 0 0 -5px;
+  padding:0;
+  float:left;
+  clear:both;
+  width:179px !important;
+  display:none;
+}
+.template-maps_view #content ul.subItens li{
+  background:#5b5b5b;
+  float:left;
+  display:block;
+  clear:both;
+  width:100%;
+  padding:3px;
+  background: #027784;
+}
+.template-maps_view #content ul.subItens li input{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+#content .wrap-events .eventBanner{
+  width: 100%;
+  height: 56px;
+  background:url(../img/verao-header-observacao3.png) no-repeat 0 0 #252525!important;
+}
+.template-maps_view .wrap-events {
+  display: block;
+  height: 56px;
+  position: relative;
+  width: 100%;
+}
+.template-maps_view #content .wrap-events .aba-left{
+  left: -56px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  margin-top: 1px;
+  background-image: url("../img/verao-op-aba.png");
+    background-position: top left;
+}
+.template-maps_view #content .wrap-events .aba-right{
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  background-image: url("../img/verao-op-aba.png");
+  right: -56px;
+  background-position: top right;
+}
+.template-maps_view #content .wrap-events .event-list {
+  float: right;
+  margin-right: 5px!important;
+  width: 570px;
+  margin-top: 6px;
+}
+.template-maps_view #content .wrap-events .event-list li {
+  color: #fff;
+  font-size: 1em;
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+}
+.template-maps_view #content .wrap-events .event-list li label{
+  font-weight: normal !important;
+  margin-left: 5px;
 }
