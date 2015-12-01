@@ -18,6 +18,7 @@
         <replace css:theme-children=".logo" css:content="#portal-title" />
         <replace css:theme-children=".sections" css:content="#portal-globalnav" />
         <replace css:theme-children="#portal-searchbox" css:content-children="#portal-searchbox" />
+        <replace css:theme=".sp-agora" css:content="#externos" />
 
         <!-- Head elements -->
         <after css:theme-children="html head" css:content-children="html head" />
