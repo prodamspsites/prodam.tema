@@ -647,10 +647,133 @@
   height: 25px !important;
 }
 
+/*Estilização do São Paulo Agora*/
+#externos {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 340px;
+  height: 445px;
+  margin-right: 205px;
+  overflow: hidden;
+  right: 0;
+  color: #fff;
+  z-index: 5555;
+  margin-top: 65px;
+}
 
-
-
-
+.container-wrapper #externos #servicos-externos{
+  margin: 0 auto;
+  width: 320px;
+  height: 270px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.container-wrapper #externos #servicos-externos li{
+  width: 106px;
+  height: 130px;
+  float: left;
+  color: #fff;
+  text-align: center;
+}
+.container-wrapper #externos #servicos-externos .dash-border{
+  line-height: 13px;
+  padding: 7px 5px;
+  height: 114px;
+  border-left: 1px rgba(150, 150, 150, 0.2) solid;
+  border-top: 1px rgba(150, 150, 150, 0.2) solid;
+}
+.container-wrapper #externos #servicos-externos .titulo-dash{
+  color: #6dcff6;
+  height: 18px;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.container-wrapper #externos #servicos-externos .dash-border .t-media,
+.container-wrapper #externos #servicos-externos .dash-border .dash-img{
+  margin: 15px auto;
+}
+.container-wrapper #externos #servicos-externos .dash-border .dash-img{
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+.container-wrapper #externos .o2quali {
+  background-position: -52px -52px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  }
+.container-wrapper #externos .bullet-verde{
+  color: #7ddc6f;
+}
+.container-wrapper #externos .dash-header {
+  display: block;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 14px;
+}
+.container-wrapper #externos .ex-publico .dash-img {
+  background-position: -156px -52px;
+  width: 50px;
+  height: 50px;
+}
+.container-wrapper #externos .dash-img {
+  display: block;
+  margin: 0 auto;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+.container-wrapper #externos .ex-hover {
+  background: rgba(0, 0, 0, 0.8);
+  width: 104px !important;
+  height: 129px !important;
+  position: absolute !important;
+  top: 0;
+  z-index: 6666;
+  display: none;
+  cursor: pointer;
+}
+.container-wrapper #externos .ex-hover div {
+  background: url(../img/sprite.png) no-repeat -725px 0;
+  z-index: 3;
+  height: 35px;
+  width: 35px !important;
+  border: 0 !important;
+  position: relative;
+  margin: 68px auto 0 auto;
+}
+.container-wrapper #externos .ex-publico .dash-border a{
+  color: #6dcff6;
+  font-size: 0.8em;
+}
+.container-wrapper #externos #mapa-serv{
+  background: url(../img/sprite.png) no-repeat -237px -234px;
+  width: 320px;
+  height: 40px;
+  position: absolute;
+  margin-left: 11px;
+  top: 301px;
+  cursor: pointer;
+}
+.container-wrapper #externos .tweets{
+  background: rgba(0, 0, 0, 0.7);
+  width: 320px;
+  height: 94px;
+  position: absolute;
+  z-index: 66666;
+  right: 0;
+  top: 340px;
+  color: #fff;
+  padding: 8px 10px!important;
+}
+.container-wrapper #externos .tweets h4,
+.container-wrapper #externos .tweets h4 a,
+.container-wrapper #externos .tweets a{
+  font-size: 0.9em;
+  color: #fff;
+  width: 297px;
+}
 /*Estilização do portlet de últimas ocorrências*/
 
 #plone-content #portal-column-two .news-list {
