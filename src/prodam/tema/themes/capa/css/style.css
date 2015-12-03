@@ -648,7 +648,7 @@
 }
 
 /*Estilização do São Paulo Agora*/
-#externos {
+.userrole-authenticated .container-wrapper #externos {
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
   width: 340px;
@@ -659,6 +659,18 @@
   color: #fff;
   z-index: 5555;
   margin-top: 65px;
+}
+.container-wrapper #externos {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 340px;
+  height: 445px;
+  margin-right: 205px;
+  overflow: hidden;
+  right: 0;
+  color: #fff;
+  z-index: 5555;
+  margin-top: 21px;
 }
 
 .container-wrapper #externos #servicos-externos{
