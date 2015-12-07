@@ -700,10 +700,6 @@
   font-size: 0.75em;
   font-weight: bold;
 }
-.container-wrapper #externos #servicos-externos .dash-border .t-media,
-.container-wrapper #externos #servicos-externos .dash-border .dash-img{
-  margin: 15px auto;
-}
 .container-wrapper #externos #servicos-externos .dash-border .dash-img{
   background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
@@ -730,11 +726,48 @@
   width: 50px;
   height: 50px;
 }
+.container-wrapper #externos .ex-clima .tempo-g {
+  background: url(../img/sprite.png) no-repeat 0 -107px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+.container-wrapper #externos .ex-clima .t-media,
+.container-wrapper #externos .ex-clima .tempestade{
+  margin-bottom: 0px !important;
+  font-size: 12px;
+}
+.container-wrapper #externos .ex-clima  .amarelo{
+  color: #fcc634;
+  margin-left: 3px;
+}
+.container-wrapper #externos .ex-rodizio .azul-gd{
+  color: #6dcff6;
+}
+.container-wrapper #externos .ex-clima .raio {
+  width: 14px;
+  height: 16px;
+  background: url(../img/sprite.png) no-repeat -777px -19px;
+  display: inline-block;
+  vertical-align: middle;
+}
 .container-wrapper #externos .dash-img {
   display: block;
   margin: 0 auto;
   background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
+}
+.container-wrapper #externos .ex-aero .dash-img {
+  background-position: -104px -52px;
+  width: 50px;
+  height: 50px;
+}
+.container-wrapper #externos .ex-rodizio .dash-img {
+  background-position: -260px -52px;
+  width: 50px;
+  height: 50px;
 }
 .container-wrapper #externos .ex-hover {
   background: rgba(0, 0, 0, 0.8);
