@@ -927,6 +927,9 @@ body.template-agenda_view #portal-column-content header strong {
   font-size: 1.25em;
   color:#333;
 }
+.section-agenda #content #agenda{
+  margin-left: 0;
+}
 .section-agenda #content #agenda li{
   list-style: none;
   border-bottom: 1px solid #d7d7d7;
@@ -944,10 +947,13 @@ body.template-agenda_view #portal-column-content header strong {
   font-size: 1em;
   color: #181818;
 }
-
+.section-agenda #content #agenda li article p{
+  margin-bottom: 0;
+}
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
+
 
 
 #content .cover-banner-tile a img{
@@ -1951,11 +1957,13 @@ section.width-16, nav.width-16 {
     margin: 0;
   }
   /*View de notícias*/
-  .template-noticias_view #portal-column-two{
+  .template-noticias_view #portal-column-two,
+  .template-agenda-prefeito #portal-column-two{
     width: 90.33% !important;
     margin-left: 22.5px !important;
   }
-  .template-noticias_view .width-3\3a 4{
+  .template-noticias_view .width-3\3a 4,
+  .template-agenda-prefeito .width-3\3a 4{
     width: 90.33% !important;
     margin-left: -94.875% !important;
   }
@@ -2191,7 +2199,8 @@ section.width-16, nav.width-16 {
   .template-noticias_view div.position-0,
   .template-document_view div.position-0,
   .template-busca div.position-0,
-  .template-maps_view div.position-0 {
+  .template-maps_view div.position-0,
+  .template-agenda-prefeito div.position-0 {
     margin-left: -98.875% !important;
   }
   .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
@@ -2202,21 +2211,27 @@ section.width-16, nav.width-16 {
     background-position: 0 56px !important;
   }
   .template-noticias_view .width-3\3a 4,
-  .template-document_view .width-3\3a 4{
+  .template-document_view .width-3\3a 4,
+  .template-agenda-prefeito .width-3\3a 4{
     width: 61.7% !important;
   }
   .template-noticias_view .width-full,
   .template-document_view .width-full,
   .template-maps_view .width-full,
-  .template-busca .width-full{
+  .template-busca .width-full,
+  .template-agenda-prefeito .width-full{
     width: 100% !important;
   }
-  .template-noticias_view #portal-column-two{
+  .template-noticias_view #portal-column-two,
+  .template-agenda-prefeito #portal-column-two{
     width: 35.417% !important;
     margin-left: 64.41% !important;
     clear: none !important;
     padding-left: 0;
     padding-top: 125px;
+  }
+  .template-agenda-prefeito #portal-column-two{
+    padding-top: 0;
   }
   /*fim view de notícias*/
 
@@ -2625,6 +2640,12 @@ div#portal-searchbox {
   display: inline;
   clear: both;
 }
+ .template-agenda-prefeito #portal-column-two{
+  float:left;
+  left: 0;
+  display: inline;
+  clear: both;
+ }
 .template-noticias_view #content article header .btn_voltar{
   display: block;
   border-bottom: 1px #ccc solid;
