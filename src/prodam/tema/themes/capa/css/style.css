@@ -882,13 +882,19 @@ body.template-agenda_view #portal-column-content header strong {
   float: right;
 }
 
-.portletCalendar table td,
-.portletCalendar table td a:visited {
-  padding: 17px;
+.portletCalendar table td {
+  padding: 0;
+  width: 50px;
+  height: 50px;
   color: #333;
   font-weight: bold;
   border: 1px solid #e9e9e9;
   font-size: 12px;
+  text-align: center;
+}
+.portletCalendar table td a{
+  padding: 17px;
+  display: block;
   text-align: center;
 }
 .portletCalendar table td:first-child:hover,
