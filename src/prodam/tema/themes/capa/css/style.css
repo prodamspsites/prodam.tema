@@ -758,12 +758,10 @@
   margin-top: 2px;
   border-radius: 20px;
 }
-.container-wrapper #externos .ex-rodizio .azul-gd{
-  color: #6dcff6;
-}
-.container-wrapper #externos .ex-rodizio .rod-3col .amarelo{
+.container-wrapper #externos .ex-rodizio .azul-pq{
   margin-top: 5px;
   display: block;
+  color: #6dcff6;
 }
 .container-wrapper #externos .ex-clima .raio {
   width: 14px;
