@@ -648,23 +648,8 @@
 }
 
 /*Estilização do São Paulo Agora*/
-.userrole-authenticated .container-wrapper #externos {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.7);
-  width: 340px;
-  height: 445px;
-  margin-right: 205px;
-  overflow: hidden;
-  right: 0;
-  color: #fff;
-  z-index: 5555;
-  margin-top: 65px;
-  display: none;
-}
+
 .container-wrapper #externos {
-  display: none;
-}
-.section-prefeitura-de-sao-paulo .container-wrapper #externos {
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
   width: 340px;
@@ -677,8 +662,6 @@
   margin-top: 21px;
   display: block;
 }
-
-
 .container-wrapper #externos #servicos-externos{
   margin: 0 auto;
   width: 320px;
@@ -732,6 +715,18 @@
   width: 50px;
   height: 50px;
 }
+.container-wrapper #externos .ex-transito .semaforo{
+  background: url(../img/sprite.png) no-repeat -221px -63px;
+  width: 27px;
+  height: 32px;
+  position: relative;
+  clear: both;
+  margin: 5px auto;
+}
+.container-wrapper #externos .ex-transito .ttotal .em09{
+  font-size: 0.68em;
+
+}
 .container-wrapper #externos .ex-clima .tempo-g {
   background: url(../img/sprite.png) no-repeat 0 -107px;
   width: 50px;
@@ -745,12 +740,30 @@
   margin-bottom: 0px !important;
   font-size: 12px;
 }
-.container-wrapper #externos .ex-clima  .amarelo{
+.container-wrapper #externos .amarelo{
   color: #fcc634;
   margin-left: 3px;
 }
+.container-wrapper #externos .verde{
+  color: #7ddc6f;
+  display: block;
+  margin-top: 5px;
+}
+.container-wrapper #externos .ball-status{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #7ddc6f;
+  margin-right: 5px;
+  margin-top: 2px;
+  border-radius: 20px;
+}
 .container-wrapper #externos .ex-rodizio .azul-gd{
   color: #6dcff6;
+}
+.container-wrapper #externos .ex-rodizio .rod-3col .amarelo{
+  margin-top: 5px;
+  display: block;
 }
 .container-wrapper #externos .ex-clima .raio {
   width: 14px;
@@ -794,7 +807,7 @@
   position: relative;
   margin: 68px auto 0 auto;
 }
-.container-wrapper #externos .ex-publico .dash-border a{
+.container-wrapper #externos .ex-publico .dash-border .azul-pq{
   color: #6dcff6;
   font-size: 0.8em;
 }
