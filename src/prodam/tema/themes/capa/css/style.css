@@ -668,6 +668,9 @@
   height: 270px;
   background: rgba(0, 0, 0, 0.2);
 }
+.container-wrapper #externos #servicos-externos a{
+  color: #fff;
+}
 .container-wrapper #externos #servicos-externos li{
   width: 106px;
   height: 130px;
@@ -675,12 +678,19 @@
   color: #fff;
   text-align: center;
 }
+#servicos-externos li:hover .ex-hover, 
+#servicos-externos li:focus .ex-hover {
+  display: block !important;
+}
 .container-wrapper #externos #servicos-externos .dash-border{
   line-height: 13px;
   padding: 7px 5px;
   height: 114px;
   border-left: 1px rgba(150, 150, 150, 0.2) solid;
   border-top: 1px rgba(150, 150, 150, 0.2) solid;
+}
+.ex-publico > div, .ex-transito, .ex-rodizio {
+  border-bottom: 1px rgba(150, 150, 150, 0.2) solid;
 }
 .container-wrapper #externos #servicos-externos .titulo-dash{
   color: #6dcff6;
@@ -791,7 +801,19 @@
   width: 104px !important;
   height: 129px !important;
   position: absolute !important;
-  top: 0;
+  top: 34px;
+  z-index: 6666;
+  display: none;
+  cursor: pointer;
+}
+.container-wrapper #externos .ex-publico .ex-hover,
+.container-wrapper #externos .ex-transito .ex-hover,
+.container-wrapper #externos .ex-rodizio .ex-hover {
+  background: rgba(0, 0, 0, 0.8);
+  width: 104px !important;
+  height: 129px !important;
+  position: absolute !important;
+  top: 164px !important;
   z-index: 6666;
   display: none;
   cursor: pointer;
