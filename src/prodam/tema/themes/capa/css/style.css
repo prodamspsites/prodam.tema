@@ -678,7 +678,7 @@
   color: #fff;
   text-align: center;
 }
-#servicos-externos li:hover .ex-hover, 
+#servicos-externos li:hover .ex-hover,
 #servicos-externos li:focus .ex-hover {
   display: block !important;
 }
@@ -820,12 +820,19 @@
 }
 .container-wrapper #externos .ex-hover div {
   background: url(../img/sprite.png) no-repeat -725px 0;
-  z-index: 3;
+  z-index: 6666;
   height: 35px;
   width: 35px !important;
   border: 0 !important;
   position: relative;
   margin: 68px auto 0 auto;
+}
+.container-wrapper #externos .ex-hover a {
+  z-index: 9999;
+  height: 120px;
+  width: 100px !important;
+  position: relative;
+  float: left;
 }
 .container-wrapper #externos .ex-publico .dash-border .azul-pq{
   color: #6dcff6;
