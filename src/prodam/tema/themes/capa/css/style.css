@@ -648,8 +648,10 @@
 }
 
 /*Estilização do São Paulo Agora*/
-
 .container-wrapper #externos {
+  display: none;
+}
+.section-prefeitura-de-sao-paulo .container-wrapper #externos {
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
   width: 340px;
@@ -662,11 +664,12 @@
   margin-top: 21px;
   display: block;
 }
-.container-wrapper #externos #servicos-externos{
+.section-prefeitura-de-sao-paulo .container-wrapper #externos #servicos-externos{
   margin: 0 auto;
   width: 320px;
   height: 270px;
   background: rgba(0, 0, 0, 0.2);
+  display: block;
 }
 .container-wrapper #externos #servicos-externos a{
   color: #fff;
