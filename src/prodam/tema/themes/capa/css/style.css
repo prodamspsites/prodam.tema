@@ -2344,7 +2344,17 @@ nav #portal-searchbox form {
   height: 16px;
   margin-top: 1px;
 }
+/*Edit page*/
 
+.template-edit #portal-column-two{
+  display: none;
+}
+.template-edit #portal-column-content{
+  width: 100%;
+}
+.template-edit.section-mapa{
+  background: none;
+}
 /* Fim Search Box*/
 
 #content .contentBody {
