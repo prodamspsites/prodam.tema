@@ -648,14 +648,19 @@
 }
 
 /*Estilização do São Paulo Agora*/
-.container-wrapper #externos {
-  display: none;
-}
 .section-prefeitura-de-sao-paulo .container-wrapper #externos {
+  height: 450px;
+}
+
+.userrole-authenticated .container-wrapper #externos {
+  margin-top: 63px;
+}
+
+.container-wrapper #externos {
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
   width: 340px;
-  height: 445px;
+  height: 35px;
   margin-right: 205px;
   overflow: hidden;
   right: 0;
@@ -664,7 +669,20 @@
   margin-top: 21px;
   display: block;
 }
-.section-prefeitura-de-sao-paulo .container-wrapper #externos #servicos-externos{
+
+.container-wrapper #externos {
+  display: none;
+}
+.portaltype-collective-cover-content .container-wrapper #externos,
+.portaltype-document .container-wrapper #externos,
+.portaltype-topic .container-wrapper #externos,
+.portaltype-service .container-wrapper #externos,
+.portaltype-section .container-wrapper #externos,
+.portaltype-news-item .container-wrapper #externos {
+  display: block;
+}
+
+.container-wrapper #externos #servicos-externos{
   margin: 0 auto;
   width: 320px;
   height: 270px;
@@ -680,6 +698,21 @@
   float: left;
   color: #fff;
   text-align: center;
+}
+
+.container-wrapper #externos header .e-abrir,
+.container-wrapper #externos header .e-fechar {
+  border: 0;
+  width: 27px;
+  height: 27px;
+  float: right;
+  margin-top: 4px;
+  cursor: pointer;
+  margin-bottom: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite.png);
+  background-position: -482px -56px;
 }
 #servicos-externos li:hover .ex-hover,
 #servicos-externos li:focus .ex-hover {
@@ -718,10 +751,10 @@
 .container-wrapper #externos .dash-header {
   display: block;
   font-size: 0.9em;
-  padding: 10px 20px;
+  padding: 0 20px;
   text-transform: uppercase;
   font-weight: bold;
-  height: 14px;
+  line-height: 35px;
 }
 .container-wrapper #externos .ex-publico .dash-img {
   background-position: -156px -52px;
@@ -868,6 +901,7 @@
   color: #fff;
   width: 297px;
 }
+<<<<<<< HEAD
 #externos .dash{
   background: rgba(0, 0, 0, 0.5);
   font-size: 16px;
@@ -1035,6 +1069,15 @@
 #externos #call-rodizio .amarelo{
   margin-left: 0;
 }
+=======
+
+.container-wrapper #externos .tweets .tweetlist a {
+  display: none;
+}
+.container-wrapper #externos .tweets .tweetlist a:first-child {
+  display: block;
+}
+>>>>>>> 40c873a253769dec230f80f9b880d807a188e9c0
 
 /*Estilização do portlet de últimas ocorrências*/
 
@@ -2603,6 +2646,7 @@ section.width-16, nav.width-16 {
   background: transparent;
   border-bottom: 1px solid #d8d8d8;
   padding-bottom: 20px;
+  z-index: 1000 !important;
 }
 
 #main {
