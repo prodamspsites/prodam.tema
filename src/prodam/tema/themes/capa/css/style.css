@@ -266,8 +266,11 @@
 #content .cover-collection-tile h2 a:hover{
   color: #181818 !important;
 }
+.section-prefeitura-de-sao-paulo #content .collection-item{
+  margin-bottom: 15px;
+}
 #content .cover-collection-tile p{
-  margin-top: 7px;
+  margin-top: 3px;
   margin-bottom: 0;
 }
 #content .tabs{
@@ -359,7 +362,7 @@
   width: 145px;
 }
 #content .cover-collection-tile .tile-edge  h2{
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 15px;
 }
 #content .cover-collection-tile .tile-edge p{
@@ -794,6 +797,12 @@
   color: #7ddc6f;
   display: block;
   margin-top: 5px;
+}
+.container-wrapper #externos span.vermelho{
+  color: #f00;
+}
+.container-wrapper #externos i.vermelho{
+  background: #f00;
 }
 .container-wrapper #externos .ball-status{
   width: 10px;
@@ -1369,10 +1378,10 @@
   border-radius: 20px;
 }
 #externos #call-trans span.vermelho{
-  background-color: red;
+  background-color: #f00;
 }
 #externos #call-trans div.vermelho{
-  color: red;
+  color: #f00;
 }
 #externos #call-trans .pont {
   background: transparent;
@@ -1470,7 +1479,7 @@
   font-weight: bold;
 }
 #plone-content #portal-column-two .news-list ul li a:hover{
-  color: red !important;
+  color: #f00 !important;
 }
 .subsection-noticias .position-3\3a 4 {
   margin-left: -98% !important;
@@ -1535,12 +1544,12 @@ body.template-agenda_view #portal-column-content header strong {
 .portletCalendar table td a:hover,
 .portletCalendar table td:hover a,
 .portletCalendar table td:last-child:hover {
-  background: red;
+  background: #f00;
   color: #fff !important;
 }
 .portletCalendar table td:first-child,
 .portletCalendar table td:last-child {
-  color: red;
+  color: #f00;
 }
 .portletCalendar table thead th {
   background-color: #e9e9e9;
@@ -1742,7 +1751,7 @@ body.template-agenda_view #portal-column-content header strong {
 }
 #content #content-core #parent-fieldname-text .section-group section ul li a:before{
   content: '\2022';
-  color: red;
+  color: #f00;
   margin-right: 5px;
 }
 
@@ -2072,7 +2081,7 @@ body.template-agenda_view #portal-column-content header strong {
   border-bottom: none;
 }
 #content .AaZLista li a:hover{
-  color: red !important;
+  color: #f00 !important;
   transition: all .2s ease-out;
 }
 #content .AaZLista {
@@ -3376,14 +3385,14 @@ div#portal-searchbox {
 }
 .template-noticias_view #content article div p a,
 .template-document_view #content #content-core a{
-  color: red;
+  color: #f00;
   border:none;
 }
 .template-noticias_view #content a:hover,
 .template-noticias_view dl.portlet a:hover,
 .template-document_view #content a:hover,
 .template-document_view dl.portlet a:hover{
-  color: red !important;
+  color: #f00 !important;
 }
 /*fim view de notícias*/
 
