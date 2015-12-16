@@ -809,7 +809,7 @@
   display: block;
   color: #6dcff6;
 }
-.container-wrapper #externos .ex-clima .raio {
+.container-wrapper #externos .raio {
   width: 14px;
   height: 16px;
   background: url(../img/sprite.png) no-repeat -777px -19px;
@@ -901,8 +901,12 @@
   color: #fff;
   width: 297px;
 }
-<<<<<<< HEAD
-#externos .dash{
+#externos #call-clima,
+#externos #call-ar,
+#externos #call-aero,
+#externos #call-publi,
+#externos #call-transito,
+#externos #call-rodizio{
   background: rgba(0, 0, 0, 0.5);
   font-size: 16px;
   line-height: 12px;
@@ -940,24 +944,218 @@
   text-align: center;
   border-radius: 0;
 }
+/*Clima*/
+#externos #call-clima  #temp-bloco{
+  border-bottom: 1px dotted #aaa;
+  float: left;
+}
+#externos #call-clima #t-agora {
+  position: relative;
+  float: left;
+  margin: 2px 7px 0;
+}
+#externos #call-clima .tempo-g {
+  background: url(../img/sprite.png) no-repeat 0 -107px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+#externos #call-clima #t-media {
+  width: 172px;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+}
+#externos #call-clima #minXmax {
+  width: 57px;
+  position: relative;
+  float: left;
+  text-align: right;
+  font-size: 1.3em;
+  padding-right: 7px;
+  margin-top: 10px;
+}
+#externos #call-clima .tmax, .tmin {
+  width: 10px;
+  height: 18px;
+  display: block;
+  float: left;
+  background: url(../img/sprite.png) no-repeat;
+  margin-top: -3px;
+}
+#externos #call-clima .tmax {
+  background-position: -781px 0;
+}
+#externos #call-clima .tmin {
+  background-position: -802px 0;
+  clear: left;
+}
+#externos #call-clima #new-min{
+  margin-top: 10px;
+}
+#externos #call-clima #dia-todo {
+  text-align: center;
+  position: relative;
+  clear: both;
+  border-bottom: 1px dotted #aaa;
+  height: 85px;
+  display: block;
+}
+#externos #call-clima #dia-todo li {
+  width: 74px;
+  position: relative;
+  float: left;
+  height: auto;
+  display: block;
+}
+#externos #call-clima .azul-pq {
+  color: #6dcff6!important;
+}
+#externos #call-clima .em08 {
+  font-size: .8em;
+  line-height: 1em;
+}
+#externos #call-clima .em07 {
+  font-size: .7em;
+  line-height: .9em;
+}
+#externos #call-clima .tempo-p {
+  background: url(../img/sprite.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+#externos #call-clima .cr-pq,
+#externos #call-clima .pc-pq,
+#externos #call-clima .pi-pq{
+  background-position: 0 -203px;
+}
+#externos #call-clima .nc-pq,
+#externos #call-clima .nc-pq-noite{
+  background-position: -195px -203px;
+}
+#externos #call-clima .pn-pq{
+  background-position: -78px -202px;
+}
+#externos #call-clima .en-pq{
+  background-position: -156px -203px;
+}
+#externos #call-clima .cv-pq,
+#externos #call-clima .cv-pq-noite{
+  background-position:-155px -242px;
+}
+#externos #call-clima .cc-pq{
+  background-position: -116px -203px;
+}
+#externos #call-clima .nb-pq,
+#externos #call-clima .nb-pq-noite{
+  background-position: -157px -203px;
+}
+#externos #call-clima .ch-pq,
+#externos #call-clima .tp-pq,
+#externos #call-clima .ch-pq-noite,
+#externos #call-clima .tp-pq-noite{
+  background-position: -195px -203px;
+}
+#externos #call-clima .cr-pq-noite,
+#externos #call-clima .pc-pq-noite,
+#externos #call-clima .pi-pq-noite{
+  background-position: 0 -242px;
+}
+#externos #call-clima .pn-pq-noite{
+  background-position: -78px -242px;
+}
+#externos #call-clima .en-pq-noite{
+  background-position: -156px -203px;
+}
+#externos #call-clima .cc-pq-noite{
+  background-position: -117px -242px;
+}
+#externos #call-clima #tempor-outras {
+  padding-top: 10px;
+}
+#externos #call-clima #tempor-outras .a-half {
+  text-align: center;
+}
+#externos #call-clima .a-40 {
+  position: relative;
+  float: left;
+  width: 40%;
+}
+#externos #call-clima #tempor-outras small {
+  position: relative;
+  clear: right;
+  float: left;
+  width: 100%;
+}
+#externos #call-clima .gotas {
+  position: relative;
+  float: left;
+  background: url(../img/sprite.png) no-repeat right -20px;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#externos #call-clima .a-half {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+#externos #call-clima .sol-box {
+  float: right;
+  width: 55%;
+  text-align: center;
+  position: relative;
+}
+#externos #call-clima #sol {
+  background: url(../img/sprite.png) no-repeat -513px -54px;
+  height: 25px;
+  width: 92px;
+  display: block;
+  clear: both;
+  margin: 0 auto;
+}
+#externos #call-clima #tempor-outras small {
+  position: relative;
+  clear: right;
+  float: left;
+  width: 100%;
+}
+#externos #call-clima .em14 {
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+#externos #call-clima .em18 {
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+
 /*AR*/
-#externos .call-ar #o2mapa {
+#externos #call-ar #o2mapa {
   width: 300px;
   height: 160px;
   border-bottom: 1px #eee dotted;
   margin-left: -8px;
 }
-#externos .acall-ar #dica {
+#externos #call-ar #dica {
   margin-top: 10px;
   height: 50px;
   overflow: auto;
 }
-#externos .call-ar #dica li {
+#externos #call-ar #dica li {
   font-size: 0.75em;
   line-height: 14px;
   float: left;
 }
-#externos .call-ar #dica i{
+#externos #call-ar #dica i{
   width: 7px;
   height: 7px;
   background: #6dcff6;
@@ -1069,15 +1267,116 @@
 #externos #call-rodizio .amarelo{
   margin-left: 0;
 }
-=======
+/*Trânsito*/
+#externos #call-trans .tran-total {
+  padding: 10px 0;
+  position: relative;
+  width: 180px;
+  margin: 0 auto;
+}
+#externos #call-trans .ttotal {
+  position: relative;
+  height: 58px;
+  width: 49%;
+  float: left;
+}
+#externos #call-trans .em14 {
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+#externos #call-trans .bolinha {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: #ffc600;
+  margin-right: 5px;
+  margin-top: 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+#externos #call-trans span.vermelho{
+  background-color: red;
+}
+#externos #call-trans div.vermelho{
+  color: red;
+}
+#externos #call-trans .pont {
+  background: transparent;
+  border-bottom: 2px rgba(150, 150, 150, 0.2) dotted;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  margin: 0;
+}
+#externos #call-trans #sp-mapa {
+  background: url(../img/sprite.png) no-repeat -661px -59px;
+  width: 155px;
+  height: 94px;
+  position: relative;
+  clear: both;
+  margin: 5px auto 0;
+}
+#externos #call-trans #lentidao {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 0;
+  left: 0;
+  margin-top: 54px;
+}
+#externos #call-trans #lentidao li {
+  width: 70px;
+  font-size: 1.3em;
+  position: absolute;
+}
+#externos #call-trans #kmOeste {
+  left: -75px;
+  top: -45px;
+  text-align: right;
+}
+#externos #call-trans #kmNorte {
+  left: 160px;
+  top: -43px;
+}
+#externos #call-trans #kmLeste {
+  left: 160px;
+  top: -8px;
+}
+#externos #call-trans #kmSul {
+  left: -75px;
+  top: -5px;
+  text-align: right;
+}
+#externos #call-trans .bloco-linha {
+  position: relative;
+  clear: both;
+  text-align: center;
+  border-top: 1px rgba(150, 150, 150, 0.2) dotted;
+  padding-top: 8px;
+  margin-top: 5px;
+}
+#externos #call-trans .bloco-linha a {
+  display: inline-block;
+  font-weight: bold;
+  width: 48%;
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+#externos #call-trans .azul-pq {
+  color: #6dcff6;
+}
 
+
+/*         */
 .container-wrapper #externos .tweets .tweetlist a {
   display: none;
 }
 .container-wrapper #externos .tweets .tweetlist a:first-child {
   display: block;
 }
->>>>>>> 40c873a253769dec230f80f9b880d807a188e9c0
 
 /*Estilização do portlet de últimas ocorrências*/
 
