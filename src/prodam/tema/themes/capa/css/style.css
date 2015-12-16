@@ -905,7 +905,7 @@
 #externos #call-ar,
 #externos #call-aero,
 #externos #call-publi,
-#externos #call-transito,
+#externos #call-trans,
 #externos #call-rodizio{
   background: rgba(0, 0, 0, 0.5);
   font-size: 16px;
@@ -948,6 +948,7 @@
 #externos #call-clima  #temp-bloco{
   border-bottom: 1px dotted #aaa;
   float: left;
+  margin-bottom: 10px;
 }
 #externos #call-clima #t-agora {
   position: relative;
@@ -1166,6 +1167,76 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   border-radius: 20px;
+}
+/* Aeroportos*/
+
+#externos #call-aero #aero-lista {
+  margin-top: 10px;
+  position: relative;
+  clear: both;
+  width: 100%;
+}
+#externos #call-aero #aero-lista li {
+  width: 137px;
+  position: relative;
+  float: left;
+  height: 90px;
+  border: 1px solid rgba(150,150,150,0);
+  font-size: 100%;
+}
+#externos #call-aero .cgh {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#externos #call-aero #aero-lista small {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+#externos #call-aero .ball-status {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #ffc600;
+  margin-right: 5px;
+  margin-top: 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+#externos #call-aero .aeronome {
+  color: #fff;
+  font-size: 0.9em;
+  display: block;
+}
+#externos #call-aero .txt-right {
+  text-align: right;
+  margin-right: 5px;
+}
+#externos #call-aero .azul-pq {
+  color: #6dcff6!important;
+}
+#externos #call-aero .txt-left {
+  text-align: left;
+}
+#externos #call-aero .gru {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted rgba(150,150,150,0.5)!important;
+  border-left: 1px dotted rgba(150,150,150,0.5)!important;
+}
+#externos #call-aero .mae {
+  padding-top: 10px;
+  padding-right: 10px;
+  border-top: 1px dotted rgba(150,150,150,0.5)!important;
+  border-right: 1px dotted rgba(150,150,150,0.5)!important;
+}
+#externos #call-aero .vcp {
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 /*Transporte Público*/
