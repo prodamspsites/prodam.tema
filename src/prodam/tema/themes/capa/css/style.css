@@ -868,6 +868,174 @@
   color: #fff;
   width: 297px;
 }
+#externos .dash{
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 12px;
+  width: 300px;
+  height: 242px;
+  margin: 0 15px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+#externos .dash h3{
+  color: #6dcff6;
+  border-bottom: 1px white solid;
+  font-weight: bold;
+  line-height: normal;
+  padding: 0 0 3px;
+  font-size: 1em;
+}
+#externos .dash h3 .fonte {
+  font-weight: lighter;
+  color: #6b7a81;
+  font-size: 12px;
+}
+#externos .dash .fechar-dash {
+  background: #fff;
+  font-size: 0.9em;
+  font-weight: lighter;
+  height: 17px;
+  width: 17px;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  right: 16px;
+  top: 7px;
+  text-align: center;
+  border-radius: 0;
+}
+/*AR*/
+#externos .call-ar #o2mapa {
+  width: 300px;
+  height: 160px;
+  border-bottom: 1px #eee dotted;
+  margin-left: -8px;
+}
+#externos .acall-ar #dica {
+  margin-top: 10px;
+  height: 50px;
+  overflow: auto;
+}
+#externos .call-ar #dica li {
+  font-size: 0.75em;
+  line-height: 14px;
+  float: left;
+}
+#externos .call-ar #dica i{
+  width: 7px;
+  height: 7px;
+  background: #6dcff6;
+  display: inline-block;
+  margin-right: 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/*Transporte Público*/
+#externos #call-publi ul {
+  position: relative;
+  clear: both;
+  margin-top: 10px;
+  border-bottom: 1px dotted #979797;
+}
+#externos #call-publi li {
+  height: auto;
+  min-height: 33px;
+  position: relative;
+  padding: 7px 0;
+  font-weight: 500;
+  display: block;
+}
+#externos #call-publi .mini{
+  width: 33px;
+  height: 33px;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+#externos #call-publi .Mbus {
+  background-position: -379px -52px;
+}
+#externos #call-publi .Mmetro {
+  background-position: -313px -52px;
+}
+#externos #call-publi .Mcptm {
+  background-position: -346px -52px;
+}
+#externos #call-publi .status {
+  display: inline-block;
+  vertical-align: middle;
+}
+#externos #call-publi span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 255px;
+  font-size: 0.82em;
+}
+#externos #call-publi .link-amarelo {
+  color: #000!important;
+  background-color: #fcc634;
+  padding: 5px 15px;
+  float: right;
+  clear: both;
+  margin-top: 5px;
+  width: 269px;
+  text-align: center;
+  font-size: 0.82em;
+}
+/*Rodizio*/
+#externos #call-rodizio #mapa-rodizio {
+  width: 300px;
+  height: 122px;
+  position: relative;
+  clear: both;
+  margin: 0 auto;
+  background: url('../img/sprite.png') no-repeat -300px -112px;
+  margin: 5px 0 10px;
+}
+#externos #call-rodizio .rod-3col {
+  position: relative;
+  clear: both;
+  text-align: center;
+  border-top: 1px dotted rgba(150,150,150,0.5);
+}
+#externos #call-rodizio .rod-3col li {
+  padding: 9px 0 0;
+  width: 33%;
+  position: relative;
+  float: left;
+  height: 55px;
+}
+#externos #call-rodizio .rod-3col li:nth-child(even) {
+  border-left: 1px dotted rgba(150,150,150,0.5);
+  border-right: 1px dotted rgba(150,150,150,0.5);
+}
+#externos #call-rodizio .em08 {
+  font-size: .8em;
+  line-height: 1em;
+}
+#externos #call-rodizio .em15{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+#externos #call-rodizio .em10{
+  font-size: 1em;
+  line-height: 1.2em;
+}
+#externos #call-rodizio  .em1 {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+#externos #call-rodizio .amarelo{
+  margin-left: 0;
+}
+
 /*Estilização do portlet de últimas ocorrências*/
 
 #plone-content #portal-column-two .news-list {
