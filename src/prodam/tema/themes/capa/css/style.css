@@ -962,11 +962,11 @@
   border-radius: 0;
   cursor: pointer;
 }
-.tweetlist .rw {
+#externos .tweetlist .rw {
   background: #fff url(../img/sprite.png) no-repeat -581px -240px;
   top: 22px!important;
 }
-.tweetlist .rw, .tweetlist .fw {
+#externos .tweetlist .rw, .tweetlist .fw {
   width: 19px;
   height: 32px;
   border: 0;
@@ -976,11 +976,11 @@
   position: absolute;
   right: 5px!important;
 }
-.tweetlist .fw {
+#externos .tweetlist .fw {
   background: #fff url(../img/sprite.png) no-repeat -562px -240px;
   top: 56px;
 }
-.fw {
+#externos .fw {
   background-position: -701px 0;
   right: 15px;
 }
@@ -1180,6 +1180,9 @@
 
 
 /*AR*/
+.kineticjs-content{
+  background: url(../img/mapQuality.png) no-repeat;
+}
 #externos #call-ar #o2mapa {
   width: 300px;
   height: 160px;
@@ -1246,6 +1249,12 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   border-radius: 20px;
+}
+#externos #call-aero  b.verde{
+  background: #7ddc6f;
+}
+#externos #call-aero  b.vermelho{
+  background: #F00;
 }
 #externos #call-aero .aeronome {
   color: #fff;
