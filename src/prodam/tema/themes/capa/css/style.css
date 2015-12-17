@@ -776,6 +776,10 @@
   font-size: 0.68em;
 
 }
+.container-wrapper #externos .ex-transito .ttotal .em14{
+  font-size: 1.125em;
+
+}
 .container-wrapper #externos .ex-clima .tempo-g {
   background: url(../img/sprite.png) no-repeat 0 -107px;
   width: 50px;
@@ -791,6 +795,10 @@
 }
 .container-wrapper #externos .amarelo{
   color: #fcc634;
+  margin-left: 3px;
+}
+.container-wrapper #externos i.amarelo{
+  background: #fcc634;
   margin-left: 3px;
 }
 .container-wrapper #externos .verde{
@@ -1380,6 +1388,9 @@
 }
 #externos #call-trans span.vermelho{
   background-color: #f00;
+}
+#externos #call-trans span.verde{
+  background: #7ddc6f;;
 }
 #externos #call-trans div.vermelho{
   color: #f00;
