@@ -962,6 +962,28 @@
   border-radius: 0;
   cursor: pointer;
 }
+.tweetlist .rw {
+  background: #fff url(../img/sprite.png) no-repeat -581px -240px;
+  top: 22px!important;
+}
+.tweetlist .rw, .tweetlist .fw {
+  width: 19px;
+  height: 32px;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  position: absolute;
+  right: 5px!important;
+}
+.tweetlist .fw {
+  background: #fff url(../img/sprite.png) no-repeat -562px -240px;
+  top: 56px;
+}
+.fw {
+  background-position: -701px 0;
+  right: 15px;
+}
 /*Clima*/
 #externos #call-clima  #temp-bloco{
   border-bottom: 1px dotted #aaa;
@@ -1461,13 +1483,15 @@
   color: #6dcff6;
 }
 
-
 /*         */
 .container-wrapper #externos .tweets .tweetlist a {
   display: none;
 }
-.container-wrapper #externos .tweets .tweetlist a:first-child {
+.container-wrapper #externos .tweets .tweetlist .selecionado {
   display: block;
+}
+.container-wrapper #externos .tweets .tweetlist .tweet-oculto{
+  display: none;
 }
 
 /*Estilização do portlet de últimas ocorrências*/
