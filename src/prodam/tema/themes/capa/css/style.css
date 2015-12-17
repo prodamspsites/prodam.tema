@@ -759,6 +759,15 @@
   font-weight: bold;
   line-height: 35px;
 }
+.ex-publico .dash-border a {
+  text-align: center;
+  text-decoration: underline;
+  position: relative;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.2em;
+}
 .container-wrapper #externos .ex-publico .dash-img {
   background-position: -156px -52px;
   width: 50px;
@@ -887,7 +896,7 @@
   position: relative;
   float: left;
 }
-.container-wrapper #externos .ex-publico .dash-border .azul-pq{
+.container-wrapper #externos #servicos-externos .ex-publico .dash-border .azul-pq{
   color: #6dcff6;
   font-size: 0.8em;
 }
