@@ -952,6 +952,7 @@
   top: 7px;
   text-align: center;
   border-radius: 0;
+  cursor: pointer;
 }
 /*Clima*/
 #externos #call-clima  #temp-bloco{
