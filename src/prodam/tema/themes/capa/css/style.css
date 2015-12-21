@@ -30,6 +30,11 @@
   height: 450px;
   overflow: hidden;
 }
+.subsection-cidadao #content .tile-default .cover-chamada-tile,
+.subsection-empresa #content .tile-default .cover-chamada-tile,
+.subsection-servidor #content .tile-default .cover-chamada-tile{
+  height: 345px;
+}
 #content .destaque .chamada-item{
   width: 22.7%;
   float: left;
@@ -145,7 +150,7 @@
 .subsection-servidor #content .tile-default .cover-chamada-tile span{
   background: url("../img/cortado.png") no-repeat;
   width: 960px;
-  height: 360px;
+  height: 340px;
   position: absolute;
   z-index: 2;
   top: 0;
@@ -192,6 +197,13 @@
   position: absolute;
   top: 0;
 }
+.subsection-cidadao .chamada-item img,
+.subsection-empresa .chamada-item img,
+.subsection-servidor .chamada-item img{
+  width: 100%;
+  max-height: 340px;
+}
+
 .subsection-cidadao #content .tile-default .bannerInfo p,
 .subsection-empresa #content .tile-default .bannerInfo p,
 .subsection-servidor #content .tile-default .bannerInfo p{
@@ -224,6 +236,7 @@
   height: 54px;
   display: block;
   padding: 10px 0 0 10px;
+  line-height: 17px;
 }
 .subsection-cidadao #content .tile-default .controle1 .bannerInfo,
 .subsection-empresa #content .tile-default .controle1 .bannerInfo,
