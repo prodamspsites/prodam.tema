@@ -32,10 +32,7 @@
 #mostra-alerta{
   display: none;
 }
-.userrole-authenticated #mostra-alerta{
-  top: 165px;
-}
-#mostra-alerta{
+.section-prefeitura-de-sao-paulo #mostra-alerta{
   background-color: #000;
   position: absolute;
   width: 940px;
@@ -43,6 +40,9 @@
   margin-left: 11px;
   padding: 10px 0;
   display: block;
+}
+.userrole-authenticated #mostra-alerta{
+  top: 165px;
 }
 #mostra-alerta .icoPreview{
   float: left;
