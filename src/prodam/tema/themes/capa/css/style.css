@@ -23,7 +23,35 @@
  /* ==========================================================================
    Estilos de banner rotativos do portal
    ========================================================================== */
-
+/*Alertas Home*/
+.container-wrapper-spagora {
+  width: 945px;
+  margin: 0 auto;
+  position: relative;
+}
+#mostra-alerta{
+  display: none;
+}
+.userrole-authenticated #mostra-alerta{
+  top: 165px;
+}
+#mostra-alerta{
+  background-color: #000;
+  position: absolute;
+  width: 940px;
+  top: 123px;
+  margin-left: 11px;
+  padding: 10px 0;
+  display: block;
+}
+#mostra-alerta .icoPreview{
+  float: left;
+  margin: 0 10px 10px 20px;
+}
+#mostra-alerta h3,
+#mostra-alerta p{
+  color: #fff;
+}
 #content .tile-default .cover-chamada-tile {
   position: relative;
   width: 940px;
@@ -677,7 +705,6 @@
   background: rgba(0, 0, 0, 0.7);
   width: 340px;
   height: 35px;
-  margin-right: 205px;
   overflow: hidden;
   right: 0;
   color: #fff;
