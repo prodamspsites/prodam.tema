@@ -700,6 +700,12 @@
   margin-top: 63px;
 }
 
+.userrole-authenticated.portaltype-service .container-wrapper #externos,
+.userrole-authenticated.portaltype-topic .container-wrapper #externos {
+  top: -41px;
+  right: -6px;
+}
+
 .container-wrapper #externos {
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
