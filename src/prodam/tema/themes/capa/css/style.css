@@ -692,6 +692,11 @@
 }
 
 /*Estilização do São Paulo Agora*/
+
+.template-edit  .container-wrapper #externos,
+.template-folder_contents .container-wrapper #externos {
+  display: none !important;
+}
 .section-prefeitura-de-sao-paulo .container-wrapper #externos {
   height: 450px;
 }
