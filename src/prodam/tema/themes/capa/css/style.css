@@ -115,7 +115,7 @@
   position: absolute;
   width: 350px;
   height: auto;
-  bottom: 80px;
+  top: 225px;
   background: url("../img/slider-back.png");
   padding: 16px 16px 50px 16px;
 }
@@ -698,6 +698,10 @@
 
 .userrole-authenticated .container-wrapper #externos {
   margin-top: 63px;
+}
+
+.userrole-authenticated.template-topic_view .container-wrapper #externos{
+  margin-top: 21px;
 }
 
 .container-wrapper #externos {
