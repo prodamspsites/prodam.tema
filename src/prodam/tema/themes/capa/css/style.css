@@ -704,18 +704,11 @@
 .userrole-authenticated .container-wrapper #externos {
   margin-top: 63px;
 }
-
-<<<<<<< HEAD
-.userrole-authenticated.template-topic_view .container-wrapper #externos{
-  margin-top: 21px;
-=======
 .userrole-authenticated.portaltype-service .container-wrapper #externos,
 .userrole-authenticated.portaltype-topic .container-wrapper #externos {
   top: -41px;
   right: -6px;
->>>>>>> a41bf305c0984b9d200e02363475b1b832fb7238
 }
-
 .container-wrapper #externos {
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
