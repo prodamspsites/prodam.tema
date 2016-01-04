@@ -32,10 +32,7 @@
 #mostra-alerta{
   display: none;
 }
-.userrole-authenticated #mostra-alerta{
-  top: 165px;
-}
-#mostra-alerta{
+.section-prefeitura-de-sao-paulo #mostra-alerta{
   background-color: #000;
   position: absolute;
   width: 940px;
@@ -43,6 +40,9 @@
   margin-left: 11px;
   padding: 10px 0;
   display: block;
+}
+.userrole-authenticated #mostra-alerta{
+  top: 165px;
 }
 #mostra-alerta .icoPreview{
   float: left;
@@ -692,6 +692,11 @@
 }
 
 /*Estilização do São Paulo Agora*/
+
+.template-edit  .container-wrapper #externos,
+.template-folder_contents .container-wrapper #externos {
+  display: none !important;
+}
 .section-prefeitura-de-sao-paulo .container-wrapper #externos {
   height: 450px;
 }
@@ -700,8 +705,15 @@
   margin-top: 63px;
 }
 
+<<<<<<< HEAD
 .userrole-authenticated.template-topic_view .container-wrapper #externos{
   margin-top: 21px;
+=======
+.userrole-authenticated.portaltype-service .container-wrapper #externos,
+.userrole-authenticated.portaltype-topic .container-wrapper #externos {
+  top: -41px;
+  right: -6px;
+>>>>>>> a41bf305c0984b9d200e02363475b1b832fb7238
 }
 
 .container-wrapper #externos {
