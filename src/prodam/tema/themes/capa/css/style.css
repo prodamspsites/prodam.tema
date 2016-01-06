@@ -436,6 +436,9 @@
   font-size: 1.49em !important;
   letter-spacing: 0;
 }
+.template-compose #content .tile-image-h2 h2{
+  margin-top: 74px;
+}
 .subsection-noticias #content .header-title .documentFirstHeading{
   background: none;
 }
@@ -694,7 +697,11 @@
 /*Estilização do São Paulo Agora*/
 
 .template-edit  .container-wrapper #externos,
-.template-folder_contents .container-wrapper #externos {
+.template-folder_contents .container-wrapper #externos,
+.template-compose .container-wrapper #externos,
+.template-layoutedit .container-wrapper #externos,
+.template-sharing .container-wrapper #externos,
+.template-manage-portlets .container-wrapper #externos {
   display: none !important;
 }
 .section-prefeitura-de-sao-paulo .container-wrapper #externos {
@@ -715,7 +722,7 @@
   width: 340px;
   height: 35px;
   overflow: hidden;
-  right: 0;
+  right: 2px;
   color: #fff;
   z-index: 5555;
   margin-top: 21px;
