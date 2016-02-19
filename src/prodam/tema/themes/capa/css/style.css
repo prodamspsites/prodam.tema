@@ -45,6 +45,7 @@
 
 #content .tile-default #controler-carrossel {
   position: absolute;
+  top: 340px;
   left: 17px;
   font-size: 1.1em;
 }
@@ -78,12 +79,10 @@
 }
 #content .tile-default .bannerInfo{
   color: #fff !important;
+  position: absolute;
   width: 350px;
   height: auto;
-  margin: -315px 0 0 0 ;
-  float: left;
-  position: relative;
-  top: 0px;
+  bottom: 80px;
   background: url("../img/slider-back.png");
   padding: 16px 16px 50px 16px;
 }
@@ -2930,4 +2929,16 @@ div#portal-searchbox {
 .template-maps_view #content .wrap-events .event-list li label{
   font-weight: normal !important;
   margin-left: 5px;
+}
+
+/**/
+
+.portaltype-news-item.template-edit .formHelp{
+  text-indent: -9999px;
+}
+
+.portaltype-news-item.template-edit .formHelp::after{
+  text-indent: 0px;
+  float: left;
+  content: "Utilizado nas listagens de itens, Linha fina e resultados de buscas"
 }
