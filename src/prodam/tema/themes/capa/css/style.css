@@ -23,12 +23,45 @@
  /* ==========================================================================
    Estilos de banner rotativos do portal
    ========================================================================== */
-
+/*Alertas Home*/
+.container-wrapper-spagora {
+  width: 945px;
+  margin: 0 auto;
+  position: relative;
+}
+#mostra-alerta{
+  display: none;
+}
+.section-prefeitura-de-sao-paulo #mostra-alerta{
+  background-color: #000;
+  position: absolute;
+  width: 940px;
+  top: 123px;
+  margin-left: 11px;
+  padding: 10px 0;
+  display: block;
+}
+.userrole-authenticated #mostra-alerta{
+  top: 165px;
+}
+#mostra-alerta .icoPreview{
+  float: left;
+  margin: 0 10px 10px 20px;
+}
+#mostra-alerta h3,
+#mostra-alerta p{
+  color: #fff;
+}
 #content .tile-default .cover-chamada-tile {
   position: relative;
   width: 940px;
   height: 450px;
   overflow: hidden;
+}
+.subsection-cidadao #content .tile-default .cover-chamada-tile,
+.subsection-empresa #content .tile-default .cover-chamada-tile,
+.subsection-servidor #content .tile-default .cover-chamada-tile{
+  height: 345px;
 }
 #content .destaque .chamada-item{
   width: 22.7%;
@@ -45,7 +78,7 @@
 
 #content .tile-default #controler-carrossel {
   position: absolute;
-  top: 340px;
+/*  top: 340px;*/
   left: 17px;
   font-size: 1.1em;
 }
@@ -145,7 +178,7 @@
 .subsection-servidor #content .tile-default .cover-chamada-tile span{
   background: url("../img/cortado.png") no-repeat;
   width: 960px;
-  height: 360px;
+  height: 340px;
   position: absolute;
   z-index: 2;
   top: 0;
@@ -192,6 +225,13 @@
   position: absolute;
   top: 0;
 }
+.subsection-cidadao .chamada-item img,
+.subsection-empresa .chamada-item img,
+.subsection-servidor .chamada-item img{
+  width: 100%;
+  max-height: 340px;
+}
+
 .subsection-cidadao #content .tile-default .bannerInfo p,
 .subsection-empresa #content .tile-default .bannerInfo p,
 .subsection-servidor #content .tile-default .bannerInfo p{
@@ -224,6 +264,7 @@
   height: 54px;
   display: block;
   padding: 10px 0 0 10px;
+  line-height: 17px;
 }
 .subsection-cidadao #content .tile-default .controle1 .bannerInfo,
 .subsection-empresa #content .tile-default .controle1 .bannerInfo,
@@ -263,8 +304,11 @@
 }
 #content .cover-collection-tile h2 a,
 #content .destaque h2 a,
-#content .cover-collection-tile h2 a:hover {
+#content .cover-collection-tile h2 a:hover{
   color: #181818 !important;
+}
+.section-prefeitura-de-sao-paulo #content .collection-item{
+  margin-bottom: 15px;
 }
 
 #content .cover-collection-tile p {
@@ -367,7 +411,7 @@
   width: 145px;
 }
 #content .cover-collection-tile .tile-edge  h2{
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 15px;
 }
 #content .cover-collection-tile .tile-edge p{
@@ -399,6 +443,9 @@
   line-height: 1.05em;
   font-size: 1.49em !important;
   letter-spacing: 0;
+}
+.template-compose #content .tile-image-h2 h2{
+  margin-top: 74px;
 }
 .subsection-noticias #content .header-title .documentFirstHeading{
   background: none;
@@ -655,9 +702,879 @@
   height: 25px !important;
 }
 
+/*Estilização do São Paulo Agora*/
+
+.template-edit  .container-wrapper #externos,
+.template-folder_contents .container-wrapper #externos,
+.template-compose .container-wrapper #externos,
+.template-layoutedit .container-wrapper #externos,
+.template-sharing .container-wrapper #externos,
+.template-manage-portlets .container-wrapper #externos {
+  display: none !important;
+}
+.section-prefeitura-de-sao-paulo .container-wrapper #externos {
+  height: 450px;
+}
+
+.userrole-authenticated .container-wrapper #externos {
+  margin-top: 63px;
+}
+.userrole-authenticated.portaltype-service .container-wrapper #externos,
+.userrole-authenticated.portaltype-topic .container-wrapper #externos {
+  top: -41px;
+  right: -6px;
+}
+.container-wrapper #externos {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 340px;
+  height: 35px;
+  overflow: hidden;
+  right: 2px;
+  color: #fff;
+  z-index: 5555;
+  margin-top: 21px;
+  display: block;
+}
+
+.container-wrapper #externos {
+  display: none;
+}
+.portaltype-collective-cover-content .container-wrapper #externos,
+.portaltype-document .container-wrapper #externos,
+.portaltype-topic .container-wrapper #externos,
+.portaltype-service .container-wrapper #externos,
+.portaltype-section .container-wrapper #externos,
+.portaltype-news-item .container-wrapper #externos {
+  display: block;
+}
+
+.container-wrapper #externos #servicos-externos{
+  margin: 0 auto;
+  width: 320px;
+  height: 270px;
+  background: rgba(0, 0, 0, 0.2);
+  display: block;
+}
+.container-wrapper #externos #servicos-externos a{
+  color: #fff;
+}
+.container-wrapper #externos #servicos-externos li{
+  width: 106px;
+  height: 130px;
+  float: left;
+  color: #fff;
+  text-align: center;
+}
+
+.container-wrapper #externos header .e-abrir,
+.container-wrapper #externos header .e-fechar {
+  border: 0;
+  width: 27px;
+  height: 27px;
+  float: right;
+  margin-top: 4px;
+  cursor: pointer;
+  margin-bottom: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite.png);
+  background-position: -482px -56px;
+}
+#servicos-externos li:hover .ex-hover,
+#servicos-externos li:focus .ex-hover {
+  display: block !important;
+}
+.container-wrapper #externos #servicos-externos .dash-border{
+  line-height: 13px;
+  padding: 7px 5px;
+  height: 114px;
+  border-left: 1px rgba(150, 150, 150, 0.2) solid;
+  border-top: 1px rgba(150, 150, 150, 0.2) solid;
+}
+.ex-publico > div, .ex-transito, .ex-rodizio {
+  border-bottom: 1px rgba(150, 150, 150, 0.2) solid;
+}
+.container-wrapper #externos #servicos-externos .titulo-dash{
+  color: #6dcff6;
+  height: 18px;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.container-wrapper #externos #servicos-externos .dash-border .dash-img{
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+.container-wrapper #externos .o2quali {
+  background-position: -52px -52px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  }
+.container-wrapper #externos .bullet-verde{
+  color: #7ddc6f;
+}
+.container-wrapper #externos .dash-header {
+  display: block;
+  font-size: 0.9em;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 35px;
+}
+.ex-publico .dash-border a {
+  text-align: center;
+  text-decoration: underline;
+  position: relative;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.2em;
+}
+.container-wrapper #externos .ex-publico .dash-img {
+  background-position: -156px -52px;
+  width: 50px;
+  height: 50px;
+}
+.container-wrapper #externos .ex-transito .semaforo{
+  background: url(../img/sprite.png) no-repeat -221px -63px;
+  width: 27px;
+  height: 32px;
+  position: relative;
+  clear: both;
+  margin: 5px auto;
+}
+.container-wrapper #externos .ex-transito .ttotal .em09{
+  font-size: 0.68em;
+
+}
+.container-wrapper #externos .ex-transito .ttotal .em14{
+  font-size: 1.125em;
+
+}
+.container-wrapper #externos .ex-clima .tempo-g {
+  background: url(../img/sprite.png) no-repeat 0 -107px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+.container-wrapper #externos .ex-clima .t-media,
+.container-wrapper #externos .ex-clima .tempestade{
+  margin-bottom: 0px !important;
+  font-size: 12px;
+}
+.container-wrapper #externos .amarelo{
+  color: #fcc634;
+  margin-left: 3px;
+}
+.container-wrapper #externos i.amarelo{
+  background: #fcc634;
+  margin-left: 3px;
+}
+.container-wrapper #externos .verde{
+  color: #7ddc6f;
+  display: block;
+  margin-top: 5px;
+}
+.container-wrapper #externos span.vermelho{
+  color: #f00;
+}
+.container-wrapper #externos i.vermelho{
+  background: #f00;
+}
+.container-wrapper #externos .ball-status{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #7ddc6f;
+  margin-right: 5px;
+  margin-top: 2px;
+  border-radius: 20px;
+}
+.container-wrapper #externos .ex-rodizio .azul-pq{
+  margin-top: 5px;
+  display: block;
+  color: #6dcff6;
+}
+.container-wrapper #externos .raio {
+  width: 14px;
+  height: 16px;
+  background: url(../img/sprite.png) no-repeat -777px -19px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.container-wrapper #externos .dash-img {
+  display: block;
+  margin: 0 auto;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+.container-wrapper #externos .ex-aero .dash-img {
+  background-position: -104px -52px;
+  width: 50px;
+  height: 50px;
+}
+.container-wrapper #externos .ex-rodizio .dash-img {
+  background-position: -260px -52px;
+  width: 50px;
+  height: 50px;
+}
+.container-wrapper #externos .ex-hover {
+  background: rgba(0, 0, 0, 0.8);
+  width: 104px !important;
+  height: 129px !important;
+  position: absolute !important;
+  top: 34px;
+  z-index: 6666;
+  display: none;
+  cursor: pointer;
+}
+.container-wrapper #externos .ex-publico .ex-hover,
+.container-wrapper #externos .ex-transito .ex-hover,
+.container-wrapper #externos .ex-rodizio .ex-hover {
+  background: rgba(0, 0, 0, 0.8);
+  width: 104px !important;
+  height: 129px !important;
+  position: absolute !important;
+  top: 164px !important;
+  z-index: 6666;
+  display: none;
+  cursor: pointer;
+}
+.container-wrapper #externos .ex-hover div {
+  background: url(../img/sprite.png) no-repeat -725px 0;
+  z-index: 6666;
+  height: 35px;
+  width: 35px !important;
+  border: 0 !important;
+  position: relative;
+  margin: 68px auto 0 auto;
+}
+.container-wrapper #externos .ex-hover a {
+  z-index: 9999;
+  height: 120px;
+  width: 100px !important;
+  position: relative;
+  float: left;
+}
+.container-wrapper #externos #servicos-externos .ex-publico .dash-border .azul-pq{
+  color: #6dcff6;
+  font-size: 0.8em;
+}
+.container-wrapper #externos #mapa-serv{
+  background: url(../img/sprite.png) no-repeat -237px -234px;
+  width: 320px;
+  height: 40px;
+  position: absolute;
+  margin-left: 11px;
+  top: 301px;
+  cursor: pointer;
+}
+.container-wrapper #externos .tweets{
+  background: rgba(0, 0, 0, 0.7);
+  width: 320px;
+  height: 94px;
+  position: absolute;
+  z-index: 66666;
+  right: 0;
+  top: 340px;
+  color: #fff;
+  padding: 8px 10px!important;
+}
+.container-wrapper #externos .tweets h4,
+.container-wrapper #externos .tweets h4 a,
+.container-wrapper #externos .tweets a{
+  font-size: 0.9em;
+  color: #fff;
+  width: 297px;
+}
+#externos #call-clima,
+#externos #call-ar,
+#externos #call-aero,
+#externos #call-publi,
+#externos #call-trans,
+#externos #call-rodizio{
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 12px;
+  width: 300px;
+  height: 242px;
+  margin: 0 15px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+#externos .dash h3{
+  color: #6dcff6;
+  border-bottom: 1px white solid;
+  font-weight: bold;
+  line-height: normal;
+  padding: 0 0 3px;
+  font-size: 1em;
+}
+#externos .dash h3 .fonte {
+  font-weight: lighter;
+  color: #6b7a81;
+  font-size: 12px;
+}
+#externos .dash .fechar-dash {
+  background: #fff;
+  font-size: 0.9em;
+  font-weight: lighter;
+  height: 17px;
+  width: 17px;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  right: 16px;
+  top: 7px;
+  text-align: center;
+  border-radius: 0;
+  cursor: pointer;
+}
+#externos .tweetlist .rw {
+  background: #fff url(../img/sprite.png) no-repeat -581px -240px;
+  top: 22px!important;
+}
+#externos .tweetlist .rw, .tweetlist .fw {
+  width: 19px;
+  height: 32px;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  position: absolute;
+  right: 5px!important;
+}
+#externos .tweetlist .fw {
+  background: #fff url(../img/sprite.png) no-repeat -562px -240px;
+  top: 56px;
+}
+#externos .fw {
+  background-position: -701px 0;
+  right: 15px;
+}
+/*Clima*/
+#externos #call-clima  #temp-bloco{
+  border-bottom: 1px dotted #aaa;
+  float: left;
+  margin-bottom: 10px;
+}
+#externos #call-clima #t-agora {
+  position: relative;
+  float: left;
+  margin: 2px 7px 0;
+}
+#externos #call-clima .tempo-g {
+  background: url(../img/sprite.png) no-repeat 0 -107px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+#externos #call-clima #t-media {
+  width: 172px;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+}
+#externos #call-clima #minXmax {
+  width: 57px;
+  position: relative;
+  float: left;
+  text-align: right;
+  font-size: 1.3em;
+  padding-right: 7px;
+  margin-top: 10px;
+}
+#externos #call-clima .tmax, .tmin {
+  width: 10px;
+  height: 18px;
+  display: block;
+  float: left;
+  background: url(../img/sprite.png) no-repeat;
+  margin-top: -3px;
+}
+#externos #call-clima .tmax {
+  background-position: -781px 0;
+}
+#externos #call-clima .tmin {
+  background-position: -802px 0;
+  clear: left;
+}
+#externos #call-clima #new-min{
+  margin-top: 10px;
+}
+#externos #call-clima #dia-todo {
+  text-align: center;
+  position: relative;
+  clear: both;
+  border-bottom: 1px dotted #aaa;
+  height: 85px;
+  display: block;
+}
+#externos #call-clima #dia-todo li {
+  width: 74px;
+  position: relative;
+  float: left;
+  height: auto;
+  display: block;
+}
+#externos #call-clima .azul-pq {
+  color: #6dcff6!important;
+}
+#externos #call-clima .em08 {
+  font-size: .8em;
+  line-height: 1em;
+}
+#externos #call-clima .em07 {
+  font-size: .7em;
+  line-height: .9em;
+}
+#externos #call-clima .tempo-p {
+  background: url(../img/sprite.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+#externos #call-clima .cr-pq,
+#externos #call-clima .pc-pq,
+#externos #call-clima .pi-pq{
+  background-position: 0 -203px;
+}
+#externos #call-clima .nc-pq,
+#externos #call-clima .nc-pq-noite{
+  background-position: -195px -203px;
+}
+#externos #call-clima .pn-pq{
+  background-position: -78px -202px;
+}
+#externos #call-clima .en-pq{
+  background-position: -156px -203px;
+}
+#externos #call-clima .cv-pq,
+#externos #call-clima .cv-pq-noite{
+  background-position:-155px -242px;
+}
+#externos #call-clima .cc-pq{
+  background-position: -116px -203px;
+}
+#externos #call-clima .nb-pq,
+#externos #call-clima .nb-pq-noite{
+  background-position: -157px -203px;
+}
+#externos #call-clima .ch-pq,
+#externos #call-clima .tp-pq,
+#externos #call-clima .ch-pq-noite,
+#externos #call-clima .tp-pq-noite{
+  background-position: -195px -203px;
+}
+#externos #call-clima .cr-pq-noite,
+#externos #call-clima .pc-pq-noite,
+#externos #call-clima .pi-pq-noite{
+  background-position: 0 -242px;
+}
+#externos #call-clima .pn-pq-noite{
+  background-position: -78px -242px;
+}
+#externos #call-clima .en-pq-noite{
+  background-position: -156px -203px;
+}
+#externos #call-clima .cc-pq-noite{
+  background-position: -117px -242px;
+}
+#externos #call-clima #tempor-outras {
+  padding-top: 10px;
+}
+#externos #call-clima #tempor-outras .a-half {
+  text-align: center;
+}
+#externos #call-clima .a-40 {
+  position: relative;
+  float: left;
+  width: 40%;
+}
+#externos #call-clima #tempor-outras small {
+  position: relative;
+  clear: right;
+  float: left;
+  width: 100%;
+}
+#externos #call-clima .gotas {
+  position: relative;
+  float: left;
+  background: url(../img/sprite.png) no-repeat right -20px;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#externos #call-clima .a-half {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+#externos #call-clima .sol-box {
+  float: right;
+  width: 55%;
+  text-align: center;
+  position: relative;
+}
+#externos #call-clima #sol {
+  background: url(../img/sprite.png) no-repeat -513px -54px;
+  height: 25px;
+  width: 92px;
+  display: block;
+  clear: both;
+  margin: 0 auto;
+}
+#externos #call-clima #tempor-outras small {
+  position: relative;
+  clear: right;
+  float: left;
+  width: 100%;
+}
+#externos #call-clima .em14 {
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+#externos #call-clima .em18 {
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
 
 
+/*AR*/
+.kineticjs-content{
+  background: url(../img/mapQuality.png) no-repeat;
+}
+#externos #call-ar #o2mapa {
+  width: 300px;
+  height: 160px;
+  border-bottom: 1px #eee dotted;
+  margin-left: -8px;
+}
+#externos #call-ar #dica {
+  margin-top: 10px;
+  height: 50px;
+  overflow: auto;
+}
+#externos #call-ar #dica li {
+  font-size: 0.75em;
+  line-height: 14px;
+  float: left;
+}
+#externos #call-ar #dica i{
+  width: 7px;
+  height: 7px;
+  background: #6dcff6;
+  display: inline-block;
+  margin-right: 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+/* Aeroportos*/
 
+#externos #call-aero #aero-lista {
+  margin-top: 10px;
+  position: relative;
+  clear: both;
+  width: 100%;
+}
+#externos #call-aero #aero-lista li {
+  width: 137px;
+  position: relative;
+  float: left;
+  height: 90px;
+  border: 1px solid rgba(150,150,150,0);
+  font-size: 100%;
+}
+#externos #call-aero .cgh {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#externos #call-aero #aero-lista small {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+#externos #call-aero .ball-status {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #ffc600;
+  margin-right: 5px;
+  margin-top: 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+#externos #call-aero  b.verde{
+  background: #7ddc6f;
+}
+#externos #call-aero  b.vermelho{
+  background: #F00;
+}
+#externos #call-aero .aeronome {
+  color: #fff;
+  font-size: 0.9em;
+  display: block;
+}
+#externos #call-aero .txt-right {
+  text-align: right;
+  margin-right: 5px;
+}
+#externos #call-aero .azul-pq {
+  color: #6dcff6!important;
+}
+#externos #call-aero .txt-left {
+  text-align: left;
+}
+#externos #call-aero .gru {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted rgba(150,150,150,0.5)!important;
+  border-left: 1px dotted rgba(150,150,150,0.5)!important;
+}
+#externos #call-aero .mae {
+  padding-top: 10px;
+  padding-right: 10px;
+  border-top: 1px dotted rgba(150,150,150,0.5)!important;
+  border-right: 1px dotted rgba(150,150,150,0.5)!important;
+}
+#externos #call-aero .vcp {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/*Transporte Público*/
+#externos #call-publi ul {
+  position: relative;
+  clear: both;
+  margin-top: 10px;
+  border-bottom: 1px dotted #979797;
+}
+#externos #call-publi li {
+  height: auto;
+  min-height: 33px;
+  position: relative;
+  padding: 7px 0;
+  font-weight: 500;
+  display: block;
+}
+#externos #call-publi .mini{
+  width: 33px;
+  height: 33px;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+#externos #call-publi .Mbus {
+  background-position: -379px -52px;
+}
+#externos #call-publi .Mmetro {
+  background-position: -313px -52px;
+}
+#externos #call-publi .Mcptm {
+  background-position: -346px -52px;
+}
+#externos #call-publi .status {
+  display: inline-block;
+  vertical-align: middle;
+}
+#externos #call-publi span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 255px;
+  font-size: 0.82em;
+}
+#externos #call-publi .link-amarelo {
+  color: #000!important;
+  background-color: #fcc634;
+  padding: 5px 15px;
+  float: right;
+  clear: both;
+  margin-top: 5px;
+  width: 269px;
+  text-align: center;
+  font-size: 0.82em;
+}
+/*Rodizio*/
+#externos #call-rodizio #mapa-rodizio {
+  width: 300px;
+  height: 122px;
+  position: relative;
+  clear: both;
+  margin: 0 auto;
+  background: url('../img/sprite.png') no-repeat -300px -112px;
+  margin: 5px 0 10px;
+}
+#externos #call-rodizio .rod-3col {
+  position: relative;
+  clear: both;
+  text-align: center;
+  border-top: 1px dotted rgba(150,150,150,0.5);
+}
+#externos #call-rodizio .rod-3col li {
+  padding: 9px 0 0;
+  width: 33%;
+  position: relative;
+  float: left;
+  height: 55px;
+}
+#externos #call-rodizio .rod-3col li:nth-child(even) {
+  border-left: 1px dotted rgba(150,150,150,0.5);
+  border-right: 1px dotted rgba(150,150,150,0.5);
+}
+#externos #call-rodizio .em08 {
+  font-size: .8em;
+  line-height: 1em;
+}
+#externos #call-rodizio .em15{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+#externos #call-rodizio .em10{
+  font-size: 1em;
+  line-height: 1.2em;
+}
+#externos #call-rodizio  .em1 {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+#externos #call-rodizio .amarelo{
+  margin-left: 0;
+}
+/*Trânsito*/
+#externos #call-trans .tran-total {
+  padding: 10px 0;
+  position: relative;
+  width: 180px;
+  margin: 0 auto;
+}
+#externos #call-trans .ttotal {
+  position: relative;
+  height: 58px;
+  width: 49%;
+  float: left;
+}
+#externos #call-trans .em14 {
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+#externos #call-trans .bolinha {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: #ffc600;
+  margin-right: 5px;
+  margin-top: 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+#externos #call-trans span.vermelho{
+  background-color: #f00;
+}
+#externos #call-trans span.verde{
+  background: #7ddc6f;;
+}
+#externos #call-trans div.vermelho{
+  color: #f00;
+}
+#externos #call-trans .pont {
+  background: transparent;
+  border-bottom: 2px rgba(150, 150, 150, 0.2) dotted;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  margin: 0;
+}
+#externos #call-trans #sp-mapa {
+  background: url(../img/sprite.png) no-repeat -661px -59px;
+  width: 155px;
+  height: 94px;
+  position: relative;
+  clear: both;
+  margin: 5px auto 0;
+}
+#externos #call-trans #lentidao {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 0;
+  left: 0;
+  margin-top: 54px;
+}
+#externos #call-trans #lentidao li {
+  width: 70px;
+  font-size: 1.3em;
+  position: absolute;
+}
+#externos #call-trans #kmOeste {
+  left: -75px;
+  top: -45px;
+  text-align: right;
+}
+#externos #call-trans #kmNorte {
+  left: 160px;
+  top: -43px;
+}
+#externos #call-trans #kmLeste {
+  left: 160px;
+  top: -8px;
+}
+#externos #call-trans #kmSul {
+  left: -75px;
+  top: -5px;
+  text-align: right;
+}
+#externos #call-trans .bloco-linha {
+  position: relative;
+  clear: both;
+  text-align: center;
+  border-top: 1px rgba(150, 150, 150, 0.2) dotted;
+  padding-top: 8px;
+  margin-top: 5px;
+}
+#externos #call-trans .bloco-linha a {
+  display: inline-block;
+  font-weight: bold;
+  width: 48%;
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+#externos #call-trans .azul-pq {
+  color: #6dcff6;
+}
+
+/*         */
+.container-wrapper #externos .tweets .tweetlist a {
+  display: none;
+}
+.container-wrapper #externos .tweets .tweetlist .selecionado {
+  display: block;
+}
+.container-wrapper #externos .tweets .tweetlist .tweet-oculto{
+  display: none;
+}
 
 /*Estilização do portlet de últimas ocorrências*/
 
@@ -680,7 +1597,7 @@
   font-weight: bold;
 }
 #plone-content #portal-column-two .news-list ul li a:hover{
-  color: red !important;
+  color: #f00 !important;
 }
 .subsection-noticias .position-3\3a 4 {
   margin-left: -98% !important;
@@ -697,7 +1614,7 @@
   display: none
 }
 .portletCalendar dt {
-  width: 335px;
+  width: 320px;
 }
 body.template-agenda_view h2#agendaPrefeitura {
   border-bottom: 3px black double;
@@ -721,26 +1638,36 @@ body.template-agenda_view #portal-column-content header strong {
   float: right;
 }
 
-.portletCalendar table td,
-.portletCalendar table td a:visited {
-  padding: 17px;
+.portletCalendar table td {
+  padding: 0;
+  width: 50px;
+  height: 50px;
   color: #333;
   font-weight: bold;
   border: 1px solid #e9e9e9;
   font-size: 12px;
   text-align: center;
 }
+.portletCalendar table td a{
+  padding: 17px;
+  display: block;
+  text-align: center;
+}
+.portletCalendar table .weekdays th{
+  padding: 14px;
+  background-color: #e9e9e9;
+}
 .portletCalendar table td:first-child:hover,
 .portletCalendar table td:hover,
 .portletCalendar table td a:hover,
 .portletCalendar table td:hover a,
 .portletCalendar table td:last-child:hover {
-  background: red;
+  background: #f00;
   color: #fff !important;
 }
 .portletCalendar table td:first-child,
 .portletCalendar table td:last-child {
-  color: red;
+  color: #f00;
 }
 .portletCalendar table thead th {
   background-color: #e9e9e9;
@@ -760,9 +1687,39 @@ body.template-agenda_view #portal-column-content header strong {
   padding: 5px 8px !important;
 }
 
+.section-agenda #content .agendaHeader{
+  border-bottom: 1px solid #f00;
+  padding: 8px 0;
+  font-size: 1.25em;
+  color:#333;
+}
+.section-agenda #content #agenda{
+  margin-left: 0;
+}
+.section-agenda #content #agenda li{
+  list-style: none;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 12px 0;
+}
+.section-agenda #content #agenda li article time{
+  color: #f00;
+  font-size: 0.9em;
+  font-weight: 800;
+}
+.section-agenda #content #agenda li article h3{
+  font-weight: bold;
+  margin: 0;
+  line-height: 1em;
+  font-size: 1em;
+  color: #181818;
+}
+.section-agenda #content #agenda li article p{
+  margin-bottom: 0;
+}
  /* ==========================================================================
    Estilos de tiles de Capa de Serviços para empresa
    ========================================================================== */
+
 
 
 #content .cover-banner-tile a img{
@@ -912,7 +1869,7 @@ body.template-agenda_view #portal-column-content header strong {
 }
 #content #content-core #parent-fieldname-text .section-group section ul li a:before{
   content: '\2022';
-  color: red;
+  color: #f00;
   margin-right: 5px;
 }
 
@@ -1242,7 +2199,7 @@ body.template-agenda_view #portal-column-content header strong {
   border-bottom: none;
 }
 #content .AaZLista li a:hover{
-  color: red !important;
+  color: #f00 !important;
   transition: all .2s ease-out;
 }
 #content .AaZLista {
@@ -1312,7 +2269,8 @@ body.template-agenda_view #portal-column-content header strong {
 #content .capaTituloSublinhado,
 #content .cover-collection-tile .tile-header h1,
 #content .cover-embed-tile .tile-header h1,
-#content .cover-banner-tile h2 {
+#content .cover-banner-tile h2,
+#content .prefeito #agendaPrefeitura {
   font-size: 1.5em;
   display: block;
   border-bottom: 3px double #000;
@@ -1765,11 +2723,13 @@ section.width-16, nav.width-16 {
     margin: 0;
   }
   /*View de notícias*/
-  .template-noticias_view #portal-column-two{
+  .template-noticias_view #portal-column-two,
+  .template-agenda-prefeito #portal-column-two{
     width: 90.33% !important;
     margin-left: 22.5px !important;
   }
-  .template-noticias_view .width-3\3a 4{
+  .template-noticias_view .width-3\3a 4,
+  .template-agenda-prefeito .width-3\3a 4{
     width: 90.33% !important;
     margin-left: -94.875% !important;
   }
@@ -2005,7 +2965,8 @@ section.width-16, nav.width-16 {
   .template-noticias_view div.position-0,
   .template-document_view div.position-0,
   .template-busca div.position-0,
-  .template-maps_view div.position-0 {
+  .template-maps_view div.position-0,
+  .template-agenda-prefeito div.position-0 {
     margin-left: -98.875% !important;
   }
   .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
@@ -2016,21 +2977,27 @@ section.width-16, nav.width-16 {
     background-position: 0 56px !important;
   }
   .template-noticias_view .width-3\3a 4,
-  .template-document_view .width-3\3a 4{
+  .template-document_view .width-3\3a 4,
+  .template-agenda-prefeito .width-3\3a 4{
     width: 61.7% !important;
   }
   .template-noticias_view .width-full,
   .template-document_view .width-full,
   .template-maps_view .width-full,
-  .template-busca .width-full{
+  .template-busca .width-full,
+  .template-agenda-prefeito .width-full{
     width: 100% !important;
   }
-  .template-noticias_view #portal-column-two{
+  .template-noticias_view #portal-column-two,
+  .template-agenda-prefeito #portal-column-two{
     width: 35.417% !important;
     margin-left: 64.41% !important;
     clear: none !important;
     padding-left: 0;
     padding-top: 125px;
+  }
+  .template-agenda-prefeito #portal-column-two{
+    padding-top: 0;
   }
   /*fim view de notícias*/
 
@@ -2176,6 +3143,7 @@ section.width-16, nav.width-16 {
   background: transparent;
   border-bottom: 1px solid #d8d8d8;
   padding-bottom: 20px;
+  z-index: 1000 !important;
 }
 
 #main {
@@ -2439,6 +3407,12 @@ div#portal-searchbox {
   display: inline;
   clear: both;
 }
+ .template-agenda-prefeito #portal-column-two{
+  float:left;
+  left: 0;
+  display: inline;
+  clear: both;
+ }
 .template-noticias_view #content article header .btn_voltar{
   display: block;
   border-bottom: 1px #ccc solid;
@@ -2529,14 +3503,14 @@ div#portal-searchbox {
 }
 .template-noticias_view #content article div p a,
 .template-document_view #content #content-core a{
-  color: red;
+  color: #f00;
   border:none;
 }
 .template-noticias_view #content a:hover,
 .template-noticias_view dl.portlet a:hover,
 .template-document_view #content a:hover,
 .template-document_view dl.portlet a:hover{
-  color: red !important;
+  color: #f00 !important;
 }
 /*fim view de notícias*/
 
@@ -2931,8 +3905,7 @@ div#portal-searchbox {
   margin-left: 5px;
 }
 
-/**/
-
+/* EDITADO HELPER DESCRIÇÃO IDUBLIN CORE */
 .portaltype-news-item.template-edit .formHelp{
   text-indent: -9999px;
 }
@@ -2941,4 +3914,9 @@ div#portal-searchbox {
   text-indent: 0px;
   float: left;
   content: "Utilizado nas listagens de itens, Linha fina e resultados de buscas"
+}
+
+/* RESCRITA SUBMENU EDIÇÃO DO PLONE */
+#edit-bar .contentActions #contentActionMenus .actionMenuContent{
+  z-index: 9999;
 }
