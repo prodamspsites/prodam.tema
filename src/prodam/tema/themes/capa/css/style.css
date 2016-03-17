@@ -70,6 +70,10 @@
   height: 170px;
 }
 
+#content .width-16 .chamada-item img {
+  max-width: 940px;
+}
+
 #content .destaque .chamada-item img {
   max-width: 100%;
   height: auto;
