@@ -82,7 +82,7 @@
 
 #content .tile-default #controler-carrossel {
   position: absolute;
-/*  top: 340px;*/
+  bottom: 20px;
   left: 17px;
   font-size: 1.1em;
 }
@@ -119,8 +119,8 @@
   position: absolute;
   width: 350px;
   height: auto;
-  bottom: 80px;
-  background: url("../img/slider-back.png");
+  bottom: 0;
+  background: rgba(255,20,20, 0.5);
   padding: 16px 16px 50px 16px;
 }
 #content .tile-default .chamada-item .bannerInfo h2{
@@ -176,11 +176,14 @@
   line-height: 1.2em;
   font-size: 12px;
 }
+#content .tile-default .tile-content .tile-header h1 a {
+  border-bottom: none;
+}
 /*Banner de seções*/
 .subsection-cidadao #content .tile-default .cover-chamada-tile span,
 .subsection-empresa #content .tile-default .cover-chamada-tile span,
 .subsection-servidor #content .tile-default .cover-chamada-tile span{
-  background: url("../img/cortado.png") no-repeat;
+  background: url("../img/cortado.png") no-repeat bottom left ;
   width: 960px;
   height: 340px;
   position: absolute;
@@ -295,7 +298,8 @@
   max-width: 100%;
   height: auto;
 }
-#content .cover-collection-tile h2 {
+#content .cover-collection-tile h2,
+#content .cover-basic-tile h2{
   font-size: 1.61em;
   line-height: 1.0em;
   font-weight: bold;
@@ -308,14 +312,21 @@
 }
 #content .cover-collection-tile h2 a,
 #content .destaque h2 a,
-#content .cover-collection-tile h2 a:hover{
+#content .cover-collection-tile h2 a:hover,
+#content .cover-basic-tile h2 a,
+#content .cover-basic-tile h2 a:hover{
   color: #181818 !important;
 }
-.section-prefeitura-de-sao-paulo #content .collection-item{
+.section-prefeitura-de-sao-paulo #content .width-8 .tile.edge{
+  border:solid 1px #979797 !important;
+}
+.section-prefeitura-de-sao-paulo #content .collection-item,
+.section-prefeitura-de-sao-paulo #content .cover-basic-tile {
   margin-bottom: 15px;
 }
 
-#content .cover-collection-tile p {
+#content .cover-collection-tile p,
+#content .cover-basic-tile p {
   margin-top: 7px;
   margin-bottom: 0;
   font-size: 1.1em;
@@ -598,6 +609,10 @@
   display: block;
   margin-bottom: 7px;
 }
+body.subsection-noticias #content .cover-basic-tile a.imag img {
+  max-width: 575px;
+  max-height: 235px;
+}
 #content .cover-collection-tile .filter-by,
 #content .cover-collection-tile .filter-date {
   float: left;
@@ -659,10 +674,12 @@
   text-transform: none !important;
   border: 1px solid black !important;
 }
-#content .lista-noticias .paginacao li:first-child,
-#content .lista-noticias .paginacao li:last-child{
+#content .lista-noticias .paginacao li:first-child{
   width: 85px;
 
+}
+#content .lista-noticias .paginacao li:last-child{
+  width: 63px !important;
 }
 #content .lista-noticias .paginacao li,
 #content .lista-noticias .paginacao span{
@@ -704,6 +721,17 @@
   background: #000;
   border: 1px solid #000 !important;
   height: 25px !important;
+}
+
+#content .contentBody table.plain caption{
+  border:#ddd 1px solid;
+  background: #ddd;
+}
+#content .contentBody table.plain tbody{
+  border:#ddd 1px solid;
+}
+#content .contentBody table.plain tbody tr:first-child{
+  background: #EEE;
 }
 
 /*Estilização do São Paulo Agora*/
@@ -2272,6 +2300,7 @@ body.template-agenda_view #portal-column-content header strong {
 #portal-column-two .maisBuscadosTitulo,
 #content .capaTituloSublinhado,
 #content .cover-collection-tile .tile-header h1,
+#content .cover-richtext-tile .tile-header h1,
 #content .cover-embed-tile .tile-header h1,
 #content .cover-banner-tile h2,
 #content .prefeito #agendaPrefeitura {
@@ -2744,6 +2773,7 @@ section.width-16, nav.width-16 {
     margin-top: -37px !important;
     margin-right: 5px;
   }
+
   /*fim view de notícias*/
 
   /*Tile de notícias*/
@@ -3650,7 +3680,7 @@ div#portal-searchbox {
   border-radius: 3px;
   line-height: 25px;
   margin: 0 4px;
-  background: #FF0;
+  background: #F00;
   color: #FFF !important;
 }
 
