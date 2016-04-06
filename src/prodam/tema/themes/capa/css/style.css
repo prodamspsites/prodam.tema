@@ -63,11 +63,12 @@
 .subsection-servidor #content .tile-default .cover-chamada-tile{
   height: 345px;
 }
-#content .destaque .chamada-item{
-  width: 22.7%;
+#content .row.destaque .chamada-item{
+  width: 100%;
   float: left;
   margin-right: 13px;
   height: 170px;
+  display: block;
 }
 
 #content .width-16 .chamada-item img {
