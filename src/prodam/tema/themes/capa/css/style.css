@@ -41,12 +41,29 @@
   padding: 10px 0;
   display: block;
 }
+.section-prefeitura-de-sao-paulo #mostra-alerta h3{
+  color: #ffd400;
+  text-transform: uppercase;
+  font-size: 13px;
+  float: left;
+  margin: 3px 0 0 0;
+  width: 623px;
+}
+.section-prefeitura-de-sao-paulo #mostra-alerta .changep{
+  color: #a9a9a9;
+  font-size: 11px !important;
+  float: left !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 623px;
+  line-height: 11px;
+}
 .userrole-authenticated #mostra-alerta{
   top: 165px;
 }
 #mostra-alerta .icoPreview{
   float: left;
-  margin: 0 10px 10px 20px;
+  margin: 4px 10px 10px 20px;
 }
 #mostra-alerta h3,
 #mostra-alerta p{
