@@ -316,9 +316,6 @@ section.width-16, nav.width-16 {
     color: #2c66ce;
 }
 
-#plone-content #content .paginacao li a.anterior { margin-right: 26px; }
-#plone-content #content .paginacao li a.proximo { margin-left: 26px; }
-
 #plone-content #content .paginacao li span {
     font-family: "open_sansbold", Arial, Helvetica, sans-serif;
     font-weight: normal;
