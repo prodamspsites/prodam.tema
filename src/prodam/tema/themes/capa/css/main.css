@@ -280,10 +280,12 @@ section.width-16, nav.width-16 {
 #plone-content #content .paginacao {
     display: block;
     margin: 20px 0 20px 0;
-    font-size: 11px;
+    font-size: 9px;
     font-weight: normal;
 }
-
+#plone-content #content .paginacao .reticencias{
+    display: none;
+}
 #plone-content #content .paginacao li {
     display: inline-block;
     margin: 0;
