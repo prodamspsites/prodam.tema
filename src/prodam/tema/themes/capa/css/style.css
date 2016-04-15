@@ -3018,7 +3018,8 @@ section.width-16, nav.width-16 {
   .template-document_view div.position-0,
   .template-busca div.position-0,
   .template-maps_view div.position-0,
-  .template-agenda-prefeito div.position-0 {
+  .template-agenda-prefeito div.position-0,
+  .template-evento_view div.position-0{
     margin-left: -98.875% !important;
   }
   .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
@@ -3030,25 +3031,29 @@ section.width-16, nav.width-16 {
   }
   .template-noticias_view .width-3\3a 4,
   .template-document_view .width-3\3a 4,
-  .template-agenda-prefeito .width-3\3a 4{
+  .template-agenda-prefeito .width-3\3a 4,
+  .template-evento_view .width-3\3a 4{
     width: 61.7% !important;
   }
   .template-noticias_view .width-full,
   .template-document_view .width-full,
   .template-maps_view .width-full,
   .template-busca .width-full,
-  .template-agenda-prefeito .width-full{
+  .template-agenda-prefeito .width-full,
+  .template-evento_view .width-full{
     width: 100% !important;
   }
   .template-noticias_view #portal-column-two,
-  .template-agenda-prefeito #portal-column-two{
+  .template-agenda-prefeito #portal-column-two,
+  .template-evento_view #portal-column-two{
     width: 35.417% !important;
     margin-left: 64.41% !important;
     clear: none !important;
     padding-left: 0;
     padding-top: 125px;
   }
-  .template-agenda-prefeito #portal-column-two{
+  .template-agenda-prefeito #portal-column-two,
+  .template-evento_view #portal-column-two{
     padding-top: 0;
   }
   /*fim view de notícias*/
@@ -3459,7 +3464,8 @@ div#portal-searchbox {
   display: inline;
   clear: both;
 }
- .template-agenda-prefeito #portal-column-two{
+ .template-agenda-prefeito #portal-column-two,
+ .template-evento_view #portal-column-two{
   float:left;
   left: 0;
   display: inline;
