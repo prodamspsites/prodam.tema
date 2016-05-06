@@ -3978,3 +3978,11 @@ div#portal-searchbox {
 #edit-bar .contentActions #contentActionMenus .actionMenuContent{
   z-index: 9999;
 }
+
+.field.kssattr-fieldname-form\.widgets\.IGaleria\.galeria  {
+  display: none !important;
+}
+
+body.template-edit.portaltype-news-item .field.kssattr-fieldname-form\.widgets\.IGaleria\.galeria  {
+  display: block !important;
+}
