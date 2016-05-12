@@ -328,6 +328,10 @@
   line-height: 1.5em;
   font-weight: bold;
 }
+#content .cover-basic-tile a.imag img{
+  max-width: 219px;
+  max-height: 230px;
+}
 #content .cover-collection-tile h2 a,
 #content .destaque h2 a,
 #content .cover-collection-tile h2 a:hover,
