@@ -1987,6 +1987,11 @@ body.template-agenda_view #portal-column-content header strong {
   border-radius: 0px;
   margin-bottom: 15px
 }
+
+#content .tile-edge .cover-basic-tile  h2{
+  padding-top: 0.5em;
+}
+
 .subsection-cidadao #content .tile-edge,
 .subsection-empresa #content .tile-edge {
   border: none;
