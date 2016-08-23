@@ -530,7 +530,12 @@
 }
 #portal-column-two .portlet .carrossel .carrossel-wrapper{
   padding: 20px;
-  height: 470px;
+  height: 436px;
+  overflow: hidden;
+}
+#portal-column-two .portletWrapper{
+  float: left;
+  width: 100%;
 }
 #portal-column-two .portlet .principal-video{
   margin-bottom: 10px;
@@ -3074,7 +3079,7 @@ section.width-16, nav.width-16 {
    Estilos de tiles de notícias
    ========================================================================== */
   .subsection-noticias #portal-column-two{
-    margin-top: 115px;
+    margin-top: 78px;
     clear: none;
   }
   .subsection-noticias .position-3\3a 4 {
