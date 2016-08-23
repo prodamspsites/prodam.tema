@@ -537,6 +537,73 @@
   float: left;
   width: 100%;
 }
+#portal-column-two .portletWrapper #agendaPrefeitura{
+  display: block;
+  border-bottom: 3px black double;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 .3em;
+  line-height: normal!important;
+  width: 100%;
+}
+#portal-column-two .portletWrapper #agenda time{
+    color: #000;
+    font-weight: bolder;
+    font-size: 0.7em;
+}
+#portal-column-two .portletWrapper #agenda li{
+    margin: 10px 0 0 0;
+    float: left;
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+    padding: 1px 0 12px 0px;
+}
+#portal-column-two .portletWrapper #agenda li:before{
+    content: '\2022';
+    color: #F00;
+    margin-right: 5px;
+    width: 10px;
+    float: left;
+}
+#portal-column-two .portletWrapper #agendaPrefeitura .title-icon {
+    background: url(../img/sprite.png) no-repeat -379px -29px transparent;
+    content: ' ';
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    width: 20px;
+    margin: 0 0 0 6px;
+}
+#portal-column-two .portletWrapper #agenda a h3{
+  font-size: 0.7em;
+  font-weight: normal;
+  padding: 0 0 0 17px;
+}
+#portal-column-two .portletWrapper .veragendaCompleta{
+  font-size: 0.7em;
+  font-weight: normal;
+  padding: 0 0 0 104px;
+  color: #000;
+}
+#portal-column-two .portletWrapper .veragendaCompleta:hover{
+  color:red !important;
+}
+#portal-column-two .portletWrapper .veragendaCompleta .sprite-arrowright2 {
+    background: url(../img/sprite.png) no-repeat -460px -25px transparent;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#portal-column-two .portletWrapper #agenda p{
+  display: none;
+}
+#portal-column-two .portletWrapper #agenda a:hover h3{
+  color:red !important;
+}
 #portal-column-two .portlet .principal-video{
   margin-bottom: 10px;
 }
