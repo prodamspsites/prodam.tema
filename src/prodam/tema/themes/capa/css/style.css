@@ -548,6 +548,12 @@
   line-height: normal!important;
   width: 100%;
 }
+#portal-column-two .portletWrapper #agendaPrefeitura a{
+    color: #000 !important;
+    padding: 0 24px 0 0;
+    position: relative;
+    z-index: 1;
+}
 #portal-column-two .portletWrapper #agenda time{
     color: #000;
     font-weight: bolder;
@@ -566,6 +572,15 @@
     margin-right: 5px;
     width: 10px;
     float: left;
+}
+#portal-column-two .portletWrapper #agendaPrefeitura:after {
+    background: url(../img/sprite.png) no-repeat -379px -29px transparent;
+    content: ' ';
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    width: 20px;
+    margin: 0 0 0 -19px;
 }
 #portal-column-two .portletWrapper #agendaPrefeitura .title-icon {
     background: url(../img/sprite.png) no-repeat -379px -29px transparent;
