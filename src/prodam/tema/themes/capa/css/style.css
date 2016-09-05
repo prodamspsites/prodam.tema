@@ -835,6 +835,8 @@ body.subsection-noticias #content .cover-basic-tile a.imag img {
   height: 25px !important;
 }
 
+
+
 #content .contentBody table.plain caption{
   border:#ddd 1px solid;
   background: #ddd;
@@ -4088,4 +4090,16 @@ body.template-edit.portaltype-news-item .field.kssattr-fieldname-form\.widgets\.
 
 #portal-column-content #content-core #fileupload {
   display: none !important;
+}
+
+#content .contentBody a {
+  color: #f00 !important;
+}
+
+#content .contentBody a:hover {
+  text-decoration: underline !important;
+}
+
+body.template-agenda-prefeito .portletWrapper {
+  background: #fff !important;
 }
