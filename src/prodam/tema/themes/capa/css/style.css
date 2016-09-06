@@ -537,6 +537,12 @@
   float: left;
   width: 100%;
 }
+.agendaBold{
+  font-weight: bold;
+}
+dl.portlet.portletCalendar{
+  border:1px solid #e9e9e9;
+}
 #portal-column-two .portletWrapper #agendaPrefeitura{
   display: block;
   border-bottom: 3px black double;
@@ -1763,10 +1769,16 @@ body.subsection-noticias #content .cover-basic-tile a.imag img {
   width: 320px;
 }
 .portletCalendar dt a#calendar-previous{
-  /*background: url(../img/btnSetaMesLeft.jpg) no-repeat;*/
+  background: url(../img/btnSetaMesLeft.jpg) no-repeat 1px 4px;
+  margin: 2px -7px !important;
+  text-indent: -9999px;
+  width: 7px;
 }
 .portletCalendar dt a#calendar-next{
-  /*background: url(../img/btnSetaMesRight.jpg) no-repeat;*/
+  background: url(../img/btnSetaMesRight.jpg) no-repeat 3px 4px;
+  margin: 2px 2px !important;
+  text-indent: -9999px;
+  width: 7px;
 }
 body.template-agenda_view h2#agendaPrefeitura {
   border-bottom: 3px black double;
@@ -1831,7 +1843,9 @@ body.template-agenda_view #portal-column-content header strong {
   padding: 0 !important;
 }
 #portal-column-two dl.portlet dt{
-  background: #fff !important;
+  background: none;
+  height: 32px;
+  float: left;
 }
 .portletHeader .calendarPrev,
 .portletHeader .calendarNext{
@@ -3520,7 +3534,8 @@ div#portal-searchbox {
 }
 .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
 .template-maps_view.userrole-authenticated #plone-content #portal-columns,
-.template-document_view.userrole-authenticated #plone-content #portal-columns{
+.template-document_view.userrole-authenticated #plone-content #portal-columns, 
+.template-agenda-prefeito.userrole-authenticated #plone-content #portal-columns{
   background: url("../img/bg-checkers.png") repeat-x;
   background-position: 0 54px;
 }
@@ -3532,7 +3547,7 @@ div#portal-searchbox {
 
 .template-noticias_view.userrole-anonymous #plone-content #portal-columns,
 .template-maps_view.userrole-anonymous #plone-content #portal-columns,
-.template-document_view.userrole-anonymous #plone-content #portal-columns{
+.template-document_view.userrole-anonymous #plone-content #portal-columns, .template-agenda-prefeito.userrole-anonymous #plone-content #portal-columns{
   background: url("../img/bg-checkers.png") repeat-x;
 }
 .template-noticias_view #content .titulo_principal{
@@ -3586,7 +3601,7 @@ div#portal-searchbox {
   width: 115px;
   position: relative;
   clear: both;
-  margin: 10px 0 0 0;
+  margin: 22px 0 0 0;
   padding:0 0 2px 4px;
 }
 .template-noticias_view #content article header .btn_voltar a{
