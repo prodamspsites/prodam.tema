@@ -1813,7 +1813,7 @@ body.template-agenda_view #portal-column-content header strong {
   text-align: center;
 }
 .portletCalendar table td a{
-  padding: 17px;
+  padding: 16px;
   display: block;
   text-align: center;
 }
@@ -3593,6 +3593,11 @@ div#portal-searchbox {
   left: 0;
   display: inline;
   clear: both;
+  top: 20px;
+ }
+ .template-agenda-prefeito #content .titulo_principal h1{
+  margin-bottom: 30px !important;
+  padding: 0 !important;
  }
 .template-noticias_view #content article header .btn_voltar{
   display: block;
