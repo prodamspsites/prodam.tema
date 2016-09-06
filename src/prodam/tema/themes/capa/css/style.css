@@ -1762,6 +1762,12 @@ body.subsection-noticias #content .cover-basic-tile a.imag img {
 .portletCalendar dt {
   width: 320px;
 }
+.portletCalendar dt a#calendar-previous{
+  /*background: url(../img/btnSetaMesLeft.jpg) no-repeat;*/
+}
+.portletCalendar dt a#calendar-next{
+  /*background: url(../img/btnSetaMesRight.jpg) no-repeat;*/
+}
 body.template-agenda_view h2#agendaPrefeitura {
   border-bottom: 3px black double;
   font-size: 17.6px;
@@ -2879,6 +2885,7 @@ section.width-16, nav.width-16 {
   .template-agenda-prefeito #portal-column-two{
     width: 90.33% !important;
     margin-left: 22.5px !important;
+    margin-top: 94px;
   }
   .template-noticias_view .width-3\3a 4,
   .template-agenda-prefeito .width-3\3a 4{
