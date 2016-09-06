@@ -74,7 +74,7 @@
 }
 #content .tile-default .cover-chamada-tile {
   position: relative;
-  width: 940px;
+  width: 101%;
   height: 450px;
   overflow: hidden;
 }

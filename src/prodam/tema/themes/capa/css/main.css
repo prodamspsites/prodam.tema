@@ -71,8 +71,13 @@
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+@media only screen and (max-width : 1200px) {
+  .container-wrapper #externos{
+    left: 0 !important;
+  }
+  .container-wrapper-spagora{
+    width: 100% !important;
+  }
 }
 
 html body{
