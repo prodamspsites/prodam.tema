@@ -871,9 +871,6 @@ body.subsection-noticias #content .cover-basic-tile a.imag img {
 .userrole-authenticated .container-wrapper #externos {
   margin-top: 63px;
 }
-.template-agenda-prefeito.userrole-authenticated .container-wrapper #externos{
-  margin-top: 87px;
-}
 .userrole-authenticated.portaltype-service .container-wrapper #externos,
 .userrole-authenticated.portaltype-topic .container-wrapper #externos {
   top: -41px;
@@ -890,9 +887,6 @@ body.subsection-noticias #content .cover-basic-tile a.imag img {
   z-index: 5555;
   margin-top: 21px;
   display: block;
-}
-.template-agenda-prefeito .container-wrapper #externos {
-  margin-top: 33px;
 }
 
 .container-wrapper #externos {
