@@ -1136,6 +1136,11 @@ body.subsection-noticias #content .cover-basic-tile a.imag img {
   color: #fff;
   padding: 8px 10px!important;
 }
+.container-wrapper #externos .tweets .tweetlist{
+  overflow: hidden;
+  float: left;
+  height: 66px;
+}
 .container-wrapper #externos .tweets h4,
 .container-wrapper #externos .tweets h4 a,
 .container-wrapper #externos .tweets a{
