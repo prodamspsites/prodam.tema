@@ -200,6 +200,12 @@
 #content .tile-default .tile-content .tile-header h1 a {
   border-bottom: none;
 }
+
+
+a.imag img.left{
+    margin: 0 0.4em 0.1em 0;
+}
+
 /*Banner de seções*/
 .subsection-cidadao #content .tile-default .cover-chamada-tile span,
 .subsection-empresa #content .tile-default .cover-chamada-tile span,
