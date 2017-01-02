@@ -300,6 +300,10 @@
   margin-top: 40px;
 }
 
+.tile.tile-default {
+margin-top:15px;
+}
+
  /* ==========================================================================
    Estilos de tiles de Capa inicial do Portal
    ========================================================================== */
@@ -334,6 +338,7 @@
 #content .cover-basic-tile a.imag img{
   max-width: 219px;
   max-height: 230px;
+  margin: 0 1em 0 0;
 }
 #content .cover-collection-tile h2 a,
 #content .destaque h2 a,
@@ -348,6 +353,10 @@
 .section-prefeitura-de-sao-paulo #content .collection-item,
 .section-prefeitura-de-sao-paulo #content .cover-basic-tile {
   margin-bottom: 15px;
+}
+
+#content .cover-basic-tile.tile-content {
+margin-bottom: 0;
 }
 
 #content .cover-collection-tile p,
@@ -2099,7 +2108,8 @@ body.template-agenda_view #portal-column-content header strong {
   border: #979797 1px solid;
   padding: 0px;
   border-radius: 0px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 #content .tile-edge .cover-basic-tile  h2{
