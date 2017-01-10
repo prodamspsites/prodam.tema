@@ -747,10 +747,23 @@ body.subsection-noticias #content .cover-basic-tile a.imag img {
   max-height: 235px;
 }
 #content .cover-collection-tile .filter-by,
-#content .cover-collection-tile .filter-date {
+#content .cover-collection-tile .filter-date,
+#content .cover-collection-tile .filter-clear {
   float: left;
   font-size: 1.25em;
 }
+
+#content .cover-collection-tile .filter-clear{
+    margin-top: 1em;
+}
+
+#content .cover-collection-tile .filter-clear button{
+    background-color: #FFFFFF;
+    color: #808080;
+    border: none;
+    padding: 0.5em;
+}
+
 #ui-datepicker-div{
   width: 221px;
 }
