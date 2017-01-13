@@ -1,0 +1,72 @@
+/*
+
+Estilos específicos por navegador
+
+*/
+
+
+
+/*Estilos específicos para CHROME*/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  .container-wrapper #externos .dash-header {
+    font-size: 0.65em;
+  }
+
+@media only screen and (min-width: 768px){
+#portal-header .sections {
+    margin-top: 37px;
+    margin-left: -10px !important;
+}
+
+#portal-header .services #portal-siteactions #siteaction-solicitar_servicos a{
+    margin-top: -24px;
+}
+
+#portal-header .services #portal-siteactions #siteaction-accessibility{
+    margin-left: 75px !important;
+}
+
+
+.navbar .barra-cinza #acesso .imgI{
+    margin: -28px 0 0 180px; !important
+}
+
+} /*Fim @media only screen and (min-width: 768px) */
+
+@media only screen and (min-width: 480px){
+#portal-header .sections {
+    width: 480px !important;
+}
+}
+.container-wrapper .portal-header-inner #portal-searchbox {
+    width: 23.05%;
+}
+
+#content .cover-collection-tile .filter-clear button{
+    margin: 1em;
+}
+
+#portal-searchbox #searchGadget{
+    width: 180px;
+    
+}
+
+}
+/*Fim Estilos específicos para CHROME*/
+
+
+
+/*Estilos específicos para IE*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+.container-wrapper #externos .dash-header {
+    font-size: 0.85em;
+  }
+
+#content .cover-collection-tile .filter-clear button{
+    margin: 1em;
+}
+
+
+}
+/*Fim Estilos específicos para IE*/
+

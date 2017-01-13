@@ -53,7 +53,7 @@
   }
 
   .navbar .barra-cinza #acesso .imgI{
-    margin: -17px 0 0 145px !important;
+    margin: -28px 0 0 145px;
   }
   .navbar .barra-cinza #acesso #transparenciasp{
     padding-top: 2px !important;
@@ -152,7 +152,7 @@ a {
   width: 26px;
   height: 26px;
   position: absolute;
-  margin: -30px 0 0 165px;
+  margin: -30px 0 0 145px;
 }
 .navbar .barra-cinza #acesso #transparenciasp{
   margin-left: 0;
@@ -394,7 +394,7 @@ section.width-16, nav.width-16 {
     background-color: transparent;
     font-size: 100%;
 }
-
+/*
 #livesearch0, #livesearch1 {
 display: none !important;
-}
+} */
