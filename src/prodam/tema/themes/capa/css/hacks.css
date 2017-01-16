@@ -8,6 +8,12 @@ Estilos específicos por navegador
 
 /*Estilos específicos para CHROME*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
+
+.section-solicitacao #content .position-5 {
+    font-size: 93%;
+}
+
+
   .container-wrapper #externos .dash-header {
     font-size: 0.65em;
   }
