@@ -9,6 +9,11 @@ Estilos específicos por navegador
 /*Estilos específicos para CHROME*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
 
+#footer-nav fieldset select{
+    width: 180px;
+}
+
+
 .section-solicitacao #content .position-5 {
     font-size: 93%;
 }
@@ -70,6 +75,12 @@ Estilos específicos por navegador
 
 #content .cover-collection-tile .filter-clear button{
     margin: 1em;
+}
+
+
+
+#footer-nav fieldset select{
+    width: 155px;
 }
 
 
