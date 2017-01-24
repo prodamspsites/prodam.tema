@@ -20,7 +20,7 @@ Estilos específicos por navegador
 
 
   .container-wrapper #externos .dash-header {
-    font-size: 0.65em;
+    font-size: 0.85em;
   }
 
 @media only screen and (min-width: 768px){
@@ -70,7 +70,7 @@ Estilos específicos por navegador
 /*Estilos específicos para IE*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
 .container-wrapper #externos .dash-header {
-    font-size: 0.85em;
+    font-size: 1.05em;
   }
 
 #content .cover-collection-tile .filter-clear button{
