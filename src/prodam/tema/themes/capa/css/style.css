@@ -2477,7 +2477,7 @@ body.template-agenda_view #portal-column-content header strong {
 #content .cover-richtext-tile .tile-header h1,
 #content .cover-embed-tile .tile-header h1,
 #content .cover-banner-tile h2,
-#content .prefeito #agendaPrefeitura {
+#content #prefeito #agendaPrefeitura {
   font-size: 1.5em;
   display: block;
   border-bottom: 3px double #000;
@@ -4184,11 +4184,11 @@ color: #000000;
 font-size: 13px;
 }
 
-.prefeito a{
+#prefeito a{
     border-bottom: none;
 }
 
-.prefeito{
+.aba-borda{
 border-bottom: 2px solid #000000;
 }
 
