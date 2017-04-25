@@ -398,3 +398,13 @@ section.width-16, nav.width-16 {
 #livesearch0, #livesearch1 {
 display: none !important;
 }
+
+.li_inline{
+  width: 150px; 
+  float: left;
+  
+}
+
+.navTreeFolderish{
+  clear: both;
+}
