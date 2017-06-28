@@ -1887,7 +1887,8 @@ body.template-agenda_view #portal-column-content header strong {
   padding: 5px 8px !important;
 }
 
-.section-agenda #content .agendaHeader{
+.section-agenda #content .agendaHeader,
+.template-agenda-postagem #content .agendaHeader{
   border-bottom: 1px solid #f00;
   padding: 8px 0;
   font-size: 1.25em;
@@ -3570,7 +3571,8 @@ div#portal-searchbox {
 .template-noticias_view.userrole-authenticated #plone-content #portal-columns,
 .template-maps_view.userrole-authenticated #plone-content #portal-columns,
 .template-document_view.userrole-authenticated #plone-content #portal-columns,
-.template-agenda-prefeito.userrole-authenticated #plone-content #portal-columns{
+.template-agenda-prefeito.userrole-authenticated #plone-content #portal-columns,
+.template-agenda-postagem.userrole-authenticated #plone-content #portal-columns{
   background: url("../img/bg-checkers.png") repeat-x;
   background-position: 0 54px;
 }
@@ -3582,7 +3584,7 @@ div#portal-searchbox {
 
 .template-noticias_view.userrole-anonymous #plone-content #portal-columns,
 .template-maps_view.userrole-anonymous #plone-content #portal-columns,
-.template-document_view.userrole-anonymous #plone-content #portal-columns, .template-agenda-prefeito.userrole-anonymous #plone-content #portal-columns{
+.template-document_view.userrole-anonymous #plone-content #portal-columns, .template-agenda-prefeito.userrole-anonymous #plone-content #portal-columns,.template-agenda-postagem.userrole-anonymous #plone-content #portal-columns{
   background: url("../img/bg-checkers.png") repeat-x;
 }
 .template-noticias_view #content .titulo_principal{
