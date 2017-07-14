@@ -2933,7 +2933,8 @@ section.width-16, nav.width-16 {
   /*View de notícias*/
   .template-noticias_view #portal-column-two,
   .template-agenda-prefeito #portal-column-two,
-  .template-agenda-postagem #portal-column-two{
+  .template-agenda-postagem #portal-column-two,
+  .template-agenda-postagem_view #portal-column-two{
     width: 90.33% !important;
     margin-left: 22.5px !important;
     margin-top: 94px;
@@ -3179,6 +3180,7 @@ section.width-16, nav.width-16 {
   .template-maps_view div.position-0,
   .template-agenda-prefeito div.position-0,
   .template-agenda-postagem div.position-0,
+  .template-agenda-postagem_view div.position-0,
   .template-evento_view div.position-0{
     margin-left: -98.875% !important;
   }
@@ -3193,6 +3195,7 @@ section.width-16, nav.width-16 {
   .template-document_view .width-3\3a 4,
   .template-agenda-prefeito .width-3\3a 4,
   .template-agenda-postagem .width-3\3a 4,
+  .template-agenda-postagem_view .width-3\3a 4,
   .template-evento_view .width-3\3a 4{
     width: 61.7% !important;
   }
@@ -3207,7 +3210,8 @@ section.width-16, nav.width-16 {
   .template-noticias_view #portal-column-two,
   .template-agenda-prefeito #portal-column-two,
   .template-evento_view #portal-column-two,
-  .template-agenda-postagem #portal-column-two{
+  .template-agenda-postagem #portal-column-two,
+  .template-agenda-postagem_view #portal-column-two{
     width: 35.417% !important;
     margin-left: 64.41% !important;
     clear: none !important;
@@ -3216,9 +3220,12 @@ section.width-16, nav.width-16 {
   }
   .template-agenda-prefeito #portal-column-two,
   .template-evento_view #portal-column-two,
-  .template-agenda-postagem #portal-column-two{
+  .template-agenda-postagem #portal-column-two,
+  .template-agenda-postagem_view #portal-column-two{
     padding-top: 0;
   }
+
+  
   /*fim view de notícias*/
 
   /* ==========================================================================
@@ -3631,7 +3638,8 @@ div#portal-searchbox {
 }
  .template-agenda-prefeito #portal-column-two,
  .template-evento_view #portal-column-two,
- .template-agenda-postagem #portal-column-two{
+ .template-agenda-postagem #portal-column-two,
+ .template-agenda-postagem_view #portal-column-two{
   float:left;
   left: 0;
   display: inline;
@@ -3668,7 +3676,8 @@ div#portal-searchbox {
   line-height: 35px;
   font-size: 2.25em;
 }
-.template-noticias_view #content article header h2{
+.template-noticias_view #content article header h2,
+.template-agenda-postagem_view #content article header h2{
   font-style: italic;
   font-size: 1.25em;
   font-weight: normal;
@@ -4172,7 +4181,8 @@ body.template-edit.portaltype-news-item .field.kssattr-fieldname-form\.widgets\.
 }
 
 body.template-agenda-prefeito .portletWrapper,
-body.template-agenda-postagem .portletWrapper {
+body.template-agenda-postagem .portletWrapper,
+body.template-agenda-postagem_view .portletWrapper {
   background: #fff !important;
 }
 
@@ -4202,4 +4212,12 @@ font-size: 13px;
 border-bottom: 2px solid #000000;
 }
 
+/*Estilização da tela de agenda-postagem*/
+
+.template-agenda-postagem_view #portal-column-two{
+	margin-top: 0px;
+        
+}
+
+;*Fim Estilização da tela de agenda-postagem*/
 
